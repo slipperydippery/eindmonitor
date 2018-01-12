@@ -7,3 +7,12 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Partials
+@import "partials/colors";
+@import "partials/typography";
+@import "partials/elements";
+@import "partials/layout";
+@import "partials/nav";
+@import "partials/buttons";
+
