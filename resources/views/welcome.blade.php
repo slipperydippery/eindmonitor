@@ -31,18 +31,16 @@
             <p>IJmond Bereikbaar is in 2015 gestart met als doel om de bereikbaarheid van de regio IJmond te verbeteren.Centraal staat structurele gedragsverandering in reisgedrag (woon/werkverkeer) van werknemers met werkbestemming in de IJmond. IJmond Bereikbaar wil hen stimuleren waar mogelijk de auto te laten staan en te kiezen voor de fiets of het OV om naar en van het werk te reizen. Deze eindmonitor laat u de de behaalde resultaten zien van de inspanningen.</p>
             <p>Kies hieronder een thema en specifiek onderwerp en bekijk de resultaten.</p>
         </div>
-        <div class="generator container row">
-            <div class="col-sm-4">
-                <a href="#" class="btn btn--fullwidth">werkgeversaanpak</a>
-            </div>
-            <div class="col-sm-2">
-                <img src="/img/arrows.svg" alt="" class="center hundred">
-            </div>
-            <div class="col-sm-4">
-                <a href="#" class="btn btn--fullwidth">resultaten</a>
-            </div>
-            <div class="col-sm-2">
-                <a href="#" class="btn">go</a>
+        <generator></generator>
+
+        <div class="container row">
+            <div class="col-sm-12">
+                <graph
+                    :labels="['January', 'Febuary', 'March', 'April', 'May', 'June']" 
+                    :values="[10, 42, 4, 20, 22, 50]"   
+                    color="blue"
+                >
+                </graph>
             </div>
         </div>
     </div>
