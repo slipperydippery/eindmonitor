@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('category', 'CategoriesController');
+Route::resource('page', 'PagesController');
+Route::resource('category.page', 'CategoryPagesController');
+
+Route::get('/api/category', 'ApiCategoriesController@index');
+
+

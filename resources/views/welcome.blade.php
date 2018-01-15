@@ -41,6 +41,13 @@
                     color="blue"
                 >
                 </graph>
+                
+                <graph
+                    label="aantal (brom)fiets-gebruikers van extra veerpont"
+                    :labels="['September 2011', 'Maart 2015', 'September 2015', 'Maart 2016', 'September 2016']"
+                    :values="[3672, 3946, 4304, 4277, 5508]"
+                >
+                </graph>
             </div>
         </div>
     </div>

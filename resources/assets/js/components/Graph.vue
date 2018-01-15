@@ -10,6 +10,7 @@
 
     export default {
         props: {
+            label: {},
             labels: {},
             values: {},
             color: {
@@ -27,30 +28,14 @@
         	var data = {
     	        labels: this.labels,
     	        datasets: [{
-                    label: "this is my label",
+                    label: this.label,
                     data: this.values,
-                    backgroundColor: "rgba(220,220,220,.2)",
-                    borderColor: this.color,
-                    lineTension: .2,
-                    borderWidth: 1,
-                    strokeColor: "rgba(220,220,220,1)",
-                    pointBackgroundColor: "#fff",
-                    pointBorderColor: "rgba(50,50,50,1)",
-                    pointHighlightFill: "#fff",
-                    pointHighlightStroke: "rgba(220,220,220,1)",
-                    },{
-                    label: "this is my label",
-                    data: this.values,
-                    backgroundColor: "rgba(220,220,220,.2)",
-                    borderColor: this.color,
-                    lineTension: .2,
-                    borderWidth: 1,
-                    strokeColor: "rgba(220,220,220,1)",
-                    pointBackgroundColor: "#fff",
-                    pointBorderColor: "rgba(50,50,50,1)",
-                    pointHighlightFill: "#fff",
-                    pointHighlightStroke: "rgba(220,220,220,1)",
-                    type: 'line'
+                    // backgroundColor: "rgba(220,220,220,.2)",
+                    // borderColor: this.color,
+                    // lineTension: .2,
+                    // borderWidth: 1,
+                    // pointBackgroundColor: "#fff",
+                    // pointBorderColor: "rgba(50,50,50,1)",
                     }
     	        ]
     	    };
@@ -58,14 +43,12 @@
                 scales: {
                     yAxes: [{
                         ticks: {
-                            beginAtZero: false
+                            beginAtZero: true
                         }
                     }]
                 }
             };
         	const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "bar", data: data, options: options });
-
-            // this.legend = chart.generateLegend();
         },
 
         ready() {   

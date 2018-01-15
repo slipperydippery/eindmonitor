@@ -24,6 +24,8 @@ export let store = {
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('generator', require('./components/Generator.vue'));
 Vue.component('graph', require('./components/Graph.vue'));
+Vue.component('grapher', require ('./components/Grapher.vue'));
+Vue.component('p01-graph', require('./components/P01Graph.vue'));
 
 const app = new Vue({
     el: '#app'
