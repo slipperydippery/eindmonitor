@@ -47,7 +47,7 @@ class CategoryPagesController extends Controller
      */
     public function show(Category $category, Page $page)
     {
-        //
+        return view('pages.show', compact('category', 'page'));
     }
 
     /**

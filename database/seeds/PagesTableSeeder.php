@@ -24,7 +24,6 @@ class PagesTableSeeder extends Seeder
 	                	<p>Want? Hoe minder personenvervoer in de auto in de spits, hoe beter de doorstroming van en bereikbaarheid voor het bedrijfsmatig vervoer. Dat scheelt tijd en geld en draagt bovendien positief bij aan de luchtkwaliteit.  En niet te vergeten aan de gezondheid van de mensen zelf.  </p>
 	                	<p>Met het stimuleringsprogramma ‘Goed op weg’ heeft IJmond Bereikbaar bedrijven en hun werknemers ertoe gebracht om na te denken over hun manier van reizen naar het werk en hen gestimuleerd om, als het kan, de auto te laten staan en te kiezen voor de fiets of het openbaar vervoer.</p>
 	                	<p01-graph></p01-graph>
-	                	<img src="/img/tempgraph.png" />
 	                	<p>Van 10 pilot-bedrijven met ongeveer 50 deelnemers in mei 2015,  is ons fietsstimuleringsprogramma ‘Goed op weg – op de fiets’ uitgegroeid tot een betrokken, enthousiaste community van 170 bedrijven die samen bijna 2700 werknemers hebben aangemeld. </p>
 	                	<p>Lees meer over onze werkgeversaanpak en de acties die gedaan zijn om werknemers over de streep te trekken en vast te houden.</p>
 	                	<p>Van het bedrijfsleven krijgt IJmond Bereikbaar een 7,8. Van de fietsers die mee doen aan het programma een 8,1. Resultaten waar we trots op zijn.</p>

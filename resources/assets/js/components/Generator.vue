@@ -17,13 +17,8 @@
 		        </ul>
 		    </div>
 		    <div class="col-sm-2">
-		        <a href="#" class="btn" @click="setBody()">go</a>
+		        <a href="#" class="btn btn--fullwidth btn--textcenter" @click="gotoPage()">go</a>
 		    </div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12">
-			    <div class="" v-html="body"></div>
-			</div>
 		</div>
 	</div>
 </template>
@@ -32,22 +27,28 @@
     import {store} from '../app.js';
 
     export default {
-        props: [
-        ],
+        props: {	
+            category: {
+            	default: {
+            		title: '--kies een pagina--',
+            		subitems: [
+	            		{title: '---'},
+            		]
+            	}
+            },
+            page: {
+            	default: {
+            		title: '---'	,
+            	}
+            },
+        },
 
         data() {
             return {
-            	active: { 
-            		title: '--kies een pagina--', 
-            		subitems: [
-            			{title: '---'},
-    			]},
-    			activesub: {
-    				title: '---'
-    			},
+            	active: this.category,
+            	activesub: this.page,
 	        	store,
 	        	categories: [],
-	        	body: '<img src="/img/tempmap.png" alt="" class="fullwidth">',
             }
         },
 
@@ -71,8 +72,8 @@
         		this.activesub = subitem;
         	},
 
-        	setBody: function() {
-        		this.body = this.activesub.body;
+        	gotoPage: function() {
+        		window.location.href = '/category/' +  this.active.id + '/page/' + this.activesub.id;
         	},
 
             getCategories: function() {

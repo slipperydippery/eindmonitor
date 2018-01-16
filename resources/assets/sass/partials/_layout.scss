@@ -26,14 +26,19 @@ html, body {
         padding-top: 2rem;
         .banner {
             position: relative;
-            height: 100px;
+            margin-bottom: 1rem;
+            .banner--container {
+                height: 100px; 
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+            }
             img {
                 height: 100%;
             }
         }
         nav {
             border-top: 2px solid $green;
-            margin-top: 3rem;
             margin-bottom: 2rem;
         }
         
@@ -48,7 +53,7 @@ html, body {
             // background: $green;
         }
         .generator {
-            margin-top: 2rem;
+            margin-top: 2rem;    
         }
     }
 

@@ -4,7 +4,14 @@
 		.hovermenu {
 			position: absolute;
 			z-index: 100;
+			margin: 0;
+			padding: 0;
 			width: 90%;
+			left: 5%;
+			list-style: none;
+			li {
+				margin: 0;
+			}
 		}
 	}
 }

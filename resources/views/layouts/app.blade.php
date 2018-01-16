@@ -16,7 +16,34 @@
     </head>
     <body>
 		<div id="app">
+            <header>
+                <div class="banner container">
+                    <div class="banner--container">
+                        <img src="/img/logo_icons.svg" alt="" class="left">
+                        <img src="/img/eindmonitor.svg" alt="" class="right eighty">
+                    </div>
+                </div>
+                <nav class="">
+                    <ul class="row container">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="/aanleiding">Aanleiding</a>
+                        </li>
+                        <li>
+                            <a href="/samenwerking">Samenwerking</a>
+                        </li>
+                        <li>
+                            <a href="/fasering">Fasering</a>
+                        </li>
+                        <li>
+                            <a href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
 
+            </header>
 	        @yield('content')	
 
         </div>
