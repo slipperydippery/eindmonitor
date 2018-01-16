@@ -1,24 +1,22 @@
 <template>
-	<div class="generator container">
-		<div class="row generator--menu">
-		    <div class="col-sm-4">
+	<div class="generator container row">
+		<div class="col-sm-12 generator--menu">
+			<div class="hovermenu--container">
 		    	<ul class="hovermenu">
 		    		<li class="hovermenu--active"> {{ active.title }} </li>
 		    		<li v-for="item in categories" class="hovermenu--hover" @click="setActive(item)"> {{ item.title }} </li>
 		    	</ul>
-		    </div>
-		    <div class="col-sm-2">
+			</div>
+			<div class="">
 		        <img src="/img/arrows.svg" alt="" class="center hundred">
-		    </div>
-		    <div class="col-sm-4">
+			</div>
+	        <div class="hovermenu--container">
 		        <ul class="hovermenu">
 		        	<li class="hovermenu--active"> {{ activesub.title }} </li>
 		        	<li class="hovermenu--hover" v-for="subitem in active.pages" @click="setActiveSub(subitem)"> {{ subitem.title }} </li>
 		        </ul>
-		    </div>
-		    <div class="col-sm-2">
-		        <a href="#" class="btn btn--fullwidth btn--textcenter" @click="gotoPage()">go</a>
-		    </div>
+	        </div>
+	        <a href="#" class="btn btn--textcenter" @click="gotoPage()">go</a>
 		</div>
 	</div>
 </template>

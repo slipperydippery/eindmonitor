@@ -1,16 +1,31 @@
 .generator {
+	.generator--menu > * {
+		margin-right: 2rem;
+	}
+	.generator--menu > *:last-child {
+		margin-right: 0;
+	}
 	.generator--menu {
-		height: 58px;
-		.hovermenu {
-			position: absolute;
-			z-index: 100;
-			margin: 0;
-			padding: 0;
-			width: 90%;
-			left: 5%;
-			list-style: none;
-			li {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+	    border: 1px solid rgba(0, 0, 0, 0.4);
+		padding: 1rem;
+		.hovermenu--container {
+			position: relative;
+			flex-grow: 1;
+			height: 45px;
+			.hovermenu {
+				position: absolute;
+				z-index: 100;
 				margin: 0;
+				padding: 0;
+				width: 100%;
+				list-style: none;
+				li {
+					margin: 0;
+				}
 			}
 		}
 	}

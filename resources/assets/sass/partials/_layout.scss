@@ -47,10 +47,11 @@ html, body {
     .content {
         flex: 1;
         .page-highlight {
-            background: rgba($green, .3);
+            background: rgba(14, 173, 14, 0.26);
             padding-top: 1rem;
             padding-bottom: 1rem;
-            // background: $green;
+            border: 1px solid rgba(14, 173, 14, 0.5);
+            color: black;
         }
         .generator {
             margin-top: 2rem;    

@@ -11,7 +11,7 @@
         </div>
         <generator></generator>
         <div class="container row">
-                <img src="/img/tempmap.png" alt="" class="fullwidth">
+                <img src="/img/tempmap.png" alt="" class="fullwidth welcome--img">
         </div>
     </div>
     <footer>
