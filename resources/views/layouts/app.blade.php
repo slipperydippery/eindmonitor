@@ -18,7 +18,7 @@
 		<div id="app">
 
 	        @yield('content')	
-	        1
+
         </div>
 
          <!-- Scripts -->

@@ -1,6 +1,6 @@
 <template>
 	<div class="generator container">
-		<div class="row">
+		<div class="row generator--menu">
 		    <div class="col-sm-4">
 		    	<ul class="hovermenu">
 		    		<li class="hovermenu--active"> {{ active.title }} </li>
@@ -47,7 +47,7 @@
     			},
 	        	store,
 	        	categories: [],
-	        	body: "",
+	        	body: '<img src="/img/kaart ijmond-bereikbaar-V1.svg" alt="" class="fullwidth">',
             }
         },
 

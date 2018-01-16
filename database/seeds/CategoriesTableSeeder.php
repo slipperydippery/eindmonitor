@@ -15,7 +15,15 @@ class CategoriesTableSeeder extends Seeder
 
         $categories = [
             [
-                'title' => 'Eerste Categorie',
+                'title' => 'Ambities & Resultaten',
+                'description' => 'This is the first description'
+            ],
+            [
+                'title' => 'Werkgeversaanpak',
+                'description' => 'This is the first description'
+            ],
+            [
+                'title' => 'Werknemers',
                 'description' => 'This is the first description'
             ],
         ];

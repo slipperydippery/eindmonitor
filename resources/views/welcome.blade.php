@@ -11,6 +11,9 @@
         <nav class="container">
             <ul class="row">
                 <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
                     <a href="#">Aanleiding</a>
                 </li>
                 <li>
@@ -32,26 +35,7 @@
             <p>Kies hieronder een thema en specifiek onderwerp en bekijk de resultaten.</p>
         </div>
         <generator></generator>
-
-        <div class="container row">
-            <div class="col-sm-12">
-                <graph
-                    :labels="['January', 'Febuary', 'March', 'April', 'May', 'June']" 
-                    :values="[10, 42, 4, 20, 22, 50]"   
-                    color="blue"
-                >
-                </graph>
-                
-                <graph
-                    label="aantal (brom)fiets-gebruikers van extra veerpont"
-                    :labels="['September 2011', 'Maart 2015', 'September 2015', 'Maart 2016', 'September 2016']"
-                    :values="[3672, 3946, 4304, 4277, 5508]"
-                >
-                </graph>
-            </div>
-        </div>
     </div>
     <footer>
-        footer
     </footer>
 @endsection

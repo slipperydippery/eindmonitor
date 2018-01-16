@@ -1,0 +1,10 @@
+.generator {
+	.generator--menu {
+		height: 58px;
+		.hovermenu {
+			position: absolute;
+			z-index: 100;
+			width: 90%;
+		}
+	}
+}
