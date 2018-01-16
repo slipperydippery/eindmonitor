@@ -47,7 +47,7 @@
     			},
 	        	store,
 	        	categories: [],
-	        	body: '<img src="/img/kaart ijmond-bereikbaar-V1.svg" alt="" class="fullwidth">',
+	        	body: '<img src="/img/tempmap.png" alt="" class="fullwidth">',
             }
         },
 
