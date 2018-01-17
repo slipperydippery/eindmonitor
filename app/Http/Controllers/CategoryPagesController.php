@@ -47,6 +47,7 @@ class CategoryPagesController extends Controller
      */
     public function show(Category $category, Page $page)
     {
+        $category = Category::with('pages')->findOrFail($category->id);
         return view('pages.show', compact('category', 'page'));
     }
 
