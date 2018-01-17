@@ -5,9 +5,8 @@
 	    		<li class="hovermenu--active" @click="showSubitems()"> {{ active.title }} </li>
 	    		<li 
 	    			v-for="item in categories" 
-	    			v-if="item.id != active.id"
 	    			class="hovermenu--hover" 
-	    			:class="{show: showSubitem}" 
+	    			:class="{show: showSubitem, 'hovermenu--hover--active': item.id == active.id}" 
 	    			@click="setActive(item)"
 	    		> 
 	    			{{ item.title }} 
@@ -20,9 +19,8 @@
 	        	<li class="hovermenu--active" @click="showSubitems()"> {{ activesub.title }} </li>
 	        	<li 
 	        		v-for="subitem in active.pages"
-	        		v-if="subitem.id != activesub.id" 
 	        		class="hovermenu--hover" 
-	        		:class="{show: showSubitem}" 
+	        		:class="{show: showSubitem, 'hovermenu--hover--active': subitem.id == activesub.id}" 
 	        		@click="setActiveSub(subitem)"
 	        	> 
 	        		{{ subitem.title 

@@ -8,6 +8,9 @@
 	.generator--menu:hover .hovermenu--hover {
 		display: block;
 	}
+	.generator--menu:hover .hovermenu--active {
+		display: none;
+	}
 	.generator--menu {
 		display: flex;
 		flex-flow: row nowrap;
@@ -33,18 +36,16 @@
 ul.hovermenu {
 	li {
 		font-family: 'Varela Round', sans-serif;
-		background: rgba($themecolor, .85);
-		border: 2px solid $themecolor;
-		color: white;
+		background: rgba($themecolor, .13);
+		// color: white;
 		padding: 1rem 3rem;
-		border-radius: 4px;
 		font-size: 1.6rem;
 		cursor: pointer;
 		transition: all .2s;
 	}
-	li.hovermenu--active {
+	li.hovermenu--hover--active, li.hovermenu--active {
 		background: $themecolor;
-		border: none;
+		color: white;
 	}
 }
 
