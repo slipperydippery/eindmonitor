@@ -3,14 +3,30 @@
 		<div class="col-sm-12 generator--menu">
 	    	<ul class="hovermenu">
 	    		<li class="hovermenu--active" @click="showSubitems()"> {{ active.title }} </li>
-	    		<li v-for="item in categories" class="hovermenu--hover" :class="{show: showSubitem}" @click="setActive(item)"> {{ item.title }} </li>
+	    		<li 
+	    			v-for="item in categories" 
+	    			v-if="item.id != active.id"
+	    			class="hovermenu--hover" 
+	    			:class="{show: showSubitem}" 
+	    			@click="setActive(item)"
+	    		> 
+	    			{{ item.title }} 
+	    		</li>
 	    	</ul>
 			<div class="flex-center">
 		        <img src="/img/arrows.svg" alt="" class="center hundred ">
 			</div>
 	        <ul class="hovermenu">
 	        	<li class="hovermenu--active" @click="showSubitems()"> {{ activesub.title }} </li>
-	        	<li v-for="subitem in active.pages" class="hovermenu--hover" :class="{show: showSubitem}" @click="setActiveSub(subitem)"> {{ subitem.title }} </li>
+	        	<li 
+	        		v-for="subitem in active.pages"
+	        		v-if="subitem.id != activesub.id" 
+	        		class="hovermenu--hover" 
+	        		:class="{show: showSubitem}" 
+	        		@click="setActiveSub(subitem)"
+	        	> 
+	        		{{ subitem.title 
+	        		}} </li>
 	        </ul>
 		</div>
 	</div>
@@ -24,6 +40,7 @@
             category: {
             	default: {
             		title: '--kies een pagina--',
+            		id: 0,
             		subitems: [
 	            		{title: '---'},
             		]
@@ -31,7 +48,8 @@
             },
             page: {
             	default: {
-            		title: '---'	,
+            		title: '---',
+            		id: 0,
             	}
             },
         },
@@ -85,7 +103,7 @@
 
             showSubitems: function () {
             	this.showSubitem = true;
-            }
+            },
         }
     }
 </script>
