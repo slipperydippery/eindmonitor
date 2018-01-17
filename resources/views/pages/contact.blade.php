@@ -9,11 +9,24 @@
         </div>
         <div class="container row">
             <div class="col-sm-12">
-                <h1>Aanleiding</h1>
-                <h2>Bereikbaarheid van, naar en binnen de MRA</h2>
+                <h1>Contact</h1>
+
+            </div>
+        </div>
+        <div class="container row">
+            <div class="col-sm-4">
+                Omgevingsdienst IJmond <br>
+                IJmond Bereikbaar <br>
+                Stationsplein 48b <br>
+                1948 LC  Beverwijk <br>
+ <br>
+                E-mail: info@ijmondbereikbaar.nl <br>
+                Telefoon: 0251-263863 <br>
+                Internet: www.ijmondbereikbaar.nl  <br>
                 
-
-
+            </div>
+            <div class="col-sm-8">
+                <img src="/img/contact.svg" alt="" class="fullwidth">
             </div>
         </div>
     </div>

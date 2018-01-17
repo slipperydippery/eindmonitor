@@ -9,8 +9,8 @@
         </div>
         <div class="container row">
             <div class="col-sm-12">
-                <h1>Aanleiding</h1>
-                <h2>Bereikbaarheid van, naar en binnen de MRA</h2>
+                <h1>Gedragsverandering vraagt om een lange adem</h1>
+                <img src="/img/gedragsverandering.svg" alt="" class="fullwidth">
                 
 
 

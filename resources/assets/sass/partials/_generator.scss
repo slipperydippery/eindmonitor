@@ -5,28 +5,49 @@
 	.generator--menu > *:last-child {
 		margin-right: 0;
 	}
+	.generator--menu:hover .hovermenu--hover {
+		display: block;
+	}
 	.generator--menu {
 		display: flex;
 		flex-flow: row nowrap;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-start;
 	    border: 1px solid rgba(0, 0, 0, 0.4);
 		padding: 1rem;
-		.hovermenu--container {
+		.hovermenu {
 			position: relative;
 			flex-grow: 1;
-			height: 45px;
-			.hovermenu {
-				position: absolute;
-				z-index: 100;
+			z-index: 100;
+			margin-bottom: 0;
+			padding: 0;
+			width: 100%;
+			list-style: none;
+			li {
 				margin: 0;
-				padding: 0;
-				width: 100%;
-				list-style: none;
-				li {
-					margin: 0;
-				}
 			}
 		}
 	}
+}
+
+ul.hovermenu {
+	li {
+		font-family: 'Varela Round', sans-serif;
+		background: rgba($themecolor, .85);
+		border: 2px solid $themecolor;
+		color: white;
+		padding: 1rem 3rem;
+		border-radius: 4px;
+		font-size: 1.6rem;
+		cursor: pointer;
+		transition: all .2s;
+	}
+	li.hovermenu--active {
+		background: $themecolor;
+		border: none;
+	}
+}
+
+.hovermenu--hover {
+	display: none;
 }

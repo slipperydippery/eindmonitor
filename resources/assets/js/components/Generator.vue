@@ -1,22 +1,17 @@
 <template>
 	<div class="generator container row">
 		<div class="col-sm-12 generator--menu">
-			<div class="hovermenu--container">
-		    	<ul class="hovermenu">
-		    		<li class="hovermenu--active"> {{ active.title }} </li>
-		    		<li v-for="item in categories" class="hovermenu--hover" @click="setActive(item)"> {{ item.title }} </li>
-		    	</ul>
+	    	<ul class="hovermenu">
+	    		<li class="hovermenu--active"> {{ active.title }} </li>
+	    		<li v-for="item in categories" class="hovermenu--hover" @click="setActive(item)"> {{ item.title }} </li>
+	    	</ul>
+			<div class="flex-center">
+		        <img src="/img/arrows.svg" alt="" class="center hundred ">
 			</div>
-			<div class="">
-		        <img src="/img/arrows.svg" alt="" class="center hundred">
-			</div>
-	        <div class="hovermenu--container">
-		        <ul class="hovermenu">
-		        	<li class="hovermenu--active"> {{ activesub.title }} </li>
-		        	<li class="hovermenu--hover" v-for="subitem in active.pages" @click="setActiveSub(subitem)"> {{ subitem.title }} </li>
-		        </ul>
-	        </div>
-	        <a href="#" class="btn btn--textcenter" @click="gotoPage()">go</a>
+	        <ul class="hovermenu">
+	        	<li class="hovermenu--active"> {{ activesub.title }} </li>
+	        	<li class="hovermenu--hover" v-for="subitem in active.pages" @click="setActiveSub(subitem)"> {{ subitem.title }} </li>
+	        </ul>
 		</div>
 	</div>
 </template>
@@ -68,6 +63,7 @@
 
         	setActiveSub: function(subitem){
         		this.activesub = subitem;
+        		this.gotoPage();
         	},
 
         	gotoPage: function() {
@@ -90,11 +86,6 @@
 </script>
 
 <style>
-	.hovermenu--hover {
-		display: none;
-	}
-	.hovermenu:hover .hovermenu--hover {
-		display: block;
-	}
+
 
 </style> 
