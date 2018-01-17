@@ -2,15 +2,15 @@
 	<div class="generator container row">
 		<div class="col-sm-12 generator--menu">
 	    	<ul class="hovermenu">
-	    		<li class="hovermenu--active"> {{ active.title }} </li>
-	    		<li v-for="item in categories" class="hovermenu--hover" @click="setActive(item)"> {{ item.title }} </li>
+	    		<li class="hovermenu--active" @click="showSubitems()"> {{ active.title }} </li>
+	    		<li v-for="item in categories" class="hovermenu--hover" :class="{show: showSubitem}" @click="setActive(item)"> {{ item.title }} </li>
 	    	</ul>
 			<div class="flex-center">
 		        <img src="/img/arrows.svg" alt="" class="center hundred ">
 			</div>
 	        <ul class="hovermenu">
-	        	<li class="hovermenu--active"> {{ activesub.title }} </li>
-	        	<li class="hovermenu--hover" v-for="subitem in active.pages" @click="setActiveSub(subitem)"> {{ subitem.title }} </li>
+	        	<li class="hovermenu--active" @click="showSubitems()"> {{ activesub.title }} </li>
+	        	<li v-for="subitem in active.pages" class="hovermenu--hover" :class="{show: showSubitem}" @click="setActiveSub(subitem)"> {{ subitem.title }} </li>
 	        </ul>
 		</div>
 	</div>
@@ -42,6 +42,7 @@
             	activesub: this.page,
 	        	store,
 	        	categories: [],
+	        	showSubitem: false,
             }
         },
 
@@ -80,7 +81,11 @@
 	                .catch(function(error){
 	                	console.log(error);
 	                })
-            } 
+            } ,
+
+            showSubitems: function () {
+            	this.showSubitem = true;
+            }
         }
     }
 </script>
