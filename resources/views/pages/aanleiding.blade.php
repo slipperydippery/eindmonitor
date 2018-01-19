@@ -22,7 +22,7 @@
                 <p>We nemen u graag mee in de resultaten die in drie jaar tijd bereikt zijn met het programma ‘IJmond bereikbaar – Goed op weg’.</p>
             </div>
             <div class="col-sm-3">
-                <img src="/img/metropool regio.svg" alt="" class="fullwidth">
+                <img src="/img/metropool-regio.gif" alt="" class="fullwidth">
             </div>
         </div>
 

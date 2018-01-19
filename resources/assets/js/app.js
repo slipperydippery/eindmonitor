@@ -26,6 +26,10 @@ Vue.component('generator', require('./components/Generator.vue'));
 Vue.component('graph', require('./components/Graph.vue'));
 Vue.component('grapher', require ('./components/Grapher.vue'));
 Vue.component('p01-graph', require('./components/P01Graph.vue'));
+Vue.component('p02-graph', require('./components/P02Graph.vue'));
+Vue.component('p03-graph', require('./components/P03Graph.vue'));
+Vue.component('p05-graph', require('./components/P05Graph.vue'));
+Vue.component('p07-graph', require('./components/P07Graph.vue'));
 
 const app = new Vue({
     el: '#app'

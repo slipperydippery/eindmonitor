@@ -76,12 +76,17 @@
         	setActive: function(item){
         		this.active = item;
         		this.activesub = {title: '--- maak een selectie ---'};
+                this.gotoCategory();
         	},
 
         	setActiveSub: function(subitem){
         		this.activesub = subitem;
         		this.gotoPage();
         	},
+
+            gotoCategory: function() {
+                window.location.href = '/category/' + this.active.id;
+            },
 
         	gotoPage: function() {
         		window.location.href = '/category/' +  this.active.id + '/page/' + this.activesub.id;

@@ -26,7 +26,7 @@
                 
             </div>
             <div class="col-sm-8">
-                <img src="/img/contact.svg" alt="" class="fullwidth">
+                <img src="/img/contact.gif" alt="" class="fullwidth">
             </div>
         </div>
     </div>

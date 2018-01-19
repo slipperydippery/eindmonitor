@@ -40,6 +40,9 @@
                         <li>
                             <a href="/contact">Contact</a>
                         </li>
+                        <li>
+                            <a href="/graphs">Graphs</a>
+                        </li>
                     </ul>
                 </nav>
 

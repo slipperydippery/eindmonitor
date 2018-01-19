@@ -10,7 +10,7 @@
         <div class="container row">
             <div class="col-sm-12">
                 <h1>Gedragsverandering vraagt om een lange adem</h1>
-                <img src="/img/gedragsverandering.svg" alt="" class="fullwidth">
+                <img src="/img/gedragsverandering.gif" alt="" class="fullwidth">
                 
 
 

@@ -1,23 +1,40 @@
 @extends('layouts.app')
 
+<?php
+    $activepage = json_encode(['id' => 0, 'title' => '---']);
+    if( isset($page) ){
+        $activepage = $page;
+    }
+?>
+
 @section('content')
     <div class="content">
         <div class="container row">
             <div class="page-highlight col-sm-12">
-                <p>IJmond Bereikbaar is in 2015 gestart met als doel om de bereikbaarheid van de regio IJmond te verbeteren.Centraal staat structurele gedragsverandering in reisgedrag (woon/werkverkeer) van werknemers met werkbestemming in de IJmond. IJmond Bereikbaar wil hen stimuleren waar mogelijk de auto te laten staan en te kiezen voor de fiets of het OV om naar en van het werk te reizen. Deze eindmonitor laat u de de behaalde resultaten zien van de inspanningen.</p>
-                <p>Kies hieronder een thema en specifiek onderwerp en bekijk de resultaten.</p>
+                {!! $category->description !!}
             </div>
         </div>
         <generator
-            :category="{{$category}}"
-            :page="{{$page}}"
+            :category = " {{ $category }} "
+            :page = " {{ $activepage }} "
         >
         </generator>
-        <div class="container row">
-            <div class="col-sm-12">
-                {!! $page->body !!}
+
+        @if(isset($page))
+            <div class="container row">
+                <div class="col-sm-12">
+                    {!! $page->body !!}
+                </div>
             </div>
-        </div>
+        @else
+            @foreach($category->pages as $page)
+                <div class="container row">
+                    <div class="col-sm-12">
+                        {!! $page->body !!}
+                    </div>
+                </div>
+            @endforeach
+        @endif
     </div>
     <footer>
     </footer>

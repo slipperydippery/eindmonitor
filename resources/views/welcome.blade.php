@@ -12,6 +12,8 @@
         <generator></generator>
         <div class="container row">
                 <img src="/img/tempmap.png" alt="" class="fullwidth welcome--img">
+                <img src="/img/gedragsverandering-poppetje.gif" alt="">
+
         </div>
     </div>
     <footer>
