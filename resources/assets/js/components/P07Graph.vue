@@ -29,6 +29,7 @@
         },
 
         mounted() {
+            this.handleScroll();
         },
 
         computed: {

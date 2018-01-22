@@ -17,7 +17,6 @@ html, body {
 
 #app {
     position: relative;
-    display: flex;
     min-height: 100vh;
     flex-flow: column nowrap;
 
@@ -40,12 +39,12 @@ html, body {
         nav {
             border-top: 2px solid $green;
             margin-bottom: 2rem;
+            height: 42px;
         }
         
     }
 
     .content {
-        flex: 1;
         .page-highlight {
             background: rgba(14, 173, 14, 0.26);
             padding-top: 1rem;

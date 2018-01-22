@@ -11,8 +11,25 @@
         </div>
         <generator></generator>
         <div class="container row">
-                <img src="/img/tempmap.png" alt="" class="fullwidth welcome--img">
-                <img src="/img/gedragsverandering-poppetje.gif" alt="">
+            <div class="mapcontainer">
+                <img src="/img/tempmap.png" alt="" class="welcome--img">
+                <div class="mapoverlay">
+                    <div class="overlay--block overlay--block__bus">
+                        <img src="/img/bus.svg" alt="">
+                        <div class="overlay--block--hover">
+                            <ul>
+                                <li><a href="#">test text</a></li>
+                                <li><a href="#">test text</a></li>
+                                <li><a href="#">test text</a></li>
+                                <li><a href="#">test text</a></li>
+                                <li><a href="#">test text</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    absolute!
+                </div>
+            </div>
+            <img src="/img/gedragsverandering-poppetje.gif" alt="">
 
         </div>
     </div>

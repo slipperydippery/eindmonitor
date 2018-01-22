@@ -29,9 +29,7 @@
         },
 
         mounted() {
-        },
-
-        ready() {   
+        	this.handleScroll();
         },
 
         computed: {

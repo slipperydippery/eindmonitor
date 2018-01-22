@@ -1,0 +1,54 @@
+.mapcontainer {
+	position: relative;
+	margin-top: 2rem;
+	img.welcome--img {
+		width: 100%;
+		height: auto;
+	}
+	.mapoverlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		// background: rgba(255,0,0,0.1);
+		.overlay--block {
+			position: absolute;
+			width: 10%;
+			img {
+				width: 100%;
+			}
+			.overlay--block--hover {
+				background: rgba(255,0,0,0.1);
+				width: 16rem;
+				height: 0;
+				padding-left: 1rem;;
+				padding-right: 1rem;;
+				overflow: hidden;
+				transition: all .5s;
+				ul {
+					padding: 0;
+					
+					li {
+						list-style: none;
+						height: 0;
+					}
+				}
+			}
+		}
+		.overlay--block:hover .overlay--block--hover{
+			height: auto;
+			// height: 8rem;
+			padding: 1rem;
+		}
+		.overlay--block:hover .overlay--block--hover li {
+			height: 2.5rem;
+			transition: all .5s;
+		}
+	}
+}
+
+.overlay--block__bus {
+	left: 10%;
+	top: 30%;
+}
