@@ -26,7 +26,10 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'title' => 'Werknemers',
-                'description' => 'This is the first description'
+                'description' => '<p>In de IJmond wonen en werken veel mensen dicht op elkaar. Er is veel bedrijvigheid en iedere ochtend en namiddag stromen de toegangswegen vol. Uit onderzoek blijkt dat veel mensen binnen een straal van 8 kilometer van hun werk wonen. Die afstand is prima te doen op de fiets. </p>
+
+                <p><em>‘Waarom ga je eigenlijk met de auto naar je werk?’</em> Met deze vraag en een financiële prikkel van € 0,10 per fietskilometer voor het woon/werkverkeer is het gelukt om 2700 werknemers op de fiets te krijgen. Deze gedragsverandering is blijvend: In het voorjaar van 2017 is de kilometervergoeding gestopt, en toch stapt  95% van de deelnemers nog steeds op de fiets. </p>
+'
             ],
             [
                 'title' => 'Reisgedrag',
@@ -38,6 +41,10 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'title' => 'Fietsritregistratie',
+                'description' => 'This is the first description'
+            ],
+            [
+                'title' => 'Communicatie',
                 'description' => 'This is the first description'
             ],
         ];

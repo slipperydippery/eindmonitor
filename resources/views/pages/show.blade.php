@@ -23,13 +23,15 @@
         @if(isset($page))
             <div class="container row">
                 <div class="col-sm-12">
+                    <h1>{{ $page->title }}</h1>
                     {!! $page->body !!}
                 </div>
             </div>
         @else
             @foreach($category->pages as $page)
-                <div class="container row">
+                <div class="container row category--page">
                     <div class="col-sm-12">
+                        <h1>{{ $page->title }}</h1>
                         {!! $page->body !!}
                     </div>
                 </div>
