@@ -74,16 +74,22 @@
 
         methods: {
         	setActive: function(item){
-                this.showSubitems();
-        		this.active = item;
-        		this.activesub = {title: '--- maak een selectie ---'};
-                this.gotoCategory();
+                if(item.id == this.active.id) {
+                    this.showSubitems();
+                } else {
+            		this.active = item;
+            		this.activesub = {title: '--- maak een selectie ---'};
+                    this.gotoCategory();
+                }
         	},
 
         	setActiveSub: function(subitem){
-                this.showSubitems();
-        		this.activesub = subitem;
-        		this.gotoPage();
+                if(subitem.id == this.activesub.id) {
+                    this.showSubitems();
+                } else {
+                    this.activesub = subitem;
+            		this.gotoPage();
+                }
         	},
 
             gotoCategory: function() {
