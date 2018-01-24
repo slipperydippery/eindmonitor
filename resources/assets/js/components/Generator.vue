@@ -2,7 +2,7 @@
 	<div class="generator container row">
 		<div class="col-sm-12 generator--menu" :class="{'generator--menu--active': showSubitem}">
 	    	<ul class="hovermenu">
-	    		<li class="hovermenu--active" @click="showSubitems()" v-if="active.id == 0"> {{ active.title }} </li>
+	    		<li class="hovermenu--active" @click="toggleSubitmes()" v-if="active.id == 0"> {{ active.title }} </li>
 	    		<li 
 	    			v-for="item in categories" 
 	    			class="hovermenu--hover" 
@@ -16,7 +16,7 @@
 		        <img src="/img/arrows.svg" alt="" class="center hundred ">
 			</div>
 	        <ul class="hovermenu">
-	        	<li class="hovermenu--active" @click="showSubitems()"  v-if="activesub.id == 0"> {{ activesub.title }} </li>
+	        	<li class="hovermenu--active" @click="toggleSubitmes()"  v-if="activesub.id == 0"> {{ activesub.title }} </li>
 	        	<li 
 	        		v-for="subitem in active.pages"
 	        		class="hovermenu--hover" 
@@ -75,7 +75,7 @@
         methods: {
         	setActive: function(item){
                 if(item.id == this.active.id) {
-                    this.showSubitems();
+                    this.toggleSubitmes();
                 } else {
             		this.active = item;
             		this.activesub = {title: '--- maak een selectie ---'};
@@ -85,7 +85,7 @@
 
         	setActiveSub: function(subitem){
                 if(subitem.id == this.activesub.id) {
-                    this.showSubitems();
+                    this.toggleSubitmes();
                 } else {
                     this.activesub = subitem;
             		this.gotoPage();
@@ -112,8 +112,8 @@
 	                })
             } ,
 
-            showSubitems: function () {
-            	this.showSubitem = true;
+            toggleSubitmes: function () {
+            	this.showSubitem = ! this.showSubitem;
             },
         }
     }
