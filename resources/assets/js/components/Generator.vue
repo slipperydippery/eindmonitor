@@ -40,13 +40,13 @@
             		title: '--kies een pagina--',
             		id: 0,
             		subitems: [
-	            		{title: '---'},
+	            		{title: '---kies een pagina---'},
             		]
             	}
             },
             page: {
             	default: {
-            		title: '---',
+            		title: '---kies een pagina---',
             		id: 0,
             	}
             },
