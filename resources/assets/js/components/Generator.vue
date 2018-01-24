@@ -16,7 +16,7 @@
 		        <img src="/img/arrows.svg" alt="" class="center hundred ">
 			</div>
 	        <ul class="hovermenu">
-	        	<li class="hovermenu--active" @click="showSubitems()"> {{ activesub.title }} </li>
+	        	<li class="hovermenu--active" @click="showSubitems()"  v-if="activesub.id == 0"> {{ activesub.title }} </li>
 	        	<li 
 	        		v-for="subitem in active.pages"
 	        		class="hovermenu--hover" 
@@ -74,12 +74,14 @@
 
         methods: {
         	setActive: function(item){
+                this.showSubitems();
         		this.active = item;
         		this.activesub = {title: '--- maak een selectie ---'};
                 this.gotoCategory();
         	},
 
         	setActiveSub: function(subitem){
+                this.showSubitems();
         		this.activesub = subitem;
         		this.gotoPage();
         	},
