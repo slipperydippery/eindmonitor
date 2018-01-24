@@ -32,7 +32,12 @@ Vue.component('p04-graph', require('./components/P04Graph.vue'));
 Vue.component('p05-graph', require('./components/P05Graph.vue'));
 Vue.component('p06-graph', require('./components/P06Graph.vue'));
 Vue.component('p07-graph', require('./components/P07Graph.vue'));
+Vue.component('p16-graph', require('./components/P16Graph.vue'));
 Vue.component('p17-graph', require('./components/P17Graph.vue'));
+Vue.component('p20-graph', require('./components/P20Graph.vue'));
+Vue.component('p21-graph', require('./components/P21Graph.vue'));
+Vue.component('p22-graph', require('./components/P22Graph.vue'));
+Vue.component('p23-graph', require('./components/P23Graph.vue'));
 
 const app = new Vue({
     el: '#app'

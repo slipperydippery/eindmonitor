@@ -15,14 +15,32 @@
         </div>
         <div class="container row">
             <div class="col-sm-12">
+                p01
                 <p01-graph></p01-graph> 
+                p02
                 <p02-graph></p02-graph> 
+                p03
                 <p03-graph></p03-graph> 
+                p04
                 <p04-graph></p04-graph> 
+                p05
                 <p05-graph></p05-graph> 
+                p06
                 <p06-graph></p06-graph> 
+                p07
                 <p07-graph></p07-graph> 
+                p16
+                <p16-graph></p16-graph> 
+                p17
                 <p17-graph></p17-graph> 
+                p20
+                <p20-graph></p20-graph> 
+                p21
+                <p21-graph></p21-graph> 
+                p22
+                <p22-graph></p22-graph> 
+                p23
+                <p23-graph></p23-graph> 
 
                 
             </div>
