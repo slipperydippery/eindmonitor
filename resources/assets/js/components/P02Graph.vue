@@ -105,7 +105,7 @@
                 },
                 title: {
                     display: true,
-                    text: "berekend aantal km's per vervoerwijze per maand obv van de modal shift (het beeld obv fietsstimulering 2014-2017) "
+                    text: "Berekend aantal km's per vervoerwijze per maand obv van de modal shift (het beeld obv fietsstimulering 2014-2017) "
                 }
             };
             const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "bar", data: data, options: options });

@@ -14,7 +14,7 @@
         </div>
         <div class="container row">
             <div class="col-sm-12">
-                <img src="/img/samenwerking.svg" alt="" class="twothirds">
+                <img src="/img/samenwerking.gif" alt="" class="twothirds">
                 <h2>Stichting IJmond Bereikbaar</h2>
                 <p>De uitvoering van het programma is in handen gelegd van de Stichting IJmond Bereikbaar. Het stichtingsbestuur dat bestaat uit vertegenwoordigers van de Omgevingsdienst IJmond, Ondernemersvereniging IJmond en Tata Steel heeft het initiatief genomen tot een gezamenlijke aanpak om de bereikbaarheid en de leefbaarheid in de IJmond te verbeteren. De focus ligt op het mobiliteitsmanagement van personen en goederen.</p>
                  

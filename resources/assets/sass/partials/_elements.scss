@@ -14,12 +14,28 @@
 .hundred {
 	height: 100% !important;
 }
+
 .eighty {
 	height: 80% !important;
 	margin-top: 1rem;
 }
 
-.thirty {
+.eighty_wide {
+	width: 80%;
+	height: auto;
+}
+
+.sixty_wide {
+	width: 60%;
+	height: auto;
+}
+
+.fourty_wide {
+	width: 40%;
+	height: auto;
+}
+
+.thirty_wide {
 	width: 30%;
 	height: auto;
 	display: inline-block;

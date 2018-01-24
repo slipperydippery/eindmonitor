@@ -17,7 +17,7 @@ class CategoriesTableSeeder extends Seeder
             [
                 'title' => 'Ambities & Resultaten',
                 'description' => '
-                <p>Samen werken aan een betere bereikbaarheid en luchtkwaliteit in de regio. Dat is het doel van IJmond Bereikbaar. Hoe? Door de spits minder drukt te maken met structurele verandering in reisgedrag voor het  woon/ werkverkeer. Want? Hoe minder personenvervoer in de auto in de spits, hoe beter de doorstroming van en bereikbaarheid voor het bedrijfsmatig vervoer. Dat scheelt tijd en geld en draagt bovendien positief bij aan de luchtkwaliteit. En niet te vergeten aan de gezondheid van de mensen zelf.  </p> 
+                <p>Samen werken aan een betere bereikbaarheid en luchtkwaliteit in de regio. Dat is het doel van IJmond Bereikbaar. Hoe? Door met structurele gedragsverandering in reisgedrag voor het woon/werkverkeer de spits minder drukt te maken. Want hoe minder personenvervoer in de auto in de spits, hoe beter de doorstroming van en bereikbaarheid voor het bedrijfsmatig vervoer. Dat scheelt tijd en geld en draagt bovendien positief bij aan de luchtkwaliteit. En niet te vergeten aan de gezondheid van de mensen zelf. </p>
 '
             ],
             [
@@ -33,7 +33,7 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'title' => 'Reisgedrag',
-                'description' => 'This is the first description'
+                'description' => '<p>Er zijn verschillende manieren om de spits te ontlasten. Zoals bijvoorbeeld flexibele kantoortijden (reizen buiten de spits), carpoolen of telewerken. In het programma van IJmond Bereikbaar is de nadruk gelegd op het motiveren van de werknemers om, wanneer het kan, voor het woon/werkverkeer de auto te laten staan en over te stappen naar de fiets of het openbaar vervoer. Werkgevers kiezen welke programmaonderdelen van IJmond Bereikbaar ze willen promoten bij hun medewerkers. Fietsstimulering scoort 100%. 17% van de deelnemende bedrijven heeft ook het OV-aanbod van IJmond Bereikbaar actief gestimuleerd. </p> '
             ],
             [
                 'title' => 'Belonen en Loyaliteit',
