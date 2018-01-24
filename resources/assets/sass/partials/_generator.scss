@@ -6,10 +6,13 @@
 		margin-right: 0;
 	}
 	.generator--menu:hover .hovermenu--hover {
-		display: block;
+		height: 4.5rem !important;
 	}
 	.generator--menu:hover .hovermenu--active {
-		display: none;
+		height: 4.5rem !important;
+	}
+	.generator--menu--active .hovermenu--hover, .generator--menu--active .hovermenu--active {
+		height: 4.5rem !important;
 	}
 	.generator--menu {
 		display: flex;
@@ -28,33 +31,38 @@
 			list-style: none;
 			li {
 				margin: 0;
+				font-family: 'Varela Round', sans-serif;
+				background: rgba($themecolor, .13);
+				// color: white;
+				font-size: 1.6rem;
+				line-height: 4.5rem;
+				cursor: pointer;
+				transition: all .2s;
+			}
+			li.hovermenu--hover {
+				height: 0;
+				transition: all .5s;
+				padding: 0 3rem;
+				overflow: hidden;
+			}
+			li.hovermenu--hover:hover {
+				background: rgba($themecolor, .3);
+			}
+			li.hovermenu--hover--active, li.hovermenu--active {
+				height: auto !important;
+				background: $themecolor;
+				padding: 0 3rem;
+				color: white;
+			}
+			li.hovermenu--hover--active:hover {
+				background: $themecolor;
 			}
 		}
 	}
 }
 
-ul.hovermenu {
-	li {
-		font-family: 'Varela Round', sans-serif;
-		background: rgba($themecolor, .13);
-		// color: white;
-		padding: 1rem 3rem;
-		font-size: 1.6rem;
-		cursor: pointer;
-		transition: all .2s;
-	}
-	li.hovermenu--hover--active, li.hovermenu--active {
-		background: $themecolor;
-		color: white;
-	}
-}
-
-.hovermenu--hover {
-	display: none;
-}
-
 .show {
-	display: block;
+	height: 4.5rem;
 }
 
 .category--page {

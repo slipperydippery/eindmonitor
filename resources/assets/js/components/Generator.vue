@@ -1,8 +1,8 @@
 <template>
 	<div class="generator container row">
-		<div class="col-sm-12 generator--menu">
+		<div class="col-sm-12 generator--menu" :class="{'generator--menu--active': showSubitem}">
 	    	<ul class="hovermenu">
-	    		<li class="hovermenu--active" @click="showSubitems()"> {{ active.title }} </li>
+	    		<li class="hovermenu--active" @click="showSubitems()" v-if="active.id == 0"> {{ active.title }} </li>
 	    		<li 
 	    			v-for="item in categories" 
 	    			class="hovermenu--hover" 
