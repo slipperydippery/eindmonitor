@@ -20,10 +20,24 @@ class PagesTableSeeder extends Seeder
                 'body' => '
                         <p>Met het stimuleringsprogramma ‘Goed op weg’ heeft IJmond Bereikbaar bedrijven en hun werknemers ertoe gebracht om na te denken over hun manier van reizen naar het werk en hen gestimuleerd om, als het kan, de auto te laten staan en te kiezen voor de fiets of het openbaar vervoer. </p>
                         <p20-graph></p20-graph>
-                        <p21-graph></p21-graph>
+                        <p21-graph></p21-graph> <br>
                         <p16-graph></p16-graph>
                         <img src="/img/ambities_ambassadeurs.svg" class="sixty_wide center" />
-                        <img src="/img/ambities_stimuleringsprogramma.svg" class="sixty_wide center" />
+                        <h3>Werkgeversaanpak en resultaten</h3>
+                        <p>Van 10 pilotbedrijven met ongeveer 50 deelnemers in mei 2015, is ons fietsstimuleringsprogramma ‘Goed op weg – op de fiets’ uitgegroeid tot een betrokken en enthousiaste community.</p>
+
+                        <p>Van 170 bedrijven hebben bijna 2700 werknemers zich aangemeld</p>
+
+                        <p>Het bedrijfsleven geeft een 7.8 aan het programma en de fietsers die meedoen aan het programma geven een 8.1. Dat zijn resultaten waar we trots op zijn.</p>
+
+                        <p>De belangrijkste maatregelen die IJmond bereikbaar heeft ingezet van 2015-2017 zijn:</p>
+                        <ul>
+                            <li>de fietsvergoeding</li>
+                            <li>de fietsapp ring-ring</li>
+                            <li>shuttelbus</li>
+                            <li>stimuleren ov </li>
+                        </ul>
+
                         <p>Lees meer over onze werkgeversaanpak en de acties die gedaan zijn om werknemers over de streep te trekken en vast te houden. </p>
 
 	                ',

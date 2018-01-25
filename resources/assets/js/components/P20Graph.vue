@@ -1,6 +1,6 @@
 <template>
-    <div class="">
-        <canvas width="940" height="470" ref="canvas"></canvas>
+    <div class="chart chart--halfwidth">
+        <canvas width="450" height="250" ref="canvas"></canvas>
     </div>
 </template>
 

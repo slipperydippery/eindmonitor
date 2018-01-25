@@ -1,6 +1,6 @@
 <template>
-    <div class="">
-        <canvas width="940" height="470" ref="canvas"></canvas>
+    <div class="chart chart--halfwidth">
+        <canvas width="450" height="250" ref="canvas"></canvas>
     </div>
 </template>
 
@@ -40,48 +40,47 @@
 
         methods: {
             loadMe: function() {
-            var data = {
-                labels: ["Ambassadeurs fiets", "Nieuwe fietsers", "Overstappers op OV"],
-                datasets: [{
-                    label: 'Ambities',
-                    data: [500, 2000, 250],
-                    // backgroundColor: this.cyan_dark,
-                    // borderColor: this.color,
-                    // lineTension: .2,
-                    // borderWidth: 1,
-                    // pointBackgroundColor: "#fff",
-                    // pointBorderColor: "rgba(50,50,50,1)",
-                    },{
-                    label: 'Resultaat',
-                    data: [800, 1800, 50],
-                    backgroundColor: this.cyan_dark,
-                    // borderColor: this.color,
-                    // lineTension: .2,
-                    // borderWidth: 1,
-                    // pointBackgroundColor: "#fff",
-                    // pointBorderColor: "rgba(50,50,50,1)",
-                    },
-                ],
-            };
-            var options =  {
-                scales: {
-                    xAxes: [{
-                        stacked: false
-                    }],
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero:true
+                var data = {
+                    labels: ["Ambassadeurs fiets", "Nieuwe fietsers", "Overstappers op OV"],
+                    datasets: [{
+                        label: 'Ambities',
+                        data: [500, 2000, 250],
+                        // backgroundColor: this.cyan_dark,
+                        // borderColor: this.color,
+                        // lineTension: .2,
+                        // borderWidth: 1,
+                        // pointBackgroundColor: "#fff",
+                        // pointBorderColor: "rgba(50,50,50,1)",
+                        },{
+                        label: 'Resultaat',
+                        data: [800, 1800, 50],
+                        backgroundColor: this.cyan_dark,
+                        // borderColor: this.color,
+                        // lineTension: .2,
+                        // borderWidth: 1,
+                        // pointBackgroundColor: "#fff",
+                        // pointBorderColor: "rgba(50,50,50,1)",
                         },
-                        stacked: false
-                    }]
-                },
-                title: {
-                    display: true,
-                    text: "Actieve Werknemers"
-                }
-            };
-            const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "bar", data: data, options: options });
-
+                    ],
+                };
+                var options =  {
+                    scales: {
+                        xAxes: [{
+                            stacked: false
+                        }],
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero:true
+                            },
+                            stacked: false
+                        }]
+                    },
+                    title: {
+                        display: true,
+                        text: "Actieve Werknemers"
+                    }
+                };
+                const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "bar", data: data, options: options });
             },
 
             handleScroll() {
