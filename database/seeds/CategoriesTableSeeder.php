@@ -22,7 +22,7 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'title' => 'Werkgeversaanpak',
-                'description' => 'Werkgeversaanpak, het woord zegt het al: de gezamenlijke aanpak van  overheid en bedrijfsleven om regionale knelpunten op te lossen. De IJmond kent een hands-on mentaliteit. Is er een idee en draagvlak? Laten we dat op kleine schaal uitproberen, waar nodig aanpassen en bij succes breed uitzetten. n'
+                'description' => 'Werkgeversaanpak, het woord zegt het al: de gezamenlijke aanpak van  overheid en bedrijfsleven om regionale knelpunten op te lossen. De IJmond kent een hands-on mentaliteit. Is er een idee en draagvlak? Laten we dat op kleine schaal uitproberen, waar nodig aanpassen en bij succes breed uitzetten.'
             ],
             [
                 'title' => 'Werknemers',
