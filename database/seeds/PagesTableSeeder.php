@@ -40,7 +40,7 @@ class PagesTableSeeder extends Seeder
 
                         <p>Lees meer over onze werkgeversaanpak en de acties die gedaan zijn om werknemers over de streep te trekken en vast te houden. </p>
                         <p16-graph></p16-graph>
-                        <img src="/img/ambities_ambassadeurs.svg" class="eighty_wide center" />
+                        <img src="/img/ambities-en-resultaten-definitie-ambassadeur.gif" class="eighty_wide center" />
 
 	                ',
 	            'category_id' => 1,
