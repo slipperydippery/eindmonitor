@@ -50,9 +50,15 @@ class PagesTableSeeder extends Seeder
                 'description' => '',
                 'body' => '
                         <p>Volgens de spelregels van het programma van BeterBenutten realiseer je een spitsmijding wanneer je niet met een personenauto, bestelbus of vrachtwagen in de spits rijdt, waar je dit vroeger wel deed. Thuiswerken tot na de spits, of niet-reizen in de spits vanwege een parttime baan of ploegendienst telt in deze definitie niet mee.</p>
-                        <p22-graph></p22-graph>
+                        <div class="page--intwo">
+                            <div class="page--intwo--item">
+                                <p22-graph></p22-graph>
+                            </div>
+                            <div class="page--intwo--item">
+                                <p>De doelstelling voor spitsmijdingen in de IJmond is voor 85% gehaald. Een groot aantal werknemers die in de spits naar hun werk reizen heeft de overstap van de auto naar de fiets gemaakt. In de IJmond werkt ten opzichte van andere regio’s echter een onevenredig groot aantal mensen in ploegendienst en/of parttime. Ook zij hebben de overstap van de auto naar de fiets gemaakt, maar tellen niet mee als spitsmijding zoals bedoeld door Beter Benutten.</p>
+                            </div>
+                        </div>
 
-                        <p>De doelstelling voor spitsmijdingen in de IJmond is voor 85% gehaald. Een groot aantal werknemers die in de spits naar hun werk reizen heeft de overstap van de auto naar de fiets gemaakt. In de IJmond werkt ten opzichte van andere regio’s echter een onevenredig groot aantal mensen in ploegendienst en/of parttime. Ook zij hebben de overstap van de auto naar de fiets gemaakt, maar tellen niet mee als spitsmijding zoals bedoeld door Beter Benutten.</p>
                         ',
                 'category_id' => 1,
             ],
