@@ -22,11 +22,13 @@ class PagesTableSeeder extends Seeder
                         <p20-graph></p20-graph>
                         <p21-graph></p21-graph> <br>
                         <h3>Werkgeversaanpak en resultaten</h3>
-                        <p>Van 10 pilotbedrijven met ongeveer 50 deelnemers in mei 2015, is ons fietsstimuleringsprogramma ‘Goed op weg – op de fiets’ uitgegroeid tot een betrokken en enthousiaste community.</p>
+                        
+                        <ul>
+                            <li>Van 10 pilotbedrijven met ongeveer 50 deelnemers in mei 2015, is ons fietsstimuleringsprogramma ‘Goed op weg – op de fiets’ uitgegroeid tot een betrokken en enthousiaste community.</li>
+                            <li>Van 170 bedrijven hebben bijna 2700 werknemers zich aangemeld</li>
+                            <li>Het bedrijfsleven geeft een 7.8 aan het programma en de fietsers die meedoen aan het programma geven een 8.1. Dat zijn resultaten waar we trots op zijn.</li>
+                        </ul>
 
-                        <p>Van 170 bedrijven hebben bijna 2700 werknemers zich aangemeld</p>
-
-                        <p>Het bedrijfsleven geeft een 7.8 aan het programma en de fietsers die meedoen aan het programma geven een 8.1. Dat zijn resultaten waar we trots op zijn.</p>
 
                         <p>De belangrijkste maatregelen die IJmond bereikbaar heeft ingezet van 2015-2017 zijn:</p>
                         <ul>
