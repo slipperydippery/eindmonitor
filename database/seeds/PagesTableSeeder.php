@@ -39,8 +39,25 @@ class PagesTableSeeder extends Seeder
                         </ul>
 
                         <p>Lees meer over onze werkgeversaanpak en de acties die gedaan zijn om werknemers over de streep te trekken en vast te houden. </p>
+                        <h3>Resultaten ontwikkeling fietsdeelnemers</h3>
+                        <p>De grafiek hieronder laat zien dat er een toename van het aantal fietsdeelnemers is geweest van oktober 2015 tot en met maart 2017. In die periode heeft IJmond bereikbaar een fietsvergoeding gegeven aan fietsdeelnemers. In de periode van maart 2016 tot en met januari 2017 was de Velsertunnel gesloten vanwege renovatie. Dit kan ook bijgedragen hebben tot een toename van fietsdeelnemers. </p>
+                        <ul>
+                            <li><strong>Pilotfase:</strong> januari 2015 - mei 2015</li>
+                            <li><strong>Campagnefase:</strong> mei 2015 - april 2016</li>
+                            <li><strong>Verankeringsfase:</strong> april 2016 - oktober 2017</li>
+                        </ul>
                         <p16-graph></p16-graph>
-                        <img src="/img/ambities-en-resultaten-definitie-ambassadeur.gif" class="eighty_wide center" />
+
+                        <h3>Ambassadeurs</h3>
+                        <p>IJmond bereikbaar heeft ambassadeurs ingezet om het fietsprogramma te stimuleren.</p>
+                        <div class="page--intwo">
+                            <div class="page--intwo--item">
+                                <p24-graph></p24-graph>
+                            </div>
+                            <div class="page--intwo--item">
+                                <img src="/img/ambities-en-resultaten-definitie-ambassadeur.gif" class="fullwidth" />
+                            </div>
+                        </div>
 
 	                ',
 	            'category_id' => 1,
@@ -87,6 +104,7 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Succesfactoren ',
                 'description' => '',
                 'body' => '
+                        <p>IJmond bereikbaar heeft zeven verschillende succesfactoren weten te definiëren. Deze succesfactoren hebben te maken met de organisatorische aanpak en de maatregelen die zijn ingezet.</p>
 	                	<img src="/img/ambities_succesfactoren.svg" class="eighty_wide center" />
 	                ',
 	            'category_id' => 1,

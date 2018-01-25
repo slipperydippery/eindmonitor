@@ -38,6 +38,7 @@ Vue.component('p20-graph', require('./components/P20Graph.vue'));
 Vue.component('p21-graph', require('./components/P21Graph.vue'));
 Vue.component('p22-graph', require('./components/P22Graph.vue'));
 Vue.component('p23-graph', require('./components/P23Graph.vue'));
+Vue.component('p24-graph', require('./components/P24Graph.vue'));
 
 const app = new Vue({
     el: '#app'

@@ -115,7 +115,7 @@
                 },
                 title: {
                     display: true,
-                    text: "CO2-uitstoot oorspronkelijke vervoerwijzen (in ton per maand) inclusief gereduceerd CO2-niveau na fietsstimulering "
+                    text: "Ontwikkeling fietsdeelnemers 2014-2017"
                 }
             };
             const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "bar", data: data, options: options });
