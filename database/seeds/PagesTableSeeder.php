@@ -131,9 +131,63 @@ class PagesTableSeeder extends Seeder
                 'category_id' => 1,
             ],
             [
-                'title' => ' ',
+                'title' => 'Programma ‘goed op weg’',
                 'description' => '',
                 'body' => '
+                    <p>Eind 2014 zijn 10 bedrijven benaderd om mee te doen met een pilot-programma. Deze bedrijven hebben getest of zij hun medewerkers konden bewegen de auto vaker te laten staan en op de fiets of met het OV openbaar vervoer naar het werk te komen. En met succes. Vanaf 1 mei 2015 is het stimuleringsprogramma ‘IJmond Bereikbaar – Goed op weg’ in de hele IJmond geïntroduceerd.</p>
+
+                    <img src="/img/werkgevers-aanpak.gif" class="fullwidth" />
+
+                    <p>Nieuwsgierig naar de resultaten van de kopgroep? Klik hier voor de benchmark. </p>
+
+                    <p>Grafiek van marc plaatsen? Welke bedoelt Astrid? De vorige dia (19) hoeft nu niet te worden geplaatst.</p>
+
+
+                    ',
+                'category_id' => 2,
+            ],
+            [
+                'title' => 'Spelregels IJmond Bereikbaar',
+                'description' => '',
+                'body' => '
+                    <p>Om aan het fietsprogramma mee te doen heeft IJmond Bereikbaar een aantal spelregels opgesteld voor de werkgever. </p>
+                    <img src="/img/werkgevers-spelregels.gif" class="fullwidth" />
+                    ',
+                'category_id' => 2,
+            ],
+            [
+                'title' => 'Succesfactoren',
+                'description' => '',
+                'body' => '
+                    <div class="page--intwo">
+                        <div class="page--intwo--item">
+                            <ul>
+                                <li>80% van de aanmeldingen gebeurde door mond-op-mond reclame. Opvolging en implementatie door de mobiliteitsmakelaar.</li>
+                                <li>Laagdrempelige toegang tot het programma. IJmond Bereikbaar heeft het bedrijfsleven op hoog niveau ontzorgd.</li>
+                                <li>De renovatie en afsluiting van de Velsertunnel is voor het bedrijfsleven een belangrijke aanjager geweest om actie te nemen op het thema mobiliteit.</li>
+                                <li>Er is voldoende tijd geweest om extrinsieke motivatie (bereikbaarheidsprobleem, financiële vergoeding voor werknemers) om te buigen naar intrinsieke motivatie (vitaliteit, duurzame inzetbaarheid).</li>
+                                <li>Slagkracht door de korte lijnen met de IJmondgemeenten, de Provincie Noord-Holland en Rijkswaterstaat.</li>
+                                <li>Hands-on mentaliteit van werkgevers in de regio.</li>
+                            </ul>
+                        </div>
+                        <div class="page--intwo--item sixty_wide">
+                            <img src="/img/poppetje-succesfactoren.gif" class="fullwidth" />
+                        </div>
+
+                    </div>
+                    ',
+                'category_id' => 2,
+            ],
+            [
+                'title' => 'Aandachtspunten',
+                'description' => '',
+                'body' => '
+                    <ul>
+                        <li>Ondernemers zijn eerst en vooral bezig met hun primaire bedrijfsvoering. Bereikbaarheid en luchtkwaliteit heeft hun aandacht, maar voldoende tijd en begeleiding is van cruciaal belang.</li>
+                        <li>Het overnemen van fietsregelingen duurt soms langer dan gewenst door bijvoorbeeld langlopende CAO-afspraken.</li>
+                        <li>De nieuwe regelgeving of subsidiemogelijkheden voor fietsstimulering, zoals bijv. het Nieuwe Fietsenplan zijn vaak onvoldoende bekend.</li>
+
+                    </ul>
                     ',
                 'category_id' => 2,
             ],
