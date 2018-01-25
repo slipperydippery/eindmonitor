@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 <?php
-    $activepage = json_encode(['id' => 0, 'title' => '---kies een pagina---']);
+    $activepage = json_encode(['id' => 0, 'title' => '--- selecteer een hoofdstuk ---']);
     if( isset($page) ){
         $activepage = $page;
     }

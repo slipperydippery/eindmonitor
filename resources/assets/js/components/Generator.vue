@@ -37,16 +37,16 @@
         props: {	
             category: {
             	default: {
-            		title: '--kies een pagina--',
+            		title: '--- selecteer een thema ---',
             		id: 0,
             		subitems: [
-	            		{title: '---kies een pagina---'},
+	            		{title: '--- selecteer een hoofdstuk ---'},
             		]
             	}
             },
             page: {
             	default: {
-            		title: '---kies een pagina---',
+            		title: '--- selecteer een hoofdstuk ---',
             		id: 0,
             	}
             },

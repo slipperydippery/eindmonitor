@@ -26,10 +26,8 @@
                             </ul>
                         </div>
                     </div>
-                    absolute!
                 </div>
             </div>
-            <img src="/img/gedragsverandering-poppetje.gif" alt="">
 
         </div>
     </div>
