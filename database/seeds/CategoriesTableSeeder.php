@@ -37,7 +37,7 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'title' => 'Belonen en Loyaliteit',
-                'description' => 'This is the first description'
+                'description' => 'IJmond Bereikbaar wil de bereikbaarheid van de regio en doorstroming van het verkeer verbeteren. Met als bijkomend effect een positieve bijdrage op de luchtkwaliteit. Daarvoor is gedragsverandering nodig van bedrijven en werknemers. Voor veel bedrijven zijn vervoer en milieu thema’s waar ze regelmatig mee in aanraking komen. Voor werknemers liggen deze onderwerpen vaak buiten hun interessegebied, terwijl juist van hen de gedragsverandering werd verwacht. Toch is het IJmond Bereikbaar gelukt om gedurende de campagneperiode de motivatie voor de gewenste gedragsverandering teweeg te brengen.'
             ],
             [
                 'title' => 'Fietsritregistratie',
