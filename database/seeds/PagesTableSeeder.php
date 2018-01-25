@@ -70,9 +70,15 @@ class PagesTableSeeder extends Seeder
 
                     <p>Dwars door de IJmond loopt het Noordzeekanaal. Veel fietsende werknemers maken dagelijks de overocht met de pont: het blauwe fietspad tussen Velsen-Noord en Velsen-Zuid. Met subsidie van onder andere Beter Benutten 2 en Rijkswaterstaat en met financiële middelen van de IJmondgemeenten is het gelukt om tijdens de ochtend- en avondspits een tweede pont te laten varen en zo de wachttijd van 20 minuten te halveren. Hiermee is een forse toename van het aantal fietsers die de overtocht maken gerealiseerd. Deze snelle, regelmatige en betrouwbare oversteek heeft ervoor gezorgd dat voor werknemers de fiets een volwaardig alternatief is voor de auto. </p>
 
-                    <p23-graph></p23-graph>
+                    <div class="page--intwo">
+                        <div class="page--intwo--item">
+                            <p23-graph></p23-graph>
+                        </div>
+                        <div class="page--intwo--item">
+                            <p>Voor en na de afsluiting van de Velsertunnel hebben de IJmondgemeenten een aantal fietspaden verbeterd, om met name de bereikbaarheid van een aantal bedrijventerreinen te verbeteren. Tijdens de afsluiting van de Velsertunnel hebben gemeenten zo min mogelijk wegwerkzaamheden uitgevoerd, om zodoende geen hinder te veroorzaken. </p>
+                        </div>
+                    </div>
 
-                    <p>Voor en na de afsluiting van de Velsertunnel hebben de IJmondgemeenten een aantal fietspaden verbeterd, om met name de bereikbaarheid van een aantal bedrijventerreinen te verbeteren. Tijdens de afsluiting van de Velsertunnel hebben gemeenten zo min mogelijk wegwerkzaamheden uitgevoerd, om zodoende geen hinder te veroorzaken. </p>
 
                         ',
                 'category_id' => 1,
@@ -89,11 +95,17 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Aandachtspunten ',
                 'description' => '',
                 'body' => '
-                        <img src="/img/ambities_aandachtspunten.svg" class="fourty_wide" />
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <li>In de IJmond is behoefte aan last-mile OV-oplossingen voor werknemers. De verbinding van de NS-stations naar de verschillende bedrijventerreinen is onvoldoende. Om werknemers met resultaat te stimuleren om met het openbaar vervoer te reizen, moet echter ook de totale OV-infrastructuur goed op orde zijn. De afwaardering van de Kennemerlijn (treinverbinding tussen Haarlem en Alkmaar) per 1 januari 2016 en de noodzakelijke omleidingen van de regionale buslijnen vanwege de afsluiting van de Velsertunnel per 15 april 2016 hebben negatief effect gehad op de OV-resultaten van het programma.</li>
+                                <li>Een onderscheid maken tussen de beloningsstructuur van ambassadeurs (werknemers die al voor de start van de campagne op de fiets kwamen, dit blijven doen en ook uitdragen aan collega’s) en nieuwe fietsers (werknemers die naar aanleiding van de campagne starten met fietsen of wezenlijk vaker gaan fietsen) wekt wrevel op en zorgt voor zeer veel extra administratie.</li>
+                                <li>IJmond Bereikbaar heeft in 2017, als onderdeel van het loyaliteitsprogramma,  de fietsapp Ring-Ring bij haar deelnemers geïntroduceerd voor onder meer het registreren van de woon/werkfietskilometers. De kilometerregistratie was op dat moment niet meer gekoppeld aan de financiële beloning. De urgentie voor deelnemers om de app te gebruiken was daardoor sterk afgenomen. In de IJmond is het aantal gebruikers daardoor niet zo hoog als gewenst.</li>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="/img/ambities_aandachtspunten.svg" class="fullwidth" />
+                            </div>
+                        </div>
                         <ul>
-                            <li>In de IJmond is behoefte aan last-mile OV-oplossingen voor werknemers. De verbinding van de NS-stations naar de verschillende bedrijventerreinen is onvoldoende. Om werknemers met resultaat te stimuleren om met het openbaar vervoer te reizen, moet echter ook de totale OV-infrastructuur goed op orde zijn. De afwaardering van de Kennemerlijn (treinverbinding tussen Haarlem en Alkmaar) per 1 januari 2016 en de noodzakelijke omleidingen van de regionale buslijnen vanwege de afsluiting van de Velsertunnel per 15 april 2016 hebben negatief effect gehad op de OV-resultaten van het programma.</li>
-                            <li>Een onderscheid maken tussen de beloningsstructuur van ambassadeurs (werknemers die al voor de start van de campagne op de fiets kwamen, dit blijven doen en ook uitdragen aan collega’s) en nieuwe fietsers (werknemers die naar aanleiding van de campagne starten met fietsen of wezenlijk vaker gaan fietsen) wekt wrevel op en zorgt voor zeer veel extra administratie.</li>
-                            <li>IJmond Bereikbaar heeft in 2017, als onderdeel van het loyaliteitsprogramma,  de fietsapp Ring-Ring bij haar deelnemers geïntroduceerd voor onder meer het registreren van de woon/werkfietskilometers. De kilometerregistratie was op dat moment niet meer gekoppeld aan de financiële beloning. De urgentie voor deelnemers om de app te gebruiken was daardoor sterk afgenomen. In de IJmond is het aantal gebruikers daardoor niet zo hoog als gewenst.</li>
 
                         </ul>
 
