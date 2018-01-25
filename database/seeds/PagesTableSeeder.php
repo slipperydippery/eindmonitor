@@ -217,13 +217,19 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Spelregels IJmond Bereikbaar – Goed op weg',
                 'description' => '',
                 'body' => '
-                        <img src="/img/spelregels.gif" class="thirty"/>
-                    <ul>
-                        <li>Medewerkers van werkgevers die een samenwerkingsovereenkomst hebben met IJmond Bereikbaar melden zich aan bij IJmond Bereikbaar en geven aan of zij overstappen van auto naar fiets of van auto naar openbaar vervoer.</li>
-                        <li>Een medewerker mag binnen of buiten de IJmond wonen. Woon/werkafstand wordt berekend op basis van de makkelijke doorfietsroute van de routeplanner van de Fietsersbond.</li>
-                        <li>In het geval van de overstap naar fiets, geeft de medewerker aan een ambassadeur of nieuwe fietser te zijn. Zij ontvangen van IJmond Bereikbaar een kilometervergoeding voor geregistreerde woon/werk-fietskilometers.</li>
-                        <li>In het geval van overstap naar OV, rekent IJmond Bereikbaar uit welke mobiliteitskaart het meest voordelig is en verzorgt een last-mile-oplossing middels shuttles of gratis gebruik van de OV-fiets.</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <ul>
+                                <li>Medewerkers van werkgevers die een samenwerkingsovereenkomst hebben met IJmond Bereikbaar melden zich aan bij IJmond Bereikbaar en geven aan of zij overstappen van auto naar fiets of van auto naar openbaar vervoer.</li>
+                                <li>Een medewerker mag binnen of buiten de IJmond wonen. Woon/werkafstand wordt berekend op basis van de makkelijke doorfietsroute van de routeplanner van de Fietsersbond.</li>
+                                <li>In het geval van de overstap naar fiets, geeft de medewerker aan een ambassadeur of nieuwe fietser te zijn. Zij ontvangen van IJmond Bereikbaar een kilometervergoeding voor geregistreerde woon/werk-fietskilometers.</li>
+                                <li>In het geval van overstap naar OV, rekent IJmond Bereikbaar uit welke mobiliteitskaart het meest voordelig is en verzorgt een last-mile-oplossing middels shuttles of gratis gebruik van de OV-fiets.</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="/img/spelregels.gif" class="fullwidth"/>
+                        </div>
+                    </div>
                     ',
                 'category_id' => 3,
             ],
@@ -240,7 +246,7 @@ class PagesTableSeeder extends Seeder
                         <li>Fietsers krijgen in de ‘IJmond-zomer’ (aprilt/m oktober) € 0,10 per fietskilometer en in de ‘IJmond-winter’ (novembert/m maart) € 0,15 per fietskilometer. Dit houdt veel fietsers ook in de donkere winterperiode op de fiets. </li>
                         <li>Met voldoende tijd en motivatie lukt het om extrinsieke motivatie om te buigen naar intrinsieke motivatie. Fietsers blijven fietsen omdat ze zich fitter voelen, geld besparen en in veel gevallen zelfs sneller op het werk zijn.</li>
                     </ul>
-                    <img src="/img/succesfactoren-werknemer.jpg" />
+                    <img src="/img/werknemers-succesfactoren.gif" />
                     ',
                 'category_id' => 3,
             ],
@@ -368,13 +374,6 @@ class PagesTableSeeder extends Seeder
                         <li>Het aanbieden van goede ‘last mile’ oplossingen heeft alleen kans van slagen als de totale OV-keten (trein/bus) goed is.</li>
 
                     </ul>
-                    ',
-                'category_id' => 4,
-            ],
-            [
-                'title' => ' ',
-                'description' => '',
-                'body' => '
                     ',
                 'category_id' => 4,
             ],
