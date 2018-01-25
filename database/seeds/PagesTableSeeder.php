@@ -350,14 +350,19 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Succesfactoren ',
                 'description' => '',
                 'body' => '
-                    <img src="/img/reisgedrag-succes-factoren.gif" class="fourty_wide" />
-                    <ul>
-                        <li>Laagdrempelige campagne voor fietsstimulering trekt veel mensen over de streep.</li>
-                        <li>Opbouw boodschap van extrinsieke naar intrinsieke motivatie maakt reisgedrag structureel.</li>
-                        <li>Door een substantieel aantal fietsers, krijgen de behaalde resultaten ook betekenis. Fietsers ervaren dat zij echt bijdragen aan een verbetering van de bereikbaarheid van hun directe omgeving.</li>
-                        <li>Het gratis uitproberen van een e-bike, creëert bewustzijn van de mogelijkheden voor een relatief grotere woon/werkafstand, zowel bij de werkgever als de werknemer.</li>
-
-                    </ul>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <ul>
+                                <li>Laagdrempelige campagne voor fietsstimulering trekt veel mensen over de streep.</li>
+                                <li>Opbouw boodschap van extrinsieke naar intrinsieke motivatie maakt reisgedrag structureel.</li>
+                                <li>Door een substantieel aantal fietsers, krijgen de behaalde resultaten ook betekenis. Fietsers ervaren dat zij echt bijdragen aan een verbetering van de bereikbaarheid van hun directe omgeving.</li>
+                                <li>Het gratis uitproberen van een e-bike, creëert bewustzijn van de mogelijkheden voor een relatief grotere woon/werkafstand, zowel bij de werkgever als de werknemer.</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="/img/reisgedrag-succes-factoren.gif" class="fullwidth" />
+                        </div>
+                    </div>
                     ',
                 'category_id' => 4,
             ],
@@ -365,15 +370,20 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Aandachtspunten',
                 'description' => '',
                 'body' => '
-                    <img src="/img/reisgedrag-aandachtspunten.gif" class="fourty_wide" />
-                    <ul>
-                        <li>De aanschafprijs van een e-bike is voor veel mensen een drempel. Het helpt wanneer werkgevers actief een fietsenplan voeren en waar mogelijk de financiële vergoeding voor de e-bike ophogen. Werkgevers zijn zelf nog vaak onvoldoende op de hoogte van wat zij hun medewerkers kunnen bieden.</li>
-                        <li>De overstap van autogebruik naar OV stimuleren kan alleen als de randvoorwaarden goed zijn.</li>
-                        <li>Het afwaarderen van de Kennemerlijn (treinverbinding Haarlem-Alkmaar) zorgde voor een extra overstap en maakte de reistijd langer, waardoor werknemers voorkeur bleven houden voor de auto.</li>
-                        <li>Waar de afsluiting van de Velsertunnel juist een stimulans was om over te stappen op de fiets, werkte dit nadelig voor het overstappen naar het openbaar vervoer. De bussen die normaal snel en betrouwbaar door de Velsertunnel reden, werden nu via de pont omgeleid met langere reistijd en extra overstappen tot gevolg.</li>
-                        <li>Het aanbieden van goede ‘last mile’ oplossingen heeft alleen kans van slagen als de totale OV-keten (trein/bus) goed is.</li>
-
-                    </ul>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <ul>
+                                <li>De aanschafprijs van een e-bike is voor veel mensen een drempel. Het helpt wanneer werkgevers actief een fietsenplan voeren en waar mogelijk de financiële vergoeding voor de e-bike ophogen. Werkgevers zijn zelf nog vaak onvoldoende op de hoogte van wat zij hun medewerkers kunnen bieden.</li>
+                                <li>De overstap van autogebruik naar OV stimuleren kan alleen als de randvoorwaarden goed zijn.</li>
+                                <li>Het afwaarderen van de Kennemerlijn (treinverbinding Haarlem-Alkmaar) zorgde voor een extra overstap en maakte de reistijd langer, waardoor werknemers voorkeur bleven houden voor de auto.</li>
+                                <li>Waar de afsluiting van de Velsertunnel juist een stimulans was om over te stappen op de fiets, werkte dit nadelig voor het overstappen naar het openbaar vervoer. De bussen die normaal snel en betrouwbaar door de Velsertunnel reden, werden nu via de pont omgeleid met langere reistijd en extra overstappen tot gevolg.</li>
+                                <li>Het aanbieden van goede ‘last mile’ oplossingen heeft alleen kans van slagen als de totale OV-keten (trein/bus) goed is.</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="/img/reisgedrag-aandachtspunten.gif" class="fullwidth" />
+                        </div>
+                    </div>
                     ',
                 'category_id' => 4,
             ],
