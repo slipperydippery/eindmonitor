@@ -35,6 +35,7 @@
                         {!! $page->body !!}
                     </div>
                 </div>
+                <hr>  
             @endforeach
         @endif
     </div>
