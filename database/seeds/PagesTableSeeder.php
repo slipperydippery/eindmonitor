@@ -317,21 +317,21 @@ class PagesTableSeeder extends Seeder
 
 
                     <div class="row">
-                        <div class="col-sm-4">
-                            <img src="/img/reisgedrag_fietstijden.jpg" class="fullwidth" />
-                        </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-9">
                             <p>File of fietsen? </p>
                             <ul>
                                 <li>Je woont dichterbij dan je denkt</li>
                                 <li>Waarom aansluiten in de rij als je ook makkelijk kunt fietsen</li>
                             </ul>
                         </div>
+                        <div class="col-sm-3">
+                            <img src="/img/reisgedrag_fietstijden.jpg" class="fullwidth" />
+                        </div>
                     </div>
                     <br>
 
                     <div class="row">
-                        <div class="col-sm-8">
+                        <div class="col-sm-9">
                             <p>Uit de enquêteresultaten blijkt dat, naast het financiële argument, gezondheid een belangrijke motivator is om te fietsen. In de loop van de tijd verschuift de campagneboodschap dan ook naar de intrinsieke motivatie.</p>
                             <p>Ook in 2017 fris op je werk? Natuurlijk op de fiets </p>
                             <ul>
@@ -339,13 +339,13 @@ class PagesTableSeeder extends Seeder
                                 <li>Het is goed voor het milieu. Jij vermindert de uitstoot van CO2 door te fietsen én een betere doorstroming van het overige verkeer doet daar een schepje bovenop. </li>
                             </ul>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
                             <img src="/img/reisgedrag_frisfietsen.jpg" class="fullwidth " />
                         </div>
                     </div>
 
 
-                    <h2>Beloning</h2>
+                    <strong>Beloning</strong>
                     <ul>
                         <li>IJmond Bereikbaar beloont de fietsers financieel met een vergoeding voor geregistreerde fietskilometers van € 0,10 p/km in de zomer en € 0,15 p/km in de winter.</li>
                         <li>Fietsers krijgen een gratis jaarabonnement op de pechservice van FietsNed. </li>
