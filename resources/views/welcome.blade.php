@@ -12,7 +12,7 @@
         <generator></generator>
         <div class="container row">
             <div class="mapcontainer">
-                <img src="/img/tempmap.png" alt="" class="welcome--img">
+                <img src="/img/kaart-animatie.gif" alt="" class="welcome--img">
                 <div class="mapoverlay">
                     <div class="overlay--block overlay--block__bus">
                         <img src="/img/bus.svg" alt="">

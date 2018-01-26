@@ -5,6 +5,12 @@
 	}
 }
 
+.chart__nopaddingbottom {
+	canvas {
+		padding-bottom: 0;
+	}
+}
+
 .chart--halfwidth {
 	width: 50%;
 	height: auto;

@@ -1,5 +1,5 @@
 <template>
-    <div class="chart">
+    <div class="chart chart__nopaddingbottom">
         <canvas width="940" height="470" ref="canvas"></canvas>
     </div>
 </template>
@@ -81,7 +81,7 @@
                     },{
                     label: 'Opniew',
                     data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 2, 14, 0, 0, 4, 0, 0, 1, 0, 0 ],
-                    backgroundColor: this.green_verylight,
+                    backgroundColor: this.blue_dark,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,

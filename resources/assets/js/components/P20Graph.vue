@@ -45,7 +45,7 @@
                 datasets: [{
                     label: 'Ambities',
                     data: [100],
-                    // backgroundColor: this.cyan_dark,
+                    backgroundColor: this.blue_dark,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -54,7 +54,7 @@
                     },{
                     label: 'Resultaat',
                     data: [170],
-                    backgroundColor: this.cyan_dark,
+                    // backgroundColor: this.cyan_dark,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,

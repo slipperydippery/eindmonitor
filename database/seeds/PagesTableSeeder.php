@@ -32,22 +32,18 @@ class PagesTableSeeder extends Seeder
 
                         <p>De belangrijkste maatregelen die IJmond bereikbaar heeft ingezet van 2015-2017 zijn:</p>
                         <ul>
-                            <li>de fietsvergoeding</li>
-                            <li>de fietsapp ring-ring</li>
-                            <li>shuttelbus</li>
-                            <li>stimuleren ov </li>
+                            <li>De fietsvergoeding</li>
+                            <li>De fietsapp ring-ring</li>
+                            <li>Shuttelbus</li>
+                            <li>Stimuleren ov </li>
                         </ul>
 
                         <p>Lees meer over onze werkgeversaanpak en de acties die gedaan zijn om werknemers over de streep te trekken en vast te houden. </p>
                         <h2>Resultaten ontwikkeling fietsdeelnemers</h2>
                         <p>De grafiek hieronder laat zien dat er een toename van het aantal fietsdeelnemers is geweest van oktober 2015 tot en met maart 2017. In die periode heeft IJmond bereikbaar een fietsvergoeding gegeven aan fietsdeelnemers. In de periode van maart 2016 tot en met januari 2017 was de Velsertunnel gesloten vanwege renovatie. Dit kan ook bijgedragen hebben tot een toename van fietsdeelnemers. </p>
-                        <ul>
-                            <li><strong>Pilotfase:</strong> januari 2015 - mei 2015</li>
-                            <li><strong>Campagnefase:</strong> mei 2015 - april 2016</li>
-                            <li><strong>Verankeringsfase:</strong> april 2016 - oktober 2017</li>
-                        </ul>
                         <p16-graph></p16-graph>
-
+                        <img src="/img/drie fases - lc.svg" class="fullwidth" />
+                    
                         <h2>Ambassadeurs</h2>
                         <p>IJmond bereikbaar heeft ambassadeurs ingezet om het fietsprogramma te stimuleren.</p>
                         <div class="page--intwo">
