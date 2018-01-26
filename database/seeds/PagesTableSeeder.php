@@ -302,7 +302,7 @@ class PagesTableSeeder extends Seeder
                     <div class="row">
                         <div class="col-sm-9">
                             <p>Bij de start van de campagne ligt de nadruk op extrinsieke motivatie en bewustzijn creëren voor alternatieven voor de auto.</p>
-                            <p>Op de fiets naar je werk… Dat is besparen én verdienen.</p>
+                            <strong>Op de fiets naar je werk… Dat is besparen én verdienen.</strong>
                             <ul>
                                 <li>Geen benzinekosten, geen parkeerkosten</li>
                                 <li>Onderhoudskosten van een fiets zijn lager dan die van de auto</li>
@@ -316,22 +316,11 @@ class PagesTableSeeder extends Seeder
                     </div>
 
 
-                    <div class="row">
-                        <div class="col-sm-9">
-                            <p>File of fietsen? </p>
-                            <ul>
-                                <li>Je woont dichterbij dan je denkt</li>
-                                <li>Waarom aansluiten in de rij als je ook makkelijk kunt fietsen</li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="/img/reisgedrag_fietstijden.jpg" class="fullwidth" />
-                        </div>
-                    </div>
                     <br>
 
                     <div class="row">
                         <div class="col-sm-9">
+                            <strong>Enquêteresultaten</strong>
                             <p>Uit de enquêteresultaten blijkt dat, naast het financiële argument, gezondheid een belangrijke motivator is om te fietsen. In de loop van de tijd verschuift de campagneboodschap dan ook naar de intrinsieke motivatie.</p>
                             <p>Ook in 2017 fris op je werk? Natuurlijk op de fiets </p>
                             <ul>
@@ -344,6 +333,24 @@ class PagesTableSeeder extends Seeder
                         </div>
                     </div>
 
+                    <br>
+
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <strong>File of fietsen? </strong>
+                            <ul>
+                                <li>Je woont dichterbij dan je denkt</li>
+                                <li>Waarom aansluiten in de rij als je ook makkelijk kunt fietsen</li>
+                                <li>IJmond bereikbaar heeft een snelfietsroutekaart gemaakt</li>
+                                <ul>
+                                    <li>Daarop zijn de kortste fietsroutes in de IJmond te zien</li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="/img/reisgedrag_fietstijden.jpg" class="fullwidth" />
+                        </div>
+                    </div>
 
                     <strong>Beloning</strong>
                     <ul>
