@@ -41,11 +41,15 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'title' => 'Fietsritregistratie',
-                'description' => 'This is the first description'
+                'description' => 'Deelnemers aan het fietsstimuleringsprogramma van IJmond Bereikbaar ontvingen tussen 1 mei 2015 tot en met 31 maart 2017 een financiële vergoeding voor iedere gefietste én geregistreerde woon/werkkilometer. Fietsers werd gevraagd één keer per maand een online fietsritregistratieformulier in te vullen. Sinds mei 2017 kunnen deelnemers hun ritten ook automatisch registreren met de fietsapp van Ring-Ring. De fietsapp geeft daarnaast ook leuke weetjes over het fietsgedrag en is een effectief loyaliteitsinstrument.'
             ],
             [
                 'title' => 'Communicatie',
-                'description' => 'This is the first description'
+                'description' => 'IJmond Bereikbaar heeft gedurende de hele periode 2015-2017 gecommuniceerd met alle doelgroepen het bedrijfsleven, de werknemers, overheden en overige stakeholders. De toon van de communicatie is positief en stimulerend. Werkgevers en hun werknemers worden bewust gemaakt van de mogelijkheden die er zijn om de auto te laten staan voor het woon/werkverkeer en te kiezen voor de fiets of het openbaar vervoer. De werkgevers krijgen bovendien inzicht in de <a href="/kopgroep">stimuleringsmaatregelen</a> die zij zelf kunnen nemen en worden geholpen met het aanvragen van subsidie voor kleine infrastructurele maatregelen.'
+            ],
+            [
+                'title' => '2018 – 2021 Slimme & Duurzame Mobiliteit IJmond',
+                'description' => 'In de IJmond zijn nu en in 2030 duidelijke bereikbaarheidsproblemen. De aantrekkende economie zorgt voor meer vervoersbewegingen dan ooit. Daarnaast is de IJmond nog steeds een aandachtsgebied als het gaat om de luchtkwaliteit en is de CO2-uitstoot door het wegverkeer relatief hoog. Vanuit die invalshoek is – met het succesvolle programma IJmond Bereikbaar 2015-2017 als fundament – een integraal programma Slimme & Duurzame Mobiliteit IJmond 2018 – 2021 opgezet.'
             ],
         ];
 

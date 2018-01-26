@@ -41,7 +41,7 @@
                             <a href="/contact">Contact</a>
                         </li>
                         <li>
-                            <a href="/graphs">Graphs</a>
+                            <a href="/kopgroep">Kopgroep</a>
                         </li>
                     </ul>
                 </nav>

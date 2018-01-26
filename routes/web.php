@@ -17,6 +17,7 @@ Route::get('/samenwerking', function () {return view('pages.samenwerking'); });
 Route::get('/fasering', function () {return view('pages.fasering'); });
 Route::get('/contact', function () {return view('pages.contact'); });
 Route::get('/graphs', function () {return view('pages.graphs'); });
+Route::get('/kopgroep', function () {return view('pages.kopgroep'); });
 
 Route::resource('category', 'CategoriesController');
 Route::resource('page', 'PagesController');
