@@ -2,6 +2,11 @@
 	margin-top: 3rem;
 }
 
+.margin--vertical {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
 .left {
 	float: left;
 }
@@ -26,6 +31,11 @@
 
 .eighty_wide {
 	width: 80%;
+	height: auto;
+}
+
+.seventy_wide {
+	width: 70%;
 	height: auto;
 }
 

@@ -19,7 +19,11 @@
             :page = " {{ $activepage }} "
         >
         </generator>
-
+        <div class="row container">
+            <div class="col-sm-12">
+                <h1 class="categorytitle"> {{ $category->title }} </h1>
+            </div>
+        </div>
         @if(isset($page))
             <div class="container row">
                 <div class="col-sm-12">
@@ -35,6 +39,7 @@
                         {!! $page->body !!}
                     </div>
                 </div>
+                <div class="totop container"><a href="#app"><span>Naar de top</span><img src="/img/top.svg" alt=""></a></div>
                 <hr>  
             @endforeach
         @endif

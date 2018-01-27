@@ -3,6 +3,14 @@ h1 {
     color: $themecolor-1;
 }
 
+h1.categorytitle {
+	font-size: 6rem;
+	border-bottom: 5px solid;
+	background: #a1c50f1f;
+	/* color: white; */
+	padding: 2rem;
+}
+
 p {
 	font-weight: 400;
 }

@@ -61,3 +61,27 @@ html, body {
 
     }
 }
+
+.totop {
+    width: 100%;
+    height: 3rem;
+    text-align: right;
+    margin-bottom: -1.5rem;
+    a{
+        span {
+            margin: 0 1rem;
+            font-family: 'Varela Round', sans-serif;
+            color: $themecolor-1;
+        }
+        img {
+            display: inline-block;
+            height: 100%;
+        }
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    a:hover span {
+        color: $themecolor-1--verydark;
+    }
+}
