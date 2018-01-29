@@ -147,7 +147,7 @@ class PagesTableSeeder extends Seeder
                 'description' => '',
                 'body' => '
                     <p>Om aan het fietsprogramma mee te doen heeft IJmond Berijkbaar een aantal spelregels opgesteld voor de werkgever. </p>
-                    <img src="/img/werkgevers-spelregels.svg" class="fullwidth" />
+                    <img src="/img/werkgevers-spelregels.gif" class="fullwidth" />
                     ',
                 'category_id' => 2,
             ],
@@ -594,7 +594,7 @@ class PagesTableSeeder extends Seeder
                 'body' => '
                     <p>Van 1 mei 2015 t/m 31 maart 2017 heeft IJmond Berijkbaar een vergoeding voor gefietste woon/werkkilometers verstrekt aan de deelnemers van het fietsstimuleringsprogramma. Om in aanmerking te komen voor deze vergoeding waren zij verplicht om hun fietsritten maandelijks te registreren. </p>
 
-                    <strong>HIER MOET EEN ANIMATIE</strong>
+                    <img src="/img/fietsritregistratie_zowerkthet.svg" class="fullwidth" />
 
                     <p>Met het beëindigen van de fietskilometervergoeding per 1 april 2017 is het registreren van de ritten niet langer verplicht. Aan het verzoek om deze informatie wel te blijven verstrekken voor o.a. monitorings- en rapportagedoeleinden, heeft ca. 60% van de fietsers gehoor gegeven.</p>
                     ',

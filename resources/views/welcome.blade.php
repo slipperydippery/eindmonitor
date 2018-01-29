@@ -14,16 +14,12 @@
             <div class="mapcontainer">
                 <img src="/img/kaart-animatie.gif" alt="" class="welcome--img">
                 <div class="mapoverlay">
-                    <div class="overlay--block overlay--block__bus">
-                        <img src="/img/bus.svg" alt="">
+                    <div class="overlay--block overlay--block__auto">
+                        <img src="/img/auto.svg" alt="">
                         <div class="overlay--block--hover">
-                            <ul>
-                                <li><a href="#">test text</a></li>
-                                <li><a href="#">test text</a></li>
-                                <li><a href="#">test text</a></li>
-                                <li><a href="#">test text</a></li>
-                                <li><a href="#">test text</a></li>
-                            </ul>
+                            <span>
+                                Per werkweek 4250 auto’s uit de ochtendspits
+                            </span>
                         </div>
                     </div>
                 </div>

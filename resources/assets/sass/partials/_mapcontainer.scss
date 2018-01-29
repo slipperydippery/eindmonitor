@@ -11,44 +11,54 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		// background: rgba(255,0,0,0.1);
 		.overlay--block {
 			position: absolute;
-			width: 10%;
+			width: 7%;
 			img {
 				width: 100%;
 			}
 			.overlay--block--hover {
-				background: rgba(255,0,0,0.1);
-				width: 16rem;
-				height: 0;
+				width: 200%;
+				margin-left: -50%;
+				max-height: 0;
+				border: 0px solid rgba(0,0,0,1);
 				padding-left: 1rem;;
 				padding-right: 1rem;;
+				font-weight: 400;
+				background: white;
 				overflow: hidden;
-				transition: all .5s;
-				ul {
-					padding: 0;
-					
-					li {
-						list-style: none;
-						height: 0;
-					}
-				}
 			}
 		}
 		.overlay--block:hover .overlay--block--hover{
-			height: auto;
-			// height: 8rem;
+			border: 1px solid rgba(0,0,0,.4);
+			max-height: 150px;
 			padding: 1rem;
-		}
-		.overlay--block:hover .overlay--block--hover li {
-			height: 2.5rem;
-			transition: all .5s;
+			transition: all .5s ease-in;
 		}
 	}
 }
 
+.overlay--block__auto {
+	left: 78%;
+	top: 51%;
+}
+.overlay--block__fiets {
+	left: 46%;
+    top: 83%;
+}
+.overlay--block__fiets_twee {
+	left: 49%;
+	top: 33%;
+}
 .overlay--block__bus {
 	left: 10%;
+	top: 30%;
+}
+.overlay--block__trein {
+	left: 30%;
+	top: 30%;
+}
+.overlay--block__pont {
+	left: 40%;
 	top: 30%;
 }
