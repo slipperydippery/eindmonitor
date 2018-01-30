@@ -43,6 +43,8 @@ Vue.component('p25-graph', require('./components/P25Graph.vue'));
 Vue.component('p26-graph', require('./components/P26Graph.vue'));
 Vue.component('p27-graph', require('./components/P27Graph.vue'));
 Vue.component('p30-graph', require('./components/P30Graph.vue'));
+Vue.component('p31-graph', require('./components/P31Graph.vue'));
+Vue.component('p32-graph', require('./components/P32Graph.vue'));
 
 
 const app = new Vue({

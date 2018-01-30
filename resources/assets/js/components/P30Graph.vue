@@ -17,13 +17,23 @@
                 legend: '',
                 scrolled: false,
                 blue_dark: '#04659e',
+                blue_0: '#011c2b',
+                blue_1: '#023451',
+                blue_2: '#034d78',
+                blue_3: '#04659e',
+                blue_4: '#057dc4',
+                blue_5: '#058ad7',
+                blue_6: '#0696eb',
                 green_verylight: '#bfe912',
                 green_light: '#b0d710',
                 green: '#a1c50f',
                 green_dark: '#92b30e',
                 green_verydark: '#1e6d37',
                 yellow: '#f6d511',
-                red: 'red',
+                red_light: '#eb0624',
+                red: '#c4051e',
+                red_dark: '#9e0418',
+                red_verydark: '#780312',
                 cyan_dark: '#247F77',
             }
         },
@@ -48,6 +58,7 @@
                     backgroundColor: "rgba(0, 0, 0, 0)",
                     type: 'line',
                     borderColor: this.green,
+                    pointRadius: 0,
                     // lineTension: .2,
                     // borderWidth: 1,
                     // pointBackgroundColor: "#fff",
@@ -57,7 +68,8 @@
                     data: [55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55,], 
                     backgroundColor: "rgba(0, 0, 0, 0)",
                     type: 'line',
-                    borderColor: this.red,
+                    pointRadius: 0,
+                    borderColor: this.red_verydark,
                     // lineTension: .2,
                     // borderWidth: 1,
                     // pointBackgroundColor: "#fff",
@@ -67,6 +79,7 @@
                     data: [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15], 
                     backgroundColor: "rgba(0, 0, 0, 0)",
                     type: 'line',
+                    pointRadius: 0,
                     borderColor: this.red,
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -124,7 +137,7 @@
                 },
                 title: {
                     display: true,
-                    text: "fietsgerelateerde maatregelen versus percentage fietsers onder werknemers bij de koplopers van IJmond Bereikbaar "
+                    text: "Fietsgerelateerde maatregelen versus percentage fietsers onder werknemers bij de koplopers van IJmond Bereikbaar "
                 }
             };
             const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "bar", data: data, options: options });

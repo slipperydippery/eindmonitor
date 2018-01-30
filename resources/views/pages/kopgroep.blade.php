@@ -28,6 +28,8 @@
                     <li>Zij investeren in voorzieningen als een goede fietsenstalling, laadpalen voor e-bikes, kluisjes, douchegelegenheid e.d.</li>
                 </ul>
                 <p30-graph></p30-graph>
+                <p31-graph></p31-graph>
+                <p32-graph></p32-graph>
             </div>
         </div>
     </div>
