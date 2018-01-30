@@ -17,6 +17,9 @@ nav {
 				font-size: 2rem;				
 				font-weight: 900;
 				transition: all .5s;
+				img {
+					height: 2rem;
+				}
 			}
 			a:hover {
 				text-decoration: none;

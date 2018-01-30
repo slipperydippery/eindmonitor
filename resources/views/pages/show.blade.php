@@ -33,7 +33,7 @@
             </div>
         @else
             @foreach($category->pages as $page)
-                <div class="container row category--page">
+                <div class="container row category--page" id=" {{ $page->id }} ">
                     <div class="col-sm-12">
                         <h1>{{ $page->title }}</h1>
                         {!! $page->body !!}

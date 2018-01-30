@@ -41,7 +41,7 @@
                             <a href="/kopgroep">Zo werkt de kopgroep</a>
                         </li>
                         <li class="right">
-                            <a href="/contact">Contact</a>
+                            <a href="/contact"><img src="/img/icon_contact.svg" alt=""></a>
                         </li>
                     </ul>
                 </nav>

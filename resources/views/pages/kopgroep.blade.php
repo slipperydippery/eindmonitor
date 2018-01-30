@@ -7,13 +7,14 @@
                 <p>De regio IJmond is de thuisbasis van ruim 150.000 inwoners. We wonen, werken en recreëren in een compacte regio, gevormd door de gemeenten Velsen, Heemskerk en Beverwijk. Onze regio wordt gekenmerkt door de maakindustrie met Tata Steel als grootste werkgever. Toonaangevend zijn ook de havens, transportbedrijven en een grote diversiteit aan innovatieve MKB-bedrijven. In onze kustplaatsen zijn er volop kansen voor het toerisme. De regio IJmond is onderdeel van de Metropoolregio Amsterdam en we werken op diverse thema’s samen.</p>
             </div>
         </div>
+        <generator></generator>
         <div class="container row">
             <div class="col-sm-12">
                 <h1>Zo werkt de kopgroep</h1>
 
             </div>
         </div>
-        <div class="container row">
+        <div class="container row container--page--last">
             <div class="col-sm-12">
                 <img src="/img/zo_werkt_de_kopgroep.jpg" alt="" />
                 <p>Bedrijven en instellingen die de kopgroep van IJmond Bereikbaar vormen, voeren een actief beleid op de thema’s fietsstimulering, vitaliteit en voorzieningen.</p>
@@ -30,6 +31,8 @@
                 <p30-graph></p30-graph>
                 <p31-graph></p31-graph>
                 <p32-graph></p32-graph>
+
+                <div class="totop container"><a href="#app"><span>Naar de top</span><img src="/img/top.svg" alt=""></a></div>
             </div>
         </div>
     </div>

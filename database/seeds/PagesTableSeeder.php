@@ -33,8 +33,8 @@ class PagesTableSeeder extends Seeder
                         <p>De belangrijkste maatregelen die IJmond Bereikbaar heeft ingezet van 2015-2017 zijn:</p>
                         <ul>
                             <li>De fietsvergoeding</li>
-                            <li>De fietsapp ring-ring</li>
-                            <li>Shuttelbus</li>
+                            <li>De fietsapp Ring-Ring</li>
+                            <li>Shuttlebus</li>
                             <li>Stimuleren ov </li>
                         </ul>
 
@@ -87,9 +87,11 @@ class PagesTableSeeder extends Seeder
                     <div class="page--intwo">
                         <div class="page--intwo--item">
                             <p23-graph></p23-graph>
-                            <p class="chart--subtext">Van september 2015 t/m september 2016 is een extra spitspont ingezet.  In september 2016 is de Velsertunnel gesloten.</p>
+                            <p class="chart--subtext">Van september 2015 t/m september 2016 is een extra spitspont ingezet.  In september 2016 is de Velsertunnel gesloten. Met spitspont houdt in dat er gedurende de spits iedere 10 minuten een afvaart is. Zonder spitspont is er iedere 20 minuten een afvaart. </p>
                         </div>
                         <div class="page--intwo--item">
+                            <p>Het hoogtepunt van het aantal (brom)fietsers dat gebruik maakt van de pont ligt uiteraard in september 2016: door de tweede pont in de spits iedere 10 minuten een afvaart én de Velsertunnel afgesloten door de renovatie. We zien dan een toename van 40%. Structureel zorgt de tweede spitspont voor 15% extra (brom)fietsers die gebruik maken van ‘het blauwe fietspad’.</p>
+
                             <p>Voor en na de afsluiting van de Velsertunnel hebben de IJmondgemeenten een aantal fietspaden verbeterd, om met name de bereikbaarheid van een aantal bedrijventerreinen te verbeteren. Tijdens de afsluiting van de Velsertunnel hebben gemeenten zo min mogelijk wegwerkzaamheden uitgevoerd, om zodoende geen hinder te veroorzaken. </p>
                         </div>
                     </div>
@@ -113,7 +115,7 @@ class PagesTableSeeder extends Seeder
                 'body' => '
                         <div class="row">
                             <div class="col-sm-9">
-                                <ul>
+                                <ul class="list--longli">
                                     <li>In de IJmond is behoefte aan last-mile OV-oplossingen voor werknemers. De verbinding van de NS-stations naar de verschillende bedrijventerreinen is onvoldoende. Om werknemers met resultaat te stimuleren om met het openbaar vervoer te reizen, moet echter ook de totale OV-infrastructuur goed op orde zijn. De afwaardering van de Kennemerlijn (treinverbinding tussen Haarlem en Alkmaar) per 1 januari 2016 en de noodzakelijke omleidingen van de regionale buslijnen vanwege de afsluiting van de Velsertunnel per 15 april 2016 hebben negatief effect gehad op de OV-resultaten van het programma.</li>
                                     <li>Een onderscheid maken tussen de beloningsstructuur van ambassadeurs (werknemers die al voor de start van de campagne op de fiets kwamen, dit blijven doen en ook uitdragen aan collega’s) en nieuwe fietsers (werknemers die naar aanleiding van de campagne starten met fietsen of wezenlijk vaker gaan fietsen) wekt wrevel op en zorgt voor zeer veel extra administratie.</li>
                                     <li>IJmond Bereikbaar heeft in 2017, als onderdeel van het loyaliteitsprogramma,  de fietsapp Ring-Ring bij haar deelnemers geïntroduceerd voor onder meer het registreren van de woon/werkfietskilometers. De kilometerregistratie was op dat moment niet meer gekoppeld aan de financiële beloning. De urgentie voor deelnemers om de app te gebruiken was daardoor sterk afgenomen. In de IJmond is het aantal gebruikers daardoor niet zo hoog als gewenst.</li>
@@ -131,7 +133,7 @@ class PagesTableSeeder extends Seeder
                 'category_id' => 1,
             ],
             [
-                'title' => 'Programma ‘goed op weg’',
+                'title' => 'Programma ‘Goed op weg’',
                 'description' => '',
                 'body' => '
                     <p>Eind 2014 zijn 10 bedrijven benaderd om mee te doen met een pilot-programma. Deze bedrijven hebben getest of zij hun medewerkers konden bewegen de auto vaker te laten staan en op de fiets of met het OV openbaar vervoer naar het werk te komen. En met succes. Vanaf 1 mei 2015 is het stimuleringsprogramma ‘IJmond Bereikbaar – Goed op weg’ in de hele IJmond geïntroduceerd.</p>
@@ -193,9 +195,26 @@ class PagesTableSeeder extends Seeder
                 'body' => '
                     <img src="/img/campagne fase- lc.svg" class="fullwidth" />
                     <p>Werknemers van bedrijven en instellingen uit de IJmond die een samenwerkingsovereenkomst hebben met IJmond Bereikbaar kunnen zich aanmelden voor het mobiliteitsprogramma. </p>
+                    <h2>Nieuwe fietsers en ambassadeurs </h2>
+                    <img src="/img/mobiliteit_luchtkwaliteit_v2.svg" />
                     <p17-graph></p17-graph>
                     <p>Medewerkers melden zich massaal aan voor het fietsstimuleringsprogramma. De kilometervergoeding trekt veel mensen over de streep. Daarnaast is ook de sluiting van de Velsertunnel van 15 april 2016 tot 15 januari 2017 voor veel mensen aanleiding om van vervoersmiddel te veranderen. Slechts 2% is geïnteresseerd om over te stappen van de auto naar het openbaar vervoer. </p>
-                    <img src="/img/fase1-werknemers.svg" class="fullwidth" />
+                    
+                    <h2>Spelregels IJmond Bereikbaar – Goed op weg</h2>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <ul>
+                                <li>Medewerkers van werkgevers die een samenwerkingsovereenkomst hebben met IJmond Bereikbaar melden zich aan bij IJmond Bereikbaar en geven aan of zij overstappen van auto naar fiets of van auto naar openbaar vervoer.</li>
+                                <li>Een medewerker mag binnen of buiten de IJmond wonen. Woon/werkafstand wordt berekend op basis van de makkelijke doorfietsroute van de routeplanner van de Fietsersbond.</li>
+                                <li>In het geval van de overstap naar fiets, geeft de medewerker aan een ambassadeur of nieuwe fietser te zijn. Zij ontvangen van IJmond Bereikbaar een kilometervergoeding voor geregistreerde woon/werk-fietskilometers.</li>
+                                <li>In het geval van overstap naar OV, rekent IJmond Bereikbaar uit welke mobiliteitskaart het meest voordelig is en verzorgt een last-mile-oplossing middels shuttles of gratis gebruik van de OV-fiets.</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="/img/spelregels.gif" class="fullwidth"/>
+                        </div>
+                    </div>
+                    <img src="/img/werknemers-fase-1.gif" class="fullwidth" />
 
                     ',
                 'category_id' => 3,
@@ -206,6 +225,9 @@ class PagesTableSeeder extends Seeder
                 'body' => '
                     <img src="/img/verankering fase- lc.svg" class="fullwidth" />
                     <p>Medio januari 2017 gaat de Velsertunnel weer open. IJmond Bereikbaar betaalt nog tot 31 maart een kilometervergoeding aan haar fietsers en start daarnaast met een afwisselend loyaliteitsprogramma. Ook wordt in april 2017 de fietsapp van Ring-Ring geïntroduceerd. Uit enquêteresultaten blijkt dat in 6 tot 9 maanden extrinsieke motivatie omgevormd kan worden naar intrinsieke motivatie. Ook zonder kilometervergoeding blijft 95% van de deelnemers fietsen.</p>
+
+                    <h2>Snelfietsroute</h2>
+                    <img src="/img/trace fietsroute2.png" class="fullwidth" />
 
                     <h2>Enquêteresultaten deelnemende werknemers zomer 2017</h2>
 
@@ -238,26 +260,6 @@ class PagesTableSeeder extends Seeder
                     </ul>
 
 
-                    ',
-                'category_id' => 3,
-            ],
-            [
-                'title' => 'Spelregels IJmond Bereikbaar – Goed op weg',
-                'description' => '',
-                'body' => '
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <ul>
-                                <li>Medewerkers van werkgevers die een samenwerkingsovereenkomst hebben met IJmond Bereikbaar melden zich aan bij IJmond Bereikbaar en geven aan of zij overstappen van auto naar fiets of van auto naar openbaar vervoer.</li>
-                                <li>Een medewerker mag binnen of buiten de IJmond wonen. Woon/werkafstand wordt berekend op basis van de makkelijke doorfietsroute van de routeplanner van de Fietsersbond.</li>
-                                <li>In het geval van de overstap naar fiets, geeft de medewerker aan een ambassadeur of nieuwe fietser te zijn. Zij ontvangen van IJmond Bereikbaar een kilometervergoeding voor geregistreerde woon/werk-fietskilometers.</li>
-                                <li>In het geval van overstap naar OV, rekent IJmond Bereikbaar uit welke mobiliteitskaart het meest voordelig is en verzorgt een last-mile-oplossing middels shuttles of gratis gebruik van de OV-fiets.</li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="/img/spelregels.gif" class="fullwidth"/>
-                        </div>
-                    </div>
                     ',
                 'category_id' => 3,
             ],
@@ -321,7 +323,10 @@ class PagesTableSeeder extends Seeder
                     <div class="row">
                         <div class="col-sm-9">
                             <strong>Enquêteresultaten</strong>
-                            <p>Uit de enquêteresultaten blijkt dat, naast het financiële argument, gezondheid een belangrijke motivator is om te fietsen. In de loop van de tijd verschuift de campagneboodschap dan ook naar de intrinsieke motivatie.</p>
+                            <p>Uit de enquêteresultaten blijkt dat, naast het financiële argument, gezondheid een belangrijke motivator is om te fietsen. In de loop van de tijd verschuift de campagneboodschap dan ook naar de intrinsieke motivatie.</p>     
+                            <p>Blijft u fietsen na 31 maart 2017 als de campagne en daarmee ook de kilometervergoeding stopt? 96% zegt ja! Redenen om te blijven fietsen: gezondheid/conditie – goed voor het milieu – bereikbaarheid (sneller dan met de auto)</p>
+                            <p>Motieven : gezondheid 82%, milieu 50% , km-vergoeding 46%</p>
+
                             <p>Ook in 2017 fris op je werk? Natuurlijk op de fiets </p>
                             <ul>
                                 <li>Het is goed voor je. Fietsen maakt fysiek fit en geeft ruimte in je hoofd.</li>
@@ -339,27 +344,15 @@ class PagesTableSeeder extends Seeder
                         <div class="col-sm-9">
                             <strong>File of fietsen? </strong>
                             <ul>
-                                <li>Je woont dichterbij dan je denkt</li>
-                                <li>Waarom aansluiten in de rij als je ook makkelijk kunt fietsen</li>
-                                <li>IJmond Bereikbaar heeft een snelfietsroutekaart gemaakt</li>
-                                <ul>
-                                    <li>Daarop zijn de kortste fietsroutes in de IJmond te zien</li>
-                                </ul>
+                                <li>Je woont dichterbij dan je denkt.</li>
+                                <li>Waarom aansluiten in de rij als je ook makkelijk kunt fietsen?</li>
+                                <li>IJmond Bereikbaar heeft een fietsroutekaart die aangeeft wat de fietsafstand tussen de verschillende gemeenten is.</li>
+                                <li>Daarop zijn de kortste fietsroutes in de IJmond te zien</li>
+                                <li>Dat is besparen én verdienen’  Gratis abonnement op de pechhulpservice van FietsNed.</li>
                             </ul>
                         </div>
                         <div class="col-sm-3">
                             <img src="/img/reisgedrag_fietstijden.jpg" class="fullwidth" />
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-9">
-                            <strong>Beloning</strong>
-                            <ul>
-                                <li>IJmond Bereikbaar beloont de fietsers financieel met een vergoeding voor geregistreerde fietskilometers van € 0,10 p/km in de zomer en € 0,15 p/km in de winter.</li>
-                                <li>Fietsers krijgen een gratis jaarabonnement op de pechservice van FietsNed. </li>
-                                <li>Vanaf september 2016 starten de loyaliteitscampagnes om fietsers uit te dagen om een tandje bij te zetten en vol te houden.</li>
-                            </ul>
                         </div>
                     </div>
 
@@ -368,15 +361,8 @@ class PagesTableSeeder extends Seeder
                     <p>Om de actieradius van fietsers te vergroten, wordt de fietsstimuleringscampagne uitgebreid met de e-bike. De e-bike is, algemeen genomen, een geschikt alternatief voor de auto voor woon/werkafstanden tot 20 km. IJmond Bereikbaar biedt een probeer-actie aan via geïnteresseerde werkgevers. Alle medewerkers mogen de e-bike gratis uitproberen voor zowel woon/werkverkeer, als privégebruik. Hierna volgt een aanbod voor lease of koop van een nieuwe of gebruikte e-bike. We werken hiervoor samen met sQoot, die een divers aanbod heeft en de werkgevers ontzorgt.</p>
 
                     <h2>Beloning</h2>
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <p>Resultaat</p>
-                            <p>Het aantal IJmond Bereikbaar fietsers en fietskilometers groeit gestaag. Het deelnemersbestand wordt per kwartaal opgeschoond. Deelnemers die 3 maanden geen kilometers registreren worden op non-actief gezet en tellen niet meer mee voor de aantallen fietsers in de community. Dit houdt de resultaten transparant en actueel.</p>
-                        </div>
-                        <div class="col-sm-5">
-                            <img src="/img/reisgedrag-beloning.svg" class="fullwidth" />
-                        </div>
-                    </div>
+                    <p>Resultaat</p>
+                    <p>Het aantal IJmond Bereikbaar fietsers en fietskilometers groeit gestaag. Het deelnemersbestand wordt per kwartaal opgeschoond. Deelnemers die 3 maanden geen kilometers registreren worden op non-actief gezet en tellen niet meer mee voor de aantallen fietsers in de community. Dit houdt de resultaten transparant en actueel.</p>
 
                     <div class="row">
                         <div class="col-sm-6">
@@ -413,16 +399,9 @@ class PagesTableSeeder extends Seeder
                 'body' => '
                     <h2>Fase 1: campagnefase</h2>
                     <img src="/img/campagne fase- lc.svg" class="fullwidth" />
-                    <div class="row">
-                        <div class="col-sm-9">
                             <p>IJmond Bereikbaar heeft op 2 manieren het gebruik van het openbaar vervoer gestimuleerd. </p>
                             <p>Advies op maat over aanbieders van OV-mobiliteitskaarten voor werknemers die in z’n geheel overstappen van auto naar het OV. De reiskosten zijn voor rekening van de werkgever.</p>
                             <p>De IJmond Bereikbaar Shuttle en OV-fiets: een last-mile oplossing voor werknemers die al met het openbaar vervoer reizen, maar waar de ‘last mile’ van NS- of busstation naar het bedrijf te wensen over laat. Gebruik van de shuttle en OV-fiets is gratis. IJmond Bereikbaar vergoedt de kosten.</p>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="/img/IJB-shuttle.jpg" class="fullwidth" />
-                        </div>
-                    </div>
 
                     <h2>Ambitie</h2>
                     <p>De ambitie van IJmond Bereikbaar was het uitrollen van 5 shuttlediensten (gemiddeld 50 gebruikers per shuttle per dag). Op plaatsen waar een shuttledienst niet haalbaar of logisch was, is de OV-fiets als achtervang aangeboden. </p>
@@ -435,7 +414,7 @@ class PagesTableSeeder extends Seeder
                             <p>Slechts een enkele medewerker heeft de OV-fiets aangevraagd als last-mile oplossing. Deze deelnemers zijn tot en met 31 maart 2017 gefaciliteerd.</p>
                         </div>
                         <div class="col-sm-3">
-                            <img src="/img/reisgedrag-succes-factoren.gif" class="fullwidth" />
+                            <img src="/img/IJB-shuttle.jpg" class="fullwidth" />
                         </div>
                     </div>
 
@@ -482,32 +461,60 @@ class PagesTableSeeder extends Seeder
                 'body' => '
                     <h2>Fase 1: campagnefase</h2>
                     <img src="/img/campagne fase- lc.svg" class="fullwidth" />
-                    <img src="/img/belonen-en-loyaliteit.gif" class="center ">
-                    <p>Nadruk op financiële beloning: besparen en verdienen. Voor de werknemers die mee doen, zijn de financiële prikkel en de sluiting Velsertunnel de hoofdargumenten om hun reisgedrag te veranderen.</p>
-
+                    <p>In de campagnefase ligt de nadruk op financiële beloning: besparen en verdienen. Voor de werknemers die mee doen, zijn de financiële prikkel en de sluiting Velsertunnel de hoofdargumenten om hun reisgedrag te veranderen.</p>
                     <h2>Beloningssysteem Fietsstimulering</h2>
-                    <ul>
-                        <li>Werknemers worden uitgenodigd om mee te doen met het fietsstimuleringsprogramma.</li>
-                        <li>Ambassadeurs krijgen een financiële startvergoeding van € 0,05 per gefietste en geregistreerde woon/werkkilometer. Zij kunnen dit bedrag verhogen door binnen het eigen bedrijf nieuwe fietsers aan te dragen. Per aangedragen en geregistreerde nieuwe fietser ontvangt de ambassadeur € 0,05 extra p/km, tot een maximum van € 0,15 p/km.</li>
-                        <li>Nieuwe fietsers krijgen een financiële vergoeding van € 0,10 per gefietste en geregistreerde woon/werkkilometer in de IJmondzomer (april t/m oktober) en € 0,15 p/km in de IJmondwinter (november t/m maart).</li>
-                        <li>Alle deelnemers krijgen een gratis abonnement op de pechhulp van FietsNed, een mobiele fietsenmakersdienst.</li>
-                        <li>Vanaf september 2016 de start van een licht aanvullend loyaliteitsprogramma met maandelijkse uitdagingen om vaker te fietsen.</li>
-                    </ul>
-                    <img src="/img/tabel.png" class="fullwidth" />
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <ul>
+                                <li>Werknemers worden uitgenodigd om mee te doen met het fietsstimuleringsprogramma.</li>
+                                <li>Ambassadeurs krijgen een financiële startvergoeding van € 0,05 per gefietste en geregistreerde woon/werkkilometer. Zij kunnen dit bedrag verhogen door binnen het eigen bedrijf nieuwe fietsers aan te dragen. Per aangedragen en geregistreerde nieuwe fietser ontvangt de ambassadeur € 0,05 extra p/km, tot een maximum van € 0,15 p/km.</li>
+                                <li>Nieuwe fietsers krijgen een financiële vergoeding van € 0,10 per gefietste en geregistreerde woon/werkkilometer in de IJmondzomer (april t/m oktober) en € 0,15 p/km in de IJmondwinter (november t/m maart).</li>
+                                <li>Alle deelnemers krijgen een gratis abonnement op de pechhulp van FietsNed, een mobiele fietsenmakersdienst.</li>
+                                <li>Vanaf september 2016 de start van een licht aanvullend loyaliteitsprogramma met maandelijkse uitdagingen om vaker te fietsen.</li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p40-graph></p40-graph>
+                            </div>
+                            <div class="col-sm-6">
+                                <p41-graph></p41-graph>
+                            </div>
+                            <div class="col-sm-6">
+                                <p42-graph></p42-graph>
+                            </div>
+                            <div class="col-sm-6">
+                                <p43-graph></p43-graph>
+                            </div>
+                            <div class="col-sm-6">
+                                <p44-graph></p44-graph>
+                            </div>
+                            <div class="col-sm-6">
+                                <p45-graph></p45-graph>
+                            </div>
+                        </div>
+                    </div>
+
 
                     <h2>Fase 2: verankeringsfase</h2>
                     <img src="/img/verankering fase- lc.svg" class="fullwidth" />
                     <p>Nadruk op bewegen, saamhorigheid, het goede doen, volhouden. Voor de fietsers zijn de eigen gezondheid, het geluksgevoel en de goede invloed op het milieu de belangrijkste argumenten om te blijven fietsen.</p>
 
-                    <h2>Beloningssysteem fietsstimulering</h2>
-                    <ul>
-                        <li>Geen onderscheid meer tussen ambassadeurs en nieuwe fietsers. Alle deelnemers zijn vanaf fase 2 actieve fietsers.</li>
-                        <li>Financiële vergoeding en gratis pechhulpservice per 1 april 2017 stopgezet</li>
-                        <li>Intensivering loyaliteitsprogramma</li>
-                        <li>Per 1 mei 2017 introductie fietsapp Ring-Ring. <strong>Linken naar info fietsapp Ring-Ring (thema fietsritregistratie)</strong></li>
-                        <li>In tweede helft 2017 introductie van maatwerk bedrijfschallenges. Tata Steel heeft met goed resultaat de eerste bedrijfschallenge voor haar rekening genomen</li>
-                    </ul>
-                    <img src="/img/belonen_fietsstimulering.png" class="fullwidth" />
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <h2>Beloningssysteem fietsstimulering</h2>
+                            <ul>
+                                <li>Geen onderscheid meer tussen ambassadeurs en nieuwe fietsers. Alle deelnemers zijn vanaf fase 2 actieve fietsers.</li>
+                                <li>Financiële vergoeding en gratis pechhulpservice per 1 april 2017 stopgezet</li>
+                                <li>Intensivering loyaliteitsprogramma</li>
+                                <li>Per 1 mei 2017 introductie <a href="/category/6/page/24">fietsapp Ring-Ring</a>. </li>
+                                <li>In tweede helft 2017 introductie van maatwerk bedrijfschallenges. Tata Steel heeft met goed resultaat de eerste bedrijfschallenge voor haar rekening genomen</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-5">
+                            <img src="/img/REISGEDRAG - BELONING NIEUW-.svg" class="fullwidth" />
+                        </div>
+                    </div>
 
 
                     ',
@@ -594,7 +601,7 @@ class PagesTableSeeder extends Seeder
                 'body' => '
                     <p>Van 1 mei 2015 t/m 31 maart 2017 heeft IJmond Bereikbaar een vergoeding voor gefietste woon/werkkilometers verstrekt aan de deelnemers van het fietsstimuleringsprogramma. Om in aanmerking te komen voor deze vergoeding waren zij verplicht om hun fietsritten maandelijks te registreren. </p>
 
-                    <img src="/img/fietsritregistratie_zowerkthet.svg" class="fullwidth" />
+                    <img src="/img/fietsregistratie-zo-werkt-het.gif" class="fullwidth" />
 
                     <p>Met het beëindigen van de fietskilometervergoeding per 1 april 2017 is het registreren van de ritten niet langer verplicht. Aan het verzoek om deze informatie wel te blijven verstrekken voor o.a. monitorings- en rapportagedoeleinden, heeft ca. 60% van de fietsers gehoor gegeven.</p>
                     ',
@@ -604,7 +611,7 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Fietsapp Ring-Ring',
                 'description' => '',
                 'body' => '
-                    <img src="/img/Ring-Ringlogo.jpg" class="fourty_wide center" />
+                    <img src="/img/ring-ringlogo.jpg" class="fourty_wide center" id="ringring"/>
                     <p>In mei 2017 heeft IJmond Bereikbaar als onderdeel van het loyaliteitsprogramma de fietsapp van Ring-Ring bij de werkgevers en werknemers geïntroduceerd. Ring-Ring timmert al een aantal jaar aan de weg. De app wordt door verschillende instanties op lokaal en regionaal niveau ingezet om fietsen te stimuleren.</p>
 
                     <strong>Informatie over fietsgedrag direct zichtbaar in de app</strong>
@@ -619,7 +626,7 @@ class PagesTableSeeder extends Seeder
                             <p>Hoort een werkgever tot de kopgroep van IJmond Bereikbaar, dan wordt een specifieke bedrijfsgroep aangemaakt. Zo zien medewerkers hoe ze presteren t.o.v. hun collega’s.</p>
                         </div>
                         <div class="col-sm-3">
-                            <img src="/img/ring-ring-screenshot.png" class="fullwidth" />
+                            <img src="/img/Ring-Ring-screenshot.png" class="fullwidth" />
                         </div>
                     </div>  
                      <br><br>
@@ -639,13 +646,12 @@ class PagesTableSeeder extends Seeder
                     <p>IJmond Bereikbaar koppelt fietskilometers aan een goed doel dat een relatie heeft met de regio. Zodra de fietskilometers door de gebruikers van de app bij elkaar zijn gefietst, doneert IJmond Bereikbaar namens hen € 1.000 aan het goede doel.</p>
 
                     <p>IJmond Bereikbaar heeft cheques uitgereikt aan de Dierenambulance Kennemerland, de KNRM in IJmuiden en de Stichting Vrienden van het Rode Kruis Ziekenhuis. </p>
-                    <img src="/img/Goede doel Vrienden van het RKZ_cheque.jpg" class="fullwidth" />
                     <br><br>
                     <div class="row">
-                        <div class="col-sm-4">
-                            <img src="/img/app_screenshot_afstand.png" class="fullwidth" />
+                        <div class="col-sm-6">
+                            <img src="/img/Goede doel Vrienden van het RKZ_cheque.jpg" class="fullwidth" />
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-6">
                             <img src="/img/Goede doel KNRM juli 2017_cheque.jpg" class="fullwidth" />
                         </div>
                     </div>
@@ -800,7 +806,13 @@ class PagesTableSeeder extends Seeder
                             <img src="/img/velsertunnel_veelplezier.jpg" class="fullwidth" />
                         </div>
                     </div>
-                    <h2>Pers </h2>
+                    ',
+                'category_id' => 7,
+            ],
+            [
+                'title' => 'Pers',
+                'description' => '',
+                'body' => '
                     <p>Het programma van IJmond Bereikbaar ontvangt veel aandacht van de regionale, lokale en vakpers Er is veelvuldig positief gecommuniceerd over de activiteiten en resultaten van de campagne.</p>
                     
                     <div class="row">
@@ -813,7 +825,6 @@ class PagesTableSeeder extends Seeder
                     </div>
 
                     <p>Dagblad Kennemerland, IJmuider Courant, Nieuwsblad de Kennemer, Nieuwsblad IJmuiden, De Beverwijker, De Jutter, Heemskerker Courant, De Kanaalgaver, De IJmondiaan,  Radio Beverwijk, TV251 Heemskerk, RTV Seaport, TV-NH, nieuwsbrieven Rijkswaterstaat en Beter Benutten en meer…</p>
-
                     ',
                 'category_id' => 7,
             ],
@@ -837,8 +848,8 @@ class PagesTableSeeder extends Seeder
                 'description' => '',
                 'body' => '
                     <p>Met vier programmalijnen en ongeveer 20 deelmaatregelen zet IJmond Bereikbaar met haar partners in op een slagvaardig, adaptief uitvoeringsprogramma.</p>
-                    <img src="/img/mobiliteit_luchtkwaliteit.svg" class="fullwidth" />
-                    <img src="/img/thema-8---programmas.jpg" class="fullwidth" />
+                    <img src="/img/thema-8-vier-programmalijnen.gif" class="fullwidth" />
+                    <img src="/img/thema-8-programma.gif" class="fullwidth" />
                     ',
                 'category_id' => 8,
             ]

@@ -18,3 +18,9 @@ p {
 ul {
 	list-style-position:outside;
 }
+
+ul.list--longli{
+	li {
+		margin-bottom: 1rem;
+	}
+}

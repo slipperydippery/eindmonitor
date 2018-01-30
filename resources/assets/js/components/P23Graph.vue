@@ -17,13 +17,23 @@
                 legend: '',
                 scrolled: false,
                 blue_dark: '#04659e',
+                blue_0: '#011c2b',
+                blue_1: '#023451',
+                blue_2: '#034d78',
+                blue_3: '#04659e',
+                blue_4: '#057dc4',
+                blue_5: '#058ad7',
+                blue_6: '#0696eb',
                 green_verylight: '#bfe912',
                 green_light: '#b0d710',
                 green: '#a1c50f',
                 green_dark: '#92b30e',
                 green_verydark: '#1e6d37',
                 yellow: '#f6d511',
-                red: 'red',
+                red_light: '#eb0624',
+                red: '#c4051e',
+                red_dark: '#9e0418',
+                red_verydark: '#780312',
                 cyan_dark: '#247F77',
             }
         },
@@ -41,11 +51,33 @@
         methods: {
             loadMe: function() {
             var data = {
-                labels: ["september '11", "maart '15", "september '15", "maart '16", "september '16"],
+                labels: ["sep '11", "mrt '15", "sep '15", "mrt '16", "sep '16", "mrt '17", "sep '17"],
                 datasets: [{
-                    label: 'brom-fietsers',
-                    data: [3672, 3946, 4304, 4277, 5508 ],
-                    backgroundColor: this.blue_dark,
+                    label: 'Temperatuur',
+                    data: [17, 13, 16, 12, 15, 12, 16 ],
+                    backgroundColor: "rgba(0, 0, 0, 0)",
+                    type: 'line',
+                    pointRadius: 0,
+                    borderColor: this.red_verydark,
+                    yAxisID: "bar-y-axis",
+                    // borderColor: this.color,
+                    // lineTension: .2,
+                    // borderWidth: 1,
+                    // pointBackgroundColor: "#fff",
+                    // pointBorderColor: "rgba(50,50,50,1)",
+                    },{
+                    label: '(brom-)fietsers zonder spitspont',
+                    data: [3672, 3946, 0, 0, 0, 0, 0 ],
+                    backgroundColor: this.blue_3,
+                    // borderColor: this.color,
+                    // lineTension: .2,
+                    // borderWidth: 1,
+                    // pointBackgroundColor: "#fff",
+                    // pointBorderColor: "rgba(50,50,50,1)",
+                    },{
+                    label: '(brom-)fietsers met spitspont',
+                    data: [0, 0, 4304, 4277, 5508, 4487, 4573 ],
+                    backgroundColor: this.blue_1,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -60,10 +92,25 @@
                         stacked: true
                     }],
                     yAxes: [{
+                        stacked: false,
                         ticks: {
-                            beginAtZero:true
-                        },
-                        stacked: true
+                            beginAtZero: true,
+                            min: 0,
+                            max: 5000,
+                            autoSkip: false
+                        }
+                        }, {
+                            id: "bar-y-axis",
+                            stacked: true,
+                            // display: false, //optional
+                            position: 'right',
+                            ticks: {
+                                beginAtZero: true,
+                                min: 0,
+                                max: 20,
+
+                            },
+                        type: 'linear'
                     }]
                 },
                 title: {
