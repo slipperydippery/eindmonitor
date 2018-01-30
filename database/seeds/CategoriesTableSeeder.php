@@ -22,7 +22,7 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'title' => 'Werkgeversaanpak',
-                'description' => 'Werkgeversaanpak, het woord zegt het al: de gezamenlijke aanpak van  overheid en bedrijfsleven om regionale knelpunten op te lossen. De IJmond kent een hands-on mentaliteit. Is er een idee en draagvlak? Laten we dat op kleine schaal uitproberen, waar nodig aanpassen en bij succes breed uitzetten.'
+                'description' => '<p>Werkgeversaanpak, het woord zegt het al: de gezamenlijke aanpak van  overheid en bedrijfsleven om regionale knelpunten op te lossen. De IJmond kent een hands-on mentaliteit. Is er een idee en draagvlak? Laten we dat op kleine schaal uitproberen, waar nodig aanpassen en bij succes breed uitzetten.</p>'
             ],
             [
                 'title' => 'Werknemers',
@@ -37,7 +37,7 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'title' => 'Belonen en Loyaliteit',
-                'description' => 'IJmond Bereikbaar wil de bereikbaarheid van de regio en doorstroming van het verkeer verbeteren. Met als bijkomend effect een positieve bijdrage op de luchtkwaliteit. Daarvoor is gedragsverandering nodig van bedrijven en werknemers. Voor veel bedrijven zijn vervoer en milieu thema’s waar ze regelmatig mee in aanraking komen. Voor werknemers liggen deze onderwerpen vaak buiten hun interessegebied, terwijl juist van hen de gedragsverandering werd verwacht. Toch is het IJmond Bereikbaar gelukt om gedurende de campagneperiode de motivatie voor de gewenste gedragsverandering teweeg te brengen.'
+                'description' => '<p>IJmond Bereikbaar wil de bereikbaarheid van de regio en doorstroming van het verkeer verbeteren. Met als bijkomend effect een positieve bijdrage op de luchtkwaliteit. Daarvoor is gedragsverandering nodig van bedrijven en werknemers. Voor veel bedrijven zijn vervoer en milieu thema’s waar ze regelmatig mee in aanraking komen. Voor werknemers liggen deze onderwerpen vaak buiten hun interessegebied, terwijl juist van hen de gedragsverandering werd verwacht. Toch is het IJmond Bereikbaar gelukt om gedurende de campagneperiode de motivatie voor de gewenste gedragsverandering teweeg te brengen.</p>'
             ],
             [
                 'title' => 'Fietsritregistratie',
@@ -45,11 +45,11 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'title' => 'Communicatie',
-                'description' => 'IJmond Bereikbaar heeft gedurende de hele periode 2015-2017 gecommuniceerd met alle doelgroepen het bedrijfsleven, de werknemers, overheden en overige stakeholders. De toon van de communicatie is positief en stimulerend. Werkgevers en hun werknemers worden bewust gemaakt van de mogelijkheden die er zijn om de auto te laten staan voor het woon/werkverkeer en te kiezen voor de fiets of het openbaar vervoer. De werkgevers krijgen bovendien inzicht in de <a href="/kopgroep">stimuleringsmaatregelen</a> die zij zelf kunnen nemen en worden geholpen met het aanvragen van subsidie voor kleine infrastructurele maatregelen.'
+                'description' => '<p>IJmond Bereikbaar heeft gedurende de hele periode 2015-2017 gecommuniceerd met alle doelgroepen het bedrijfsleven, de werknemers, overheden en overige stakeholders. De toon van de communicatie is positief en stimulerend. Werkgevers en hun werknemers worden bewust gemaakt van de mogelijkheden die er zijn om de auto te laten staan voor het woon/werkverkeer en te kiezen voor de fiets of het openbaar vervoer. De werkgevers krijgen bovendien inzicht in de <a href="/kopgroep">stimuleringsmaatregelen</a> die zij zelf kunnen nemen en worden geholpen met het aanvragen van subsidie voor kleine infrastructurele maatregelen.</p>'
             ],
             [
                 'title' => '2018 – 2021 Slimme & Duurzame Mobiliteit IJmond',
-                'description' => 'In de IJmond zijn nu en in 2030 duidelijke bereikbaarheidsproblemen. De aantrekkende economie zorgt voor meer vervoersbewegingen dan ooit. Daarnaast is de IJmond nog steeds een aandachtsgebied als het gaat om de luchtkwaliteit en is de CO2-uitstoot door het wegverkeer relatief hoog. Vanuit die invalshoek is – met het succesvolle programma IJmond Bereikbaar 2015-2017 als fundament – een integraal programma Slimme & Duurzame Mobiliteit IJmond 2018 – 2021 opgezet.'
+                'description' => '<p>In de IJmond zijn nu en in 2030 duidelijke bereikbaarheidsproblemen. De aantrekkende economie zorgt voor meer vervoersbewegingen dan ooit. Daarnaast is de IJmond nog steeds een aandachtsgebied als het gaat om de luchtkwaliteit en is de CO2-uitstoot door het wegverkeer relatief hoog. Vanuit die invalshoek is – met het succesvolle programma IJmond Bereikbaar 2015-2017 als fundament – een integraal programma Slimme & Duurzame Mobiliteit IJmond 2018 – 2021 opgezet.</p>'
             ],
         ];
 
