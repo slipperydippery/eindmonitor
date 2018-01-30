@@ -29,6 +29,7 @@
 				background: white;
 				overflow: hidden;
 				z-index: 100;
+				font-size: 1.3rem;
 			}
 		}
 		.overlay--block:hover .overlay--block--hover{
@@ -73,19 +74,18 @@
     top: 50%;
 }
 .overlay--block__tunnel {
-	left: 72%;
-    top: 75%;
+	left: 61%;
+   top: 68%;
     .overlay--block--hover {
 		width: 380% !important;
 		margin-left: -140% !important;
     }
 }
 .overlay--block__plannen {
-	width: 10% !important;
 	left: 14%;
-	top: 6%;
+	top: 15%;
     .overlay--block--hover {
-		width: 380% !important;
-		margin-left: -140% !important;
+		width: 430% !important;
+		margin-left: -165% !important;
     }
 }
