@@ -27,6 +27,7 @@
                     <li>Zij stellen poolfietsen of pool e-bikes beschikbaar voor afspraken ‘buiten de deur’.</li>
                     <li>Zij investeren in voorzieningen als een goede fietsenstalling, laadpalen voor e-bikes, kluisjes, douchegelegenheid e.d.</li>
                 </ul>
+                <p30-graph></p30-graph>
             </div>
         </div>
     </div>

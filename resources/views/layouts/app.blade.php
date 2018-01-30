@@ -38,10 +38,10 @@
                             <a href="/fasering">Fasering</a>
                         </li>
                         <li>
-                            <a href="/contact">Contact</a>
+                            <a href="/kopgroep">Zo werkt de kopgroep</a>
                         </li>
-                        <li>
-                            <a href="/kopgroep">Kopgroep</a>
+                        <li class="right">
+                            <a href="/contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
