@@ -124,7 +124,7 @@
                 },
                 title: {
                     display: true,
-                    text: "CO2-uitstoot oorspronkelijke vervoerwijzen (in ton per maand) inclusief gereduceerd CO2-niveau na fietsstimulering "
+                    text: "fietsgerelateerde maatregelen versus percentage fietsers onder werknemers bij de koplopers van IJmond Bereikbaar "
                 }
             };
             const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "bar", data: data, options: options });
