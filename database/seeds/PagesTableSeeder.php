@@ -352,7 +352,7 @@ class PagesTableSeeder extends Seeder
                             </ul>
                         </div>
                         <div class="col-sm-3">
-                            <img src="/img/reisgedrag_fietstijden.jpg" class="fullwidth" />
+                            <img src="/img/image001.JPG" class="fullwidth" />
                         </div>
                     </div>
 
@@ -360,21 +360,6 @@ class PagesTableSeeder extends Seeder
                     <img src="/img/verankering fase- lc.svg" class="fullwidth" />
                     <p>Om de actieradius van fietsers te vergroten, wordt de fietsstimuleringscampagne uitgebreid met de e-bike. De e-bike is, algemeen genomen, een geschikt alternatief voor de auto voor woon/werkafstanden tot 20 km. IJmond Bereikbaar biedt een probeer-actie aan via geïnteresseerde werkgevers. Alle medewerkers mogen de e-bike gratis uitproberen voor zowel woon/werkverkeer, als privégebruik. Hierna volgt een aanbod voor lease of koop van een nieuwe of gebruikte e-bike. We werken hiervoor samen met sQoot, die een divers aanbod heeft en de werkgevers ontzorgt.</p>
 
-                    <h2>Beloning</h2>
-                    <p>Resultaat</p>
-                    <p>Het aantal IJmond Bereikbaar fietsers en fietskilometers groeit gestaag. Het deelnemersbestand wordt per kwartaal opgeschoond. Deelnemers die 3 maanden geen kilometers registreren worden op non-actief gezet en tellen niet meer mee voor de aantallen fietsers in de community. Dit houdt de resultaten transparant en actueel.</p>
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p01-graph></p01-graph>
-                        </div>
-                        <div class="col-sm-6">
-                            <p02-graph></p02-graph>
-                        </div>
-                    </div>
-
-                    <br>
-                    
                     <div class="row">
                         <div class="col-sm-9">
                             <strong>E-bike probeeractie</strong>
@@ -388,6 +373,21 @@ class PagesTableSeeder extends Seeder
                             <img src="/img/Probeer een ebike_beeld.jpg" class="fullwidth" />
                         </div>
                     </div>
+
+                    <h2>Resultaat</h2>
+                    <p>Het aantal IJmond Bereikbaar fietsers en fietskilometers groeit gestaag. Om goed zicht te houden op het aantal actieve fietsers wordt het deelnemersbestand ieder kwartaal opgeschoond. Deelnemers die drie maanden geen kilometers registreren worden op non-actief gezet en tellen niet meer mee voor de aantallen fietsers in de community. Dit houdt de resultaten transparant en actueel.</p>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p01-graph></p01-graph>
+                        </div>
+                        <div class="col-sm-6">
+                            <p02-graph></p02-graph>
+                        </div>
+                    </div>
+
+                    <br>
+                    
 
 
                     ',
@@ -515,6 +515,7 @@ class PagesTableSeeder extends Seeder
                             <img src="/img/REISGEDRAG - BELONING NIEUW-.svg" class="fullwidth" />
                         </div>
                     </div>
+                    <img src="/img/GRAFIEK BINDEN BOEIEN.svg" class="fullwidth" />
 
 
                     ',

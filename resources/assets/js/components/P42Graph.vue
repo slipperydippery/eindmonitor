@@ -78,7 +78,7 @@
                 },
                 title: {
                     display: true,
-                    text: "ontwikkeling in gebruik van RingRing-app weergegeven in aantal gebruikers per maand "
+                    text: "Hier moet een titel"
                 },
 
                 plugins: {

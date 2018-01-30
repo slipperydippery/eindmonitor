@@ -74,7 +74,7 @@
 
         methods: {
         	setActive: function(item){
-                if(item.id == this.active.id) {
+                if(item.id == this.active.id && this.activesub == 0) {
                     this.toggleSubitmes();
                 } else {
             		this.active = item;
