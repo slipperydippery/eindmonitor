@@ -8,6 +8,10 @@ html, body {
     margin: 0;
 }
 
+.content{
+    margin-bottom: 8rem;
+}
+
 .container {
     position: relative;
     max-width: 1000px;
@@ -16,7 +20,7 @@ html, body {
 }
 
 .container--page--last {
-    margin-bottom: 8rem;
+    // margin-bottom: 8rem;
 }
 
 #app {

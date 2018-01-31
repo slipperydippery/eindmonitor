@@ -40,7 +40,9 @@
                     </div>
                 </div>
                 <div class="totop container"><a href="#app"><span>Naar de top</span><img src="/img/top.svg" alt=""></a></div>
-                <hr>  
+                @if (! $loop->last)
+                    <hr>  
+                @endif
             @endforeach
         @endif
     </div>
