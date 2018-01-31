@@ -42,8 +42,6 @@ class PagesTableSeeder extends Seeder
                         <h2>Resultaten ontwikkeling fietsdeelnemers</h2>
                         <p>De grafiek hieronder laat zien dat er een toename van het aantal fietsdeelnemers is geweest van oktober 2015 tot en met maart 2017. In die periode heeft IJmond Bereikbaar een fietsvergoeding gegeven aan fietsdeelnemers. In de periode van maart 2016 tot en met januari 2017 was de Velsertunnel gesloten vanwege renovatie. Dit kan ook bijgedragen hebben tot een toename van fietsdeelnemers. </p>
                         <p16-graph></p16-graph>
-                        <img src="/img/drie fases - lc.svg" class="fullwidth" />
-
                     
                         <h2>Ambassadeurs</h2>
                         <p>IJmond Bereikbaar heeft ambassadeurs ingezet om het fietsprogramma te stimuleren.</p>
@@ -193,7 +191,6 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Fase 1: campagnefase',
                 'description' => '',
                 'body' => '
-                    <img src="/img/campagne fase- lc.svg" class="fullwidth" />
                     <p>Werknemers van bedrijven en instellingen uit de IJmond die een samenwerkingsovereenkomst hebben met IJmond Bereikbaar kunnen zich aanmelden voor het mobiliteitsprogramma. </p>
                     <h2>Nieuwe fietsers en ambassadeurs </h2>
                     <img src="/img/mobiliteit_luchtkwaliteit_v2.svg" />
@@ -223,7 +220,6 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Fase 2: verankeringsfase',
                 'description' => '',
                 'body' => '
-                    <img src="/img/verankering fase- lc.svg" class="fullwidth" />
                     <p>Medio januari 2017 gaat de Velsertunnel weer open. IJmond Bereikbaar betaalt nog tot 31 maart een kilometervergoeding aan haar fietsers en start daarnaast met een afwisselend loyaliteitsprogramma. Ook wordt in april 2017 de fietsapp van Ring-Ring geïntroduceerd. Uit enquêteresultaten blijkt dat in 6 tot 9 maanden extrinsieke motivatie omgevormd kan worden naar intrinsieke motivatie. Ook zonder kilometervergoeding blijft 95% van de deelnemers fietsen.</p>
 
                     <h2>Snelfietsroute</h2>
@@ -298,8 +294,7 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Fiets en e-bike ',
                 'description' => '',
                 'body' => '
-                    <h2>Fase 1: campagnefase</h2>
-                    <img src="/img/campagne fase- lc.svg" class="fullwidth" />
+                    <h2>Campagnefase: 1 mei 2015 - 1 april 2017</h2>
                     <h2>Boodschap</h2>
                     <div class="row">
                         <div class="col-sm-9">
@@ -358,8 +353,7 @@ class PagesTableSeeder extends Seeder
                         </div>
                     </div>
 
-                    <h2>Fase 2: verankeringsfase</h2>
-                    <img src="/img/verankering fase- lc.svg" class="fullwidth" />
+                    <h2>Verankeringsfase: 1 april 2017 - 31 december 2017</h2>
                     <p>Om de actieradius van fietsers te vergroten, wordt de fietsstimuleringscampagne uitgebreid met de e-bike. De e-bike is, algemeen genomen, een geschikt alternatief voor de auto voor woon/werkafstanden tot 20 km. IJmond Bereikbaar biedt een probeer-actie aan via geïnteresseerde werkgevers. Alle medewerkers mogen de e-bike gratis uitproberen voor zowel woon/werkverkeer, als privégebruik. Hierna volgt een aanbod voor lease of koop van een nieuwe of gebruikte e-bike. We werken hiervoor samen met sQoot, die een divers aanbod heeft en de werkgevers ontzorgt.</p>
 
                     <div class="row">
@@ -399,8 +393,7 @@ class PagesTableSeeder extends Seeder
                 'title' => 'IJmond Bereikbaar Shuttles en de OV-fiets ',
                 'description' => '',
                 'body' => '
-                    <h2>Fase 1: campagnefase</h2>
-                    <img src="/img/campagne fase- lc.svg" class="fullwidth" />
+                    <h2>Campagnefase: 1 mei 2015 - 1 april 2017</h2>
                             <p>IJmond Bereikbaar heeft op 2 manieren het gebruik van het openbaar vervoer gestimuleerd. </p>
                             <p>Advies op maat over aanbieders van OV-mobiliteitskaarten voor werknemers die in z’n geheel overstappen van auto naar het OV. De reiskosten zijn voor rekening van de werkgever.</p>
                             <p>De IJmond Bereikbaar Shuttle en OV-fiets: een last-mile oplossing voor werknemers die al met het openbaar vervoer reizen, maar waar de ‘last mile’ van NS- of busstation naar het bedrijf te wensen over laat. Gebruik van de shuttle en OV-fiets is gratis. IJmond Bereikbaar vergoedt de kosten.</p>
@@ -461,8 +454,7 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Belonen en loyaliteit',
                 'description' => '',
                 'body' => '
-                    <h2>Fase 1: campagnefase</h2>
-                    <img src="/img/campagne fase- lc.svg" class="fullwidth" />
+                    <h2>Campagnefase: 1 mei 2015 - 1 april 2017</h2>
                     <p>In de campagnefase ligt de nadruk op financiële beloning: besparen en verdienen. Voor de werknemers die mee doen, zijn de financiële prikkel en de sluiting Velsertunnel de hoofdargumenten om hun reisgedrag te veranderen.</p>
                     <h2>Beloningssysteem Fietsstimulering</h2>
                     <div class="row">
@@ -498,8 +490,7 @@ class PagesTableSeeder extends Seeder
                     </div>
 
 
-                    <h2>Fase 2: verankeringsfase</h2>
-                    <img src="/img/verankering fase- lc.svg" class="fullwidth" />
+                    <h2>Verankeringsfase: 1 april 2017 - 31 december 2017</h2>
                     <p>Nadruk op bewegen, saamhorigheid, het goede doen, volhouden. Voor de fietsers zijn de eigen gezondheid, het geluksgevoel en de goede invloed op het milieu de belangrijkste argumenten om te blijven fietsen.</p>
 
                     <div class="row">
