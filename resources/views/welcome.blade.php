@@ -103,7 +103,7 @@
                                 </span>
                             </div>
                         </div>
-                    </a>I
+                    </a>
 
                 </div>
             </div>
