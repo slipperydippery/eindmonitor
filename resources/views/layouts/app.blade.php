@@ -19,7 +19,9 @@
             <header>
                 <div class="banner container">
                     <div class="banner--container">
-                        <img src="/img/logo_icons.svg" alt="" class="left">
+                        <a href="/">
+                            <img src="/img/logo_icons.svg" alt="" class="left">
+                        </a>
                         <img src="/img/eindmonitor.svg" alt="" class="right eighty">
                     </div>
                 </div>

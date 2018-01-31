@@ -4,7 +4,7 @@
     <div class="content">
         <div class="container row">
             <div class="page-highlight col-sm-12">
-                <p>De regio IJmond is de thuisbasis van ruim 150.000 inwoners. We wonen, werken en recreëren in een compacte regio, gevormd door de gemeenten Velsen, Heemskerk en Beverwijk. Onze regio wordt gekenmerkt door de maakindustrie met Tata Steel als grootste werkgever. Toonaangevend zijn ook de havens, transportbedrijven en een grote diversiteit aan innovatieve MKB-bedrijven. In onze kustplaatsen zijn er volop kansen voor het toerisme. De regio IJmond is onderdeel van de Metropoolregio Amsterdam en we werken op diverse thema’s samen.</p>
+                <p>De IJmondgemeenten, Omgevingsdienst IJmond, het ministerie van Infrastructuur en Waterstaat (I&W), Provincie Noord-Holland en het bedrijfsleven werken onder meer via het programma Beter Benutten MRA samen aan de doelen van IJmond Bereikbaar: een betere doorstroming van het verkeer in de spits en een positieve bijdrage aan de luchtkwaliteit. En het resultaat mag er zijn. Ruim 170 bedrijven hebben een frisse blik geworpen op vervoer van en naar hun bedrijf. Met de fietsstimuleringscampagne ‘Goed op weg’ is onder hun werknemers een actieve fietscommunity ontstaan.</p>
             </div>
         </div>
         <generator></generator>

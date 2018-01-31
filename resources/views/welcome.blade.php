@@ -93,16 +93,16 @@
                             </span>
                         </div>
                     </div>
-                    <div class="overlay--block overlay--block__video">
-                        <a href="https://www.youtube.com/watch?v=vVFuXdvFRUc">
+                    <a href="https://www.youtube.com/watch?v=YGFUSYMuLg8&feature=youtu.be">
+                        <div class="overlay--block overlay--block__video">
                             <img src="/img/picto_video.svg" alt="">
-                        </a>
-                        <div class="overlay--block--hover">
-                            <span>
-                                Bekijk de film "Goed op weg" over deze Eindmonitor
-                            </span>
+                            <div class="overlay--block--hover">
+                                <span>
+                                    Bekijk de film "Goed op weg" over deze Eindmonitor
+                                </span>
+                            </div>
                         </div>
-                    </div>
+                    </a>I
 
                 </div>
             </div>

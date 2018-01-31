@@ -352,7 +352,9 @@ class PagesTableSeeder extends Seeder
                             </ul>
                         </div>
                         <div class="col-sm-3">
-                            <img src="/img/image001.JPG" class="fullwidth" />
+                            <a href="/img/image001.JPG" >
+                                <img src="/img/image001.JPG" class="fullwidth" />
+                            </a>
                         </div>
                     </div>
 
