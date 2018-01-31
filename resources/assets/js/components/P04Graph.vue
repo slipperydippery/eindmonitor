@@ -41,7 +41,7 @@
         methods: {
             loadMe: function() {
             var data = {
-                labels: ["april '17", "mei '17", "juni '17", "juli '17", "augustus '17", "september '17", "october '17", ],
+                labels: ["april '17", "mei '17", "juni '17", "juli '17", "augustus '17", "september '17", "oktober '17", ],
                 datasets: [{
                     label: 'Resultaten RingRing-app',
                     data: [168, 252, 308, 290, 260, 303, 282 ],
@@ -74,6 +74,13 @@
                 plugins: {
                     deferred: {
                         delay: 500
+                    }
+                },
+
+                legend: {
+                  display: false,
+                    labels: {
+                      display: false
                     }
                 }
             };

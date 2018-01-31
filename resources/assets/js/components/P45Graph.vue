@@ -55,7 +55,7 @@
                 datasets: [{
                     label: 'CO2 reductie',
                     data: [ 84758989,  128189731, 204146434, 210340327, 226204699, 186165430  ],
-                    backgroundColor: this.green,
+                    backgroundColor: this.green_verydark,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -84,6 +84,13 @@
                 plugins: {
                     deferred: {
                         delay: 500
+                    }
+                },
+
+                legend: {
+                  display: false,
+                    labels: {
+                      display: false
                     }
                 }
             };

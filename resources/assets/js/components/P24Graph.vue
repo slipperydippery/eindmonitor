@@ -38,7 +38,7 @@
         methods: {
             loadMe: function() {
                 var data = {
-                    labels: ["nov '14", "dec '14", "jan '15", "feb '15", "mrt '15", "apr '15", "mei '15", "jun '15", "jul '15", "aug '15", "sep '15", "oct '15", "nov '15", "dec '15", "jan '16", "feb '16", "mrt '16", "apr '16", "mei '16", "jun '16", "jul '16", "aug '16", "sep '16", "oct '16", "nov '16", "dec '16", "jan '17", "feb '17", "mrt '17", "apr '17", "mei '17", "jun '17", "jul '17", "aug '17", "sep '17", "oct '17", ],
+                    labels: ["nov '14", "dec '14", "jan '15", "feb '15", "mrt '15", "apr '15", "mei '15", "jun '15", "jul '15", "aug '15", "sep '15", "okt '15", "nov '15", "dec '15", "jan '16", "feb '16", "mrt '16", "apr '16", "mei '16", "jun '16", "jul '16", "aug '16", "sep '16", "okt '16", "nov '16", "dec '16", "jan '17", "feb '17", "mrt '17", "apr '17", "mei '17", "jun '17", "jul '17", "aug '17", "sep '17", "okt '17", ],
                     datasets: [{
                         label: 'Ambassadeur: actief',
                         data: [38, 39, 40, 40, 40, 41, 56, 104, 153, 166, 240, 408, 532, 568, 628, 716, 808, 947, 945, 941, 938, 920, 841, 788, 784, 784, 786, 787, 787, 786, 787, 794, 794, 792, 792, 792],

@@ -75,7 +75,7 @@
                     },{
                     label: '19c/km-reiskostenvergoeding',
                     data: [15, 15, 15, 15, 15, 0, 15, 15, 15, 15, 15, 15, 15, 15, 0, 0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 0, 15, 15, 15, 15, 15,], 
-                    backgroundColor: this.blue_1,
+                    backgroundColor: this.cyan_dark,
                     yAxisID: "bar-y-axis",
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -84,7 +84,7 @@
                     },{
                     label: 'Bijdrage fiets',
                     data: [0, 0, 25, 25, 25, 0, 0, 25, 25, 25, 25, 25, 25, 25, 0, 25, 0, 25, 25, 25, 25, 25, 25, 0, 25, 0, 0, 25, 25, 0, 0, 25, 25, 25],
-                    backgroundColor: this.blue_2,
+                    backgroundColor: this.green_verylight,
                     yAxisID: "bar-y-axis",
                     // borderColor: this.color,
                     // lineTension: .2,
@@ -102,20 +102,10 @@
                     // pointBackgroundColor: "#fff",
                     // pointBorderColor: "rgba(50,50,50,1)",
                     },{
-                    label: 'Fiets-check',
-                    data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                    yAxisID: "bar-y-axis",
-                    backgroundColor: this.blue_4,
-                    // borderColor: this.color,
-                    // lineTension: .2,
-                    // borderWidth: 1,
-                    // pointBackgroundColor: "#fff",
-                    // pointBorderColor: "rgba(50,50,50,1)",
-                    },{
                     label: 'Fietschallenge',
                     data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 10, 0, 0, 0],
                     yAxisID: "bar-y-axis",
-                    backgroundColor: this.blue_5,
+                    backgroundColor: this.green_verydark,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -135,7 +125,7 @@
                     label: 'Fietsvoorzieningen',
                     data: [10, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                     yAxisID: "bar-y-axis",
-                    // backgroundColor: this.blue_3,
+                    backgroundColor: this.yellow,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -173,7 +163,7 @@
                 },
                 title: {
                     display: true,
-                    text: "Fietsgerelateerde maatregelen versus fietspercentage onder werknemers bij de koplopers van IJmond Bereikbaar "
+                    text: "Benchmark kopgroep resultaat harde en zachte maatregelen vs. Fietsdeelnemers"
                 }
             };
             const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "bar", data: data, options: options });

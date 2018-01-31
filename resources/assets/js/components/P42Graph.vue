@@ -55,7 +55,7 @@
                 datasets: [{
                     label: 'Aantal spitsmijdingen',
                     data: [ 47743,  69849,  107594, 104839, 103292, 99418,  ],
-                    backgroundColor: this.green,
+                    backgroundColor: this.red,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -84,6 +84,13 @@
                 plugins: {
                     deferred: {
                         delay: 500
+                    }
+                },
+
+                legend: {
+                  display: false,
+                    labels: {
+                      display: false
                     }
                 }
             };

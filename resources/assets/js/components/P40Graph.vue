@@ -85,6 +85,13 @@
                     deferred: {
                         delay: 500
                     }
+                },
+
+                legend: {
+                  display: false,
+                    labels: {
+                      display: false
+                    }
                 }
             };
             const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "bar", data: data, options: options });

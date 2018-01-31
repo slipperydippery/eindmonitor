@@ -53,9 +53,18 @@
             var data = {
                 labels: ["Q4 2015", "Q1 2016", "Q2 2016", "Q3 2016", "Q4 2016", "Q1 2017",],
                 datasets: [{
-                    label: 'Aantal ritten',
-                    data: [ 67914,  106641, 152010, 150123, 176202, 141782,  ],
-                    backgroundColor: this.green,
+                    label: 'Nieuwe fietsers',
+                    data: [ 31988,  47790,  86236,  91780,  116750, 85441  ],
+                    backgroundColor: this.blue_1,
+                    // borderColor: this.color,
+                    // lineTension: .2,
+                    // borderWidth: 1,
+                    // pointBackgroundColor: "#fff",
+                    // pointBorderColor: "rgba(50,50,50,1)",
+                    },{
+                    label: 'Ambassadeurs',
+                    data: [ 35926,  58851,  65193,  58343,  59452,  56341  ],
+                    backgroundColor: this.blue_5,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,

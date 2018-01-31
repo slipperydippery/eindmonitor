@@ -53,6 +53,17 @@
             var data = {
                 labels: ["Amazing Wheels", "Boval", "Crown van Gelder", "Detailresult Groep", "DSE Automatisering", "Duin en Kruidberg mavo", "Enci", "Etos Distributiecentrum/ Olympia uitzendburo", "Gemeente Beverwijk", "Gemeente Heemskerk", "Gemeente Velsen", "Heliomare", "Hunting Energy Services", "Hoogewerf Engineering", "IJmond Transport Groep", "KNRM", "Lokhorst", "Nova college IJmuiden", "Nova college Beverwijk", "Patina", "PreWonen", "Provinciaal Waterleiding Noord-Nederland", "Rabobank", "Recreatie Noord-Holland", "Rode Kruis Ziekenhuis", "Sterling", "St. OPO", "St. Welzijn Beverwijk", "St Welzijn Velsen", "St. Voortgezet Onderwijs Kennemerland", "Tata Steel", "Tender College", "Vellesan college", "Woonexpress", ],
                 datasets: [{
+                    label: 'Streefwaarde fietspercentage',
+                    data: [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15], 
+                    backgroundColor: "rgba(0, 0, 0, 0)",
+                    type: 'line',
+                    pointRadius: 0,
+                    borderColor: this.red_light,
+                    // lineTension: .2,
+                    // borderWidth: 1,
+                    // pointBackgroundColor: "#fff",
+                    // pointBorderColor: "rgba(50,50,50,1)",
+                    },{
                     label: 'Fietspercentage',
                     data: [60, 13, 27, 5, 47, 3, 27, 8, 5, 6, 17, 18, 21, 18, 1, 30, 11, 20, 9, 5, 7, 8, 5, 9, 10, 20, 5, 13, 27, 3, 13, 23, 16, 0,], 
                     backgroundColor: "rgba(0, 0, 0, 0)",
@@ -75,17 +86,6 @@
                     // pointBackgroundColor: "#fff",
                     // pointBorderColor: "rgba(50,50,50,1)",
                     },{
-                    label: 'Streefwaarde fietspercentage',
-                    data: [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15], 
-                    backgroundColor: "rgba(0, 0, 0, 0)",
-                    type: 'line',
-                    pointRadius: 0,
-                    borderColor: this.red,
-                    // lineTension: .2,
-                    // borderWidth: 1,
-                    // pointBackgroundColor: "#fff",
-                    // pointBorderColor: "rgba(50,50,50,1)",
-                    },{
                     label: 'Score harde maatregelen',
                     data: [30, 11, 56, 37, 56, 11, 11, 56, 56, 37, 56, 56, 56, 37, 0, 19, 11, 37, 37, 37, 56, 56, 56, 30, 56, 11, 11, 37, 37, 11, 30, 56, 37, 37,], 
                     backgroundColor: this.blue_dark,
@@ -99,7 +99,7 @@
                     label: 'Score zachte maatregelen',
                     data: [19, 7, 0, 0, 7, 0, 7, 7, 7, 0, 7, 0, 7, 0, 0, 7, 0, 7, 7, 19, 7, 0, 7, 0, 19, 0, 0, 7, 7, 0, 19, 0, 7, 7,], 
                     yAxisID: "bar-y-axis",
-                    // backgroundColor: "#f6d511",
+                    backgroundColor: this.yellow,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -137,7 +137,7 @@
                 },
                 title: {
                     display: true,
-                    text: "Fietsgerelateerde maatregelen versus percentage fietsers onder werknemers bij de koplopers van IJmond Bereikbaar "
+                    text: "Benchmark kopgroep resultaat fietsmaatregelen vs. fietsdeelnemers "
                 }
             };
             const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "bar", data: data, options: options });

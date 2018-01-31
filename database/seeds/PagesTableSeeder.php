@@ -393,7 +393,6 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Campagnefase: 1 mei 2015 – 1 april 2017',
                 'description' => '',
                 'body' => '
-                    <p>Werknemers van bedrijven en instellingen uit de IJmond die een samenwerkingsovereenkomst hebben met IJmond Bereikbaar kunnen zich aanmelden voor het mobiliteitsprogramma. </p>
                     <h2>Nieuwe fietsers en ambassadeurs </h2>
                     <img src="/img/mobiliteit_luchtkwaliteit_v2.svg" class="sixty_wide"/>
                     <p>Met de aankondiging in 2015 van de sluiting van de Velsertunnel komt het programma in een stroomversnelling. Werkgevers en hun werknemers zich spontaan aan voor het programma IJmond Bereikbaar. Tussen juni en september 2015 groeit het aantal werkgevers naar 30 en daarmee het aantal werknemers naar 500. </p>
@@ -517,27 +516,6 @@ class PagesTableSeeder extends Seeder
                         </div>
                     </div>
 
-
-                    <br>
-
-                    <div class="row">
-                        <div class="col-sm-9">
-                            <strong>Enquêteresultaten</strong>
-                            <p>Uit de enquêteresultaten blijkt dat, naast het financiële argument, gezondheid een belangrijke motivator is om te fietsen. In de loop van de tijd verschuift de campagneboodschap dan ook naar de intrinsieke motivatie.</p>     
-                            <p>Blijft u fietsen na 31 maart 2017 als de campagne en daarmee ook de kilometervergoeding stopt? 96% zegt ja! Redenen om te blijven fietsen: gezondheid/conditie – goed voor het milieu – bereikbaarheid (sneller dan met de auto)</p>
-                            <p>Motieven : gezondheid 82%, milieu 50% , km-vergoeding 46%</p>
-
-                            <p>Ook in 2017 fris op je werk? Natuurlijk op de fiets </p>
-                            <ul>
-                                <li>Het is goed voor je. Fietsen maakt fysiek fit en geeft ruimte in je hoofd.</li>
-                                <li>Het is goed voor het milieu. Jij vermindert de uitstoot van CO2 door te fietsen én een betere doorstroming van het overige verkeer doet daar een schepje bovenop. </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="/img/reisgedrag_frisfietsen.jpg" class="fullwidth " />
-                        </div>
-                    </div>
-
                     <br>
 
                     <div class="row">
@@ -558,25 +536,48 @@ class PagesTableSeeder extends Seeder
                         </div>
                     </div>
 
-                    <h2>Verankeringsfase: 1 april 2017 - 31 december 2017</h2>
-                    <p>Om de actieradius van fietsers te vergroten, wordt de fietsstimuleringscampagne uitgebreid met de e-bike. De e-bike is, algemeen genomen, een geschikt alternatief voor de auto voor woon/werkafstanden tot 20 km. IJmond Bereikbaar biedt een probeer-actie aan via geïnteresseerde werkgevers. Alle medewerkers mogen de e-bike gratis uitproberen voor zowel woon/werkverkeer, als privégebruik. Hierna volgt een aanbod voor lease of koop van een nieuwe of gebruikte e-bike. We werken hiervoor samen met sQoot, die een divers aanbod heeft en de werkgevers ontzorgt.</p>
-
+                    <strong>Introductie E-bike</strong>
                     <div class="row">
                         <div class="col-sm-9">
-                            <strong>E-bike probeeractie</strong>
-                            <p>18 bedrijven uit de kopgroep hebben gebruik gemaakt van de e-bike probeeractie van IJmond Bereikbaar. </p>
-
-                            <p>Tata Steel en Etos namen op dit thema zelf initiatief en boden hun medewerkers een e-bike-probeeractie aan via een andere leverancier. </p>
-
-                            <p>Werkgevers dragen zowel met harde als zachte maatregelen bij aan het stimuleren van de fiets als vervoersmiddel voor het woon/werkverkeer.  Lees meer in de benchmark. </p>
+                            <p>Om de actieradius van fietsers te vergroten, wordt de fietsstimuleringscampagne uitgebreid met de e-bike. De e-bike is, algemeen genomen, een geschikt alternatief voor de auto voor woon/werkafstanden tot 20 km. IJmond Bereikbaar biedt een probeer-actie aan via geïnteresseerde werkgevers. Alle medewerkers mogen de e-bike gratis uitproberen voor zowel woon/werkverkeer, als privégebruik. Hierna volgt een aanbod voor lease of koop van een nieuwe of gebruikte e-bike. We werken hiervoor samen met sQoot, die een divers aanbod heeft en de werkgevers ontzorgt.</p>
                         </div>
                         <div class="col-sm-3">
                             <img src="/img/Probeer een ebike_beeld.jpg" class="fullwidth" />
                         </div>
                     </div>
+                    <p>18 bedrijven uit de kopgroep hebben gebruik gemaakt van de e-bike probeeractie van IJmond Bereikbaar. Tata Steel en Etos namen op dit thema zelf initiatief en boden hun medewerkers een e-bike-probeeractie aan via een andere leverancier. Werkgevers dragen zowel met harde als zachte maatregelen bij aan het stimuleren van de fiets als vervoersmiddel voor het woon/werkverkeer. Lees meer in de benchmark.</p>
 
-                    <h2>Resultaat</h2>
-                    <p>Het aantal IJmond Bereikbaar fietsers en fietskilometers groeit gestaag. Om goed zicht te houden op het aantal actieve fietsers wordt het deelnemersbestand ieder kwartaal opgeschoond. Deelnemers die drie maanden geen kilometers registreren worden op non-actief gezet en tellen niet meer mee voor de aantallen fietsers in de community. Dit houdt de resultaten transparant en actueel.</p>
+
+                    <br>
+
+                    <strong>Resultaat</strong>
+                    <p>In de campagnefase groeit het aantal deelnemers snel : 800 ambassadeurs en 1800 nieuwe fietsers. Uit de fietsritregistraties (interne link maken) blijkt dat begin 2017 het reisgedrag van werknemers structureel is veranderd.  Het aantal autokilometers van de deelnemers ligt gemiddeld maandelijks 400.000 km lager dan bij de start van het programma.</p>
+                    <p>Uit de enquêteresultaten blijkt dat, naast het financiële argument, gezondheid een belangrijke motivator is om te fietsen. In de loop van de tijd verschuift de campagneboodschap dan ook naar de intrinsieke motivatie.</p>     
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <p>Blijft u fietsen na 31 maart 2017 als de campagne en daarmee ook de kilometervergoeding stopt? 96% zegt ja! Redenen om te blijven fietsen: gezondheid/conditie – goed voor het milieu – bereikbaarheid (sneller dan met de auto)</p>
+                            <p>Motieven : gezondheid 82%, milieu 50% , km-vergoeding 46%</p>
+                            <p>Ook in 2017 fris op je werk? Natuurlijk op de fiets </p>
+                            <ul>
+                                <li>Het is goed voor je. Fietsen maakt fysiek fit en geeft ruimte in je hoofd.</li>
+                                <li>Het is goed voor het milieu. Jij vermindert de uitstoot van CO2 door te fietsen én een betere doorstroming van het overige verkeer doet daar een schepje bovenop. </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="/img/reisgedrag_frisfietsen.jpg" class="fullwidth " />
+                        </div>
+                    </div>
+
+
+                    <h2>Verankeringsfase: 1 april 2017 - 31 december 2017</h2>
+                    <p>De verankeringsfase wordt gebruikt om de overstap te maken van harde naar zachte vormen van belonen.  De focus ligt nog steeds op fietsstimulering en e-bike gebruik.  Door de inzet van de fietsapp Ring-Ring specifieke fietschallenges en een spaarpuntensysteem wordt de basis gelegd om het ontwikkelde fietsgedrag vast te houden.</p>
+
+                    <strong>Resultaat</strong>
+                    <p>Het aantal IJmond Bereikbaar fietsers en fietskilometers groeit gestaag. Om goed zicht te houden op het aantal actieve fietsers wordt het deelnemersbestand ieder kwartaal opgeschoond. Deelnemers die drie maanden geen kilometers registreren worden op non-actief gezet en tellen niet meer mee voor de aantallen fietsers in de community. Dit houdt de resultaten transparant en actueel. In hoeverre de inzet van de maandelijkse challenges en de fietsapp bijdragen aan het vasthouden van het fietsgedrag is vooralsnog niet eenduidig vast te stellen.</p>
+
+                    <h2>Verandering in reisgedrag</h2>
+                    <p>Fietsstimulering werkt. De grafiek over het reisgedrag zonder stimuleringsprogramma laat zien dat het merendeel van de werknemers voor de auto kiest. Met stimuleringsprogramma stapt men over op de fiets. </p>
+
 
                     <div class="row">
                         <div class="col-sm-6">
@@ -598,25 +599,29 @@ class PagesTableSeeder extends Seeder
                 'title' => 'IJmond Bereikbaar Shuttles en de OV-fiets ',
                 'description' => '',
                 'body' => '
+                    <h2>Pilotfase: eind 2014 – 1 mei 2015</h2>
+
+                    <p>Om het gebruik van het openbaar vervoer van het woon-werkverkeer te stimuleren heeft IJmond Bereikbaar een shuttle ingezet vanaf station Beverwijk naar bedrijventerrein Wijkermeer. Bij bewezen succes kan het aantal shuttles worden uitgebreid naar vijf stuks. De kosten van dit shuttlevervoer worden volledig betaald door IJmond Bereikbaar. Bedrijven en hun werknemers lijken in eerste instantie enthousiast over deze last-mile oplossing. Echter door de ingewikkelde aanmeld- en registratieprocedure wordt minimaal gebruik gemaakt van deze service.</p>
+
                     <h2>Campagnefase: 1 mei 2015 - 1 april 2017</h2>
                             <p>IJmond Bereikbaar heeft op 2 manieren het gebruik van het openbaar vervoer gestimuleerd. </p>
                             <p>Advies op maat over aanbieders van OV-mobiliteitskaarten voor werknemers die in z’n geheel overstappen van auto naar het OV. De reiskosten zijn voor rekening van de werkgever.</p>
-                            <p>De IJmond Bereikbaar Shuttle en OV-fiets: een last-mile oplossing voor werknemers die al met het openbaar vervoer reizen, maar waar de ‘last mile’ van NS- of busstation naar het bedrijf te wensen over laat. Gebruik van de shuttle en OV-fiets is gratis. IJmond Bereikbaar vergoedt de kosten.</p>
+                            <p>De IJmond Bereikbaar Shuttle en OV-fiets: een last-mile oplossing voor werknemers die al met het openbaar vervoer reizen, maar waar de ‘last mile’ van NS- of busstation naar het bedrijf te wensen over laat. Juist door de last-mile te faciliteren, wordt het totale OV-gebruik versterkt.</p>
 
                     <h2>Ambitie</h2>
-                    <p>De ambitie van IJmond Bereikbaar was het uitrollen van 5 shuttlediensten (gemiddeld 50 gebruikers per shuttle per dag). Op plaatsen waar een shuttledienst niet haalbaar of logisch was, is de OV-fiets als achtervang aangeboden. </p>
+                    <p>De ambitie van IJmond Bereikbaar was om 250 autoforensen structureel de overstap te laten maken naar het openbaar vervoer door de last-mile naar verschillende bedrijventerreinen te faciliteren. Dit door de inzet van 3-5 shuttles in de IJmond en dagelijks circa 50 gebruikers van de OV-fiets. </p>
 
                     <h2>Resultaten</h2>
                     <div class="row">
                         <div class="col-sm-9">
-                            <p>Tussen 1 mei 2015 en 31 maart 2017 zijn 3 IJmond Bereikbaar shuttles operationeel geweest. Twee van station Beverwijk naar de bedrijventerrein de Pijp en Wijkermeer en één vanaf station Driehuis naar bedrijventerrein Broekerwerf in Velserbroek. Een vierde shuttledienst van station Heemskerk naar bedrijventerrein Houtwegen is onderzocht, maar naar aanleiding van het verwachte resultaat niet tot uitgerold. In totaal hebben ca. 65 medewerkers gebruik gemaakt van de shuttles. Per 1 mei 2017 is in overleg met de betrokken werkgevers het aanbieden van de shuttledienst gestopt.</p>
+                            <p>Tussen 1 mei 2015 en 31 maart 2017 zijn drie IJmond Bereikbaar shuttles operationeel geweest. Twee van station Beverwijk naar de bedrijventerrein de Pijp en Wijkermeer en één vanaf station Driehuis naar bedrijventerrein Broekerwerf in Velserbroek. Een vierde shuttledienst van station Heemskerk naar bedrijventerrein Houtwegen is onderzocht, maar naar aanleiding van het verwachte resultaat niet uitgerold. In totaal hebben ca. 65 medewerkers gebruik gemaakt van de shuttles. Per 1 mei 2017 is in overleg met de betrokken werkgevers het aanbieden van de shuttledienst gestopt, met name doordat de kosten niet structureel overgenomen werden door werkgevers en/of werknemers.</p>
 
-                            <p>Slechts een enkele medewerker heeft de OV-fiets aangevraagd als last-mile oplossing. Deze deelnemers zijn tot en met 31 maart 2017 gefaciliteerd.</p>
                         </div>
                         <div class="col-sm-3">
                             <img src="/img/IJB-shuttle.jpg" class="fullwidth" />
                         </div>
                     </div>
+                    <p>Slechts een enkele medewerker heeft de OV-fiets aangevraagd als last-mile oplossing. Alle gebruikers van de last-mile oplossing zijn tot en met 31 maart 2017 gefaciliteerd.</p>
 
                     ',
                 'category_id' => 4,
@@ -627,9 +632,15 @@ class PagesTableSeeder extends Seeder
                 'body' => '
                     <ul>
                         <li>Laagdrempelige campagne voor fietsstimulering trekt veel mensen over de streep.</li>
-                        <li>Opbouw boodschap van extrinsieke naar intrinsieke motivatie maakt reisgedrag structureel.</li>
-                        <li>Door een substantieel aantal fietsers, krijgen de behaalde resultaten ook betekenis. Fietsers ervaren dat zij echt bijdragen aan een verbetering van de bereikbaarheid van hun directe omgeving.</li>
-                        <li>Het gratis uitproberen van een e-bike, creëert bewustzijn van de mogelijkheden voor een relatief grotere woon/werkafstand, zowel bij de werkgever als de werknemer.</li>
+                        <li>De aankondiging van de sluiting van de Velsertunnel heeft als een sterke katalysator gewerkt voor werkgevers en werknemers om na te denken over hun reisgedrag/reiskeuze tijdens de sluiting van de Velsertunnel</li>
+                        <li>Actieve promotie door de werkgevers en actieve ondersteuning door IJmond Bereikbaar hebben gericht bijgedragen aan de keuze van werknemers om anders te gaan reizen.</li>
+                        <li>Door langdurige beloning heeft de extrinsieke prikkel voldoende effect opgeleverd om zonder grote uitval het fietsgedrag vast te houden en te verankeren met de inzet van “zachte beloningen”.</li>
+                        <li>Door fietsstimulering langdurig te kunnen toepassen met inzet van kleine stappen heeft geholpen om met name in de campagnefase te komen tot stuctureel ander reisgedrag op basis van intrinsieke motivatie. De lengte van de sluiting van de Velsertunnel (9 maanden) was daarbij vanuit gedragsverandering bezien een gunstige randvoorwaarde. Na een langdurige ervaring door alle seizoenen heen bleek fietsen blijvend persoonlijke voordelen te bieden.</li>
+                        <li>De mix van ambassadeurs en nieuwe fietsers heeft gezorgd voor een fietscommunity met grote omvang (per bedrijf, in IJmond totaal). Dit versterkt het intrinstiek gemotiveerd worden en blijven van de fietsdeelnemers.</li>
+                        <li>Intrinsieke motivatie is gegroeid door de combinatie van goede persoonlijke informatie, competitie/uitdaging, kans op leuke prijzen en fun/plezier in het fietsen. Zowel uit de ritregistraties, enquêtes en het feit dat deelnemers zich nauwelijks afmelden, blijkt grote loyaliteit te zijn opgebouwd. </li>
+                        <li>Vitaliteit en duurzame inzetbaarheid blijkt voor de werkgever en werknemer in de IJmond regio een belangrijke motivator. </li>
+                        <li>De combinatie van fietsstimulering, aanleg en verbetering van fietsroutes, introductie van de fietsapp Ring-Ring en het gratis kunnen uitproberen van een e-bike zorgen voor bewustzijn bij forensen om ook over relatief grotere afstanden bewust te kiezen voor de fiets/e-bike. </li>
+
                     </ul>
                     ',
                 'category_id' => 4,
@@ -641,11 +652,12 @@ class PagesTableSeeder extends Seeder
                     <div class="row">
                         <div class="col-sm-9">
                             <ul>
-                                <li>De aanschafprijs van een e-bike is voor veel mensen een drempel. Het helpt wanneer werkgevers actief een fietsenplan voeren en waar mogelijk de financiële vergoeding voor de e-bike ophogen. Werkgevers zijn zelf nog vaak onvoldoende op de hoogte van wat zij hun medewerkers kunnen bieden.</li>
-                                <li>De overstap van autogebruik naar OV stimuleren kan alleen als de randvoorwaarden goed zijn.</li>
-                                <li>Het afwaarderen van de Kennemerlijn (treinverbinding Haarlem-Alkmaar) zorgde voor een extra overstap en maakte de reistijd langer, waardoor werknemers voorkeur bleven houden voor de auto.</li>
-                                <li>Waar de afsluiting van de Velsertunnel juist een stimulans was om over te stappen op de fiets, werkte dit nadelig voor het overstappen naar het openbaar vervoer. De bussen die normaal snel en betrouwbaar door de Velsertunnel reden, werden nu via de pont omgeleid met langere reistijd en extra overstappen tot gevolg.</li>
-                                <li>Het aanbieden van goede ‘last mile’ oplossingen heeft alleen kans van slagen als de totale OV-keten (trein/bus) goed is.</li>
+                                <li>Een financiële beloning blijkt ook in de IJmond een goede prikkel om overstap van auto naar fiets/e-bike op gang te krijgen. De beloning is over een lange periode (juni 2015-april 2017) verstrekt en identiek gebleken. Uit het reizigersgedrag blijkt dat de overstap van harde naar zachte beloning eerder ingezet had kunnen worden met behoud van de structurele gedragsverandering.</li>
+                                <li>Het onderscheid in financiële beloning tussen ambassadeurs en nieuwe fietsers gaf onnodig veel discussie bij de deelnemers en veel extra administratief werk. </li>
+                                <li>Werkgevers en werknemers vinden de e-bike een goed alternatief voor het woon/werkverkeer tot 20 kilometer. De aanschafprijs van een e-bike houdt werknemers echter tegen. Deze drempel kan makkelijk worden verlaagd wanneer werkgevers hun werkkostenregeling hiervoor willen inzetten. </li>
+                                <li>De ambitie om autoforensen te laten overstappen naar het openbaar vervoer bleek te hoog gegrepen. Werkgevers en werknemers zagen wel het voordeel om over te stappen van de auto naar de fiets maar niet naar het openbaar vervoer. </li>
+                                <li>De overstap van autogebruik naar OV stimuleren kan alleen als de randvoorwaarden goed zijn. Het afwaarderen van de Kennemerlijn (treinverbinding Haarlem-Alkmaar) zorgde voor een extra overstap en maakte de reistijd langer, waardoor werknemers voorkeur bleven houden voor de auto. Waar de afsluiting van de Velsertunnel juist een stimulans was om over te stappen op de fiets, werkte dit nadelig voor het overstappen naar het openbaar vervoer. De bussen die normaal snel en betrouwbaar door de Velsertunnel reden, werden nu via de pont omgeleid met langere reistijd en extra overstappen tot gevolg.</li>
+
                             </ul>
                         </div>
                         <div class="col-sm-3">
@@ -659,6 +671,9 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Belonen en loyaliteit',
                 'description' => '',
                 'body' => '
+                    <h2>Pilotfase: eind 2014 – 1 mei 2015</h2>
+                    <p>Met 10 bedrijven is eind 2014 gestart met fietsstimulering. 50 werknemers van deze bedrijven melden zich spontaan aan voor deze pilot. Met een financiële prikkel worden zij gestimuleerd om de auto te laten staan en op de fiets naar het werk te komen. Bestaande fietsers (ambassadeurs) zorgen ervoor dat ook niet-fietsers meedoen aan de pilot. </p>
+
                     <h2>Campagnefase: 1 mei 2015 - 1 april 2017</h2>
                     <p>In de campagnefase ligt de nadruk op financiële beloning: besparen en verdienen. Voor de werknemers die mee doen, zijn de financiële prikkel en de sluiting Velsertunnel de hoofdargumenten om hun reisgedrag te veranderen.</p>
                     <h2>Beloningssysteem Fietsstimulering</h2>
@@ -740,6 +755,15 @@ class PagesTableSeeder extends Seeder
                             <img src="/img/belonen_collage4.jpg" class="fullwidth">
                         </div>
                     </div>
+
+                    <strong>Resultaten maandelijkse challenges</strong>
+                    <ul>
+                        <li>Challenges worden positief gewaardeerd en helpen bij het vasthouden van de gedragsverandering.</li>
+                        <li>Stoppen financiële beloningen + invoeren van challenges heeft niet geleid tot terugval in aantal deelnemers/ gedrag is verankerd (95% fietst door).</li>
+                        <li>Challenges maken het mogelijk om bij te dragen aan een gezamenlijk doel en creëren een gezamenlijk gevoel.</li>
+                        <li>Generieke challenges zijn succesvol als ze een echte uitdaging bevatten.        </li>
+                    </ul>
+
                     ',
                 'category_id' => 5,
             ],
@@ -747,6 +771,9 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Challenge op maat',
                 'description' => '',
                 'body' => '
+                    <p>Om de fietsers bij een organisatie extra te motiveren en nieuwe fietsers te werven helpt het om een fietschallenge op maat te organiseren. Bij een challenge op maat verbinden we de prestatie van de fietsers aan een prijs en een goed doel. Een challenge op maat verhoogt het aantal fietskilometers en trekt nieuwe fietsers aan. In oktober 2017 heeft Tata Steel het spits afgebeten. </p>
+
+                    <strong>Tata Steel fietschallenge</strong>
                     <p>Een groep enthousiaste fietsers, een fietsapp, het vooruitzicht op een mooie prijs én een donatie aan een goed doel. Dat zijn de ingrediënten van een goed geslaagde challenge op maat bij Tata Steel. Tata Steel en IJmond Bereikbaar daagden de werknemers uit om in de maand oktober minimaal 5x op de fiets naar het werk te komen. En dat is de meeste deelnemers gelukt. Maar liefst 20 afdelingen hadden teams gevormd die tegen elkaar streden.</p>
                     <img src="/img/belonen-challenge.gif" class="fulllwidth" />
                      
@@ -774,7 +801,7 @@ class PagesTableSeeder extends Seeder
                         <li>Directe aanleiding om gedrag te willen veranderen: verkeersproblemen door sluiting Velsertunnel</li>
                         <li>Geleidelijke overgang van extrinsieke naar intrinsieke motivatie begeleiden middels challenges en communicatieboodschappen.</li>
                         <li>Uit de ritregistraties en enquêtes blijkt dat na 6-12 maanden harde beloning niet meer nodig is. De intrinsieke motivatie zorgt voor een blijvende gedragsverandering.</li>
-                        <li>Reguliere challenges zijn een aantrekkelijk en direct communicatiemoment met de fietscommunity en de werkgevers. Deelnemers waarderen het dat zij op deze manier gestimuleerd worden. Naar mate de intrinsieke motivatie sterker wordt, ziet men de challenges meer als positieve aandacht dan als aanjager. </li>
+                        <li>Reguliere challenges zijn een aantrekkelijk en direct communicatiemoment met de fietscommunity en de werkgevers. Deelnemers waarderen het dat zij op deze manier gestimuleerd worden. </li>
                         <li>Challenges op maat zorgen voor nieuw draagvlak en nieuwe fietsers</li>
                         <li>Challenges op maat kunnen snel en tegen relatief weinig kosten in praktijk worden gebracht.</li>
 
@@ -894,6 +921,9 @@ class PagesTableSeeder extends Seeder
                         <li>Introductie van een fietsapp werkt beter in combinatie met een harde beloning. </li>
                         <li>Fietsers hebben hoge verwachtingen van de technische kwaliteit van een fietsapp. Ze zijn vaak al gewend aan grote spelers op de markt zoals Strava en meten daar het niveau van andere apps aan af.</li>
                         <li>Waar privacy-gevoeligheid bij de online ritregistratie nauwelijks een rol speelt voor de deelnemers, is dit bij het al dan niet willen aanmelden voor de app wel een punt. </li>
+                        <li>600 Deelnemers hebben de fietsapp gedownload. Slechts de helft gebruikt de app actief. Het is belangrijk om de juiste snaar te raken en de toegevoegde waarde van de app duidelijk te maken Onderdeel van de app is het puntenspaarsysteem voor korting bij lokale winkeliers.</li>
+                        <li>Het is arbeidsintensief om voldoende aanbod te creëren in de app. Een gevarieerd aanbod van kortingsacties van lokale winkeliers maakt het gebruik van de app aantrekkelijker.</li>
+
 
                     </ul>
                     ',
@@ -938,7 +968,7 @@ class PagesTableSeeder extends Seeder
                             <ul>
                                 <li>Personeelsbijeenkomsten bij de werkgever om de campagne ‘Goed op weg’ toe te lichten</li>
                                 <li>Website: aanmelden en informatie</li>
-                                <li>Ieder kwartaal persoonlijke mail over uitbetaling, verbrande calorieën en bespaard CO2CO2</li>
+                                <li>Ieder kwartaal persoonlijke mail over uitbetaling, verbrande calorieën en bespaard CO2</li>
                                 <li>Actiegerichte digitale mailings, waaronder de maandelijkse challenges</li>
                                 <li>Ludieke acties per post: bijv. de zomergroet met IJmond Bereikbaar strandbal</li>
                                 <li>Helpdesk IJmond Bereikbaar</li>

@@ -55,7 +55,7 @@
                 datasets: [{
                     label: 'Aantal km',
                     data: [ 619135, 939624, 1480028, 1527554, 1692952, 1355362  ],
-                    backgroundColor: this.green,
+                    backgroundColor: this.yellow,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -84,6 +84,13 @@
                 plugins: {
                     deferred: {
                         delay: 500
+                    }
+                },
+
+                legend: {
+                  display: false,
+                    labels: {
+                      display: false
                     }
                 }
             };

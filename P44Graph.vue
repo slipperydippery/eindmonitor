@@ -55,7 +55,7 @@
                 datasets: [{
                     label: 'Aantal kilocalorien',
                     data: [ 12205583,  18638202,  29576669,  30406343,  32560752,  26782885  ],
-                    backgroundColor: this.green,
+                    backgroundColor: this.cyan_dark,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -84,6 +84,13 @@
                 plugins: {
                     deferred: {
                         delay: 500
+                    }
+                },
+
+                legend: {
+                  display: false,
+                    labels: {
+                      display: false
                     }
                 }
             };
