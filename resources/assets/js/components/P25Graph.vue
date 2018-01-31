@@ -42,7 +42,7 @@
             loadMe: function() {
             var data = {
                 labels: ["Deelname IJmond Bereikbaar"],
-                labels: ['Doet nog actief mee met het fietsprogramma ‘Goed op weg’', 'Doet niet meer mee'],
+                labels: ['Doet nog actief mee met het fietsprogramma ‘Goed op weg’', 'Gestopt met het fietsprogramma'],
                 datasets: [{
                     data: [850, 150],
                     backgroundColor: [this.green_dark, "rgba(0,0,0,0.1)"],

@@ -42,7 +42,7 @@
             loadMe: function() {
             var data = {
                 labels: ["Deelname IJmond Bereikbaar"],
-                labels: ['54% Deed mee vanwege de kilometervergoeding', ' 38% Heeft geen motivatieprogramma meer nodig', '18% Vindt IJmond Bereikbaar niet meer interessant'],
+                labels: ['54% deed mee vanwege de kilometervergoeding', ' 38% heeft geen motivatieprogramma meer nodig', '18% vindt IJmond Bereikbaar niet meer interessant'],
                 datasets: [{
                     data: [54, 38, 18],
                     backgroundColor: [this.cyan_dark, this.green_dark, this.red ],
@@ -57,7 +57,7 @@
             var options =  {
                 title: {
                     display: true,
-                    text: "Redenen om te stoppen"
+                    text: "Redenen om te stoppen met het programma"
                 }
             };
             const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "doughnut", data: data, options: options });

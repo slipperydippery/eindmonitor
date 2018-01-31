@@ -138,13 +138,13 @@ class PagesTableSeeder extends Seeder
 
                     <img src="/img/werkgevers-aanpak.gif" class="fullwidth" />
 
-                    <u>Pilotfase</u>
+                    <strong>Pilotfase</strong>
                     <p>In de pilotfase is vanuit het nationaal samenwerkingsprogramma luchtkwaliteit met 10 bedrijven gestart. Deze bedrijven hebben actief fietsdeelnemers geworven onder hun werknemers en de eerste shuttlelijn uitgetest tussen Beverwijk CS en bedrijventerrein Wijkermeer. </p>
 
-                    <u>Campagnefase</u>
+                    <strong>Campagnefase</strong>
                     <p>Met indirecte werving via de werkgeversnetwerken in de IJmond en een actieve campagne over de bereikbaarheid van de regio tijdens de renovatie van de Velsertunnel (<a href="/category/7#campagnerijkswaterstaat">zie link communicatie</a>) hebben ruim 150 werkgevers zich aangemeld als deelnemer aan het programma van IJmond Bereikbaar. Deelname was zeer laagdrempelig. Het bedrijfsleven werd volledig ontzorgd. Naast fietsstimulering zijn op drie routes IJmond Bereikbaar shuttles ingezet.</p>
 
-                    <u>Verankeringsfase</u>
+                    <strong>Verankeringsfase</strong>
                     <p>Na 1 april 2017 zijn alle werkgevers gevraagd of zij bij de kopgroep of het peloton willen aansluiten. De kopgroep voert een actief fietsstimuleringsbeleid en wordt daarbij door IJmond Bereikbaar ondersteund. Inmiddels vormen 40 bedrijven de kopgroep. Met hen zijn voor 2017 afspraken gemaakt over de inzet van harde maatregelen (vergoeding werkgever) en zachte maatregelen (e-bike probeeractie, bedrijfschallenge op maat en meer). De stimulering voor het overstappen naar het openbaar vervoer en het aanbieden van de gratis shuttlediensten is in overleg met de werkgevers gestopt. </p>
                       
                     <p><a href="/kopgroep">Hier vindt u meer informatie over de resultaten van de kopgroep.</a></p>
@@ -152,7 +152,62 @@ class PagesTableSeeder extends Seeder
 
                     <p><strong>Enquête onder werkgevers (plaatje met een cijfer IJmond Bereikbaar cijfer 7,8/maakt Pip)</strong></p>
 
-                    <h2>Enquête werkgevers - winter 2016 </h2>
+
+                    ',
+                'category_id' => 2,
+            ],
+            [
+                'title' => 'Spelregels IJmond Bereikbaar',
+                'description' => '',
+                'body' => '
+                    <p>Om aan het fietsprogramma mee te doen heeft IJmond Bereikbaar een aantal spelregels opgesteld voor de werkgever. </p>
+                    <img src="/img/werkgevers-spelregels.gif" class="fullwidth" />
+                    ',
+                'category_id' => 2,
+            ],
+            [
+                'title' => 'Succesfactoren',
+                'description' => '',
+                'body' => '
+                    <div class="page--intwo">
+                        <div class="page--intwo--item">
+                            <ul>
+                                <li>80% van de aanmeldingen gebeurde door mond-op-mond reclame. Opvolging en implementatie door de mobiliteitsmakelaar.</li>
+                                <li>Laagdrempelige toegang tot het programma. IJmond Bereikbaar heeft het bedrijfsleven op hoog niveau ontzorgd.</li>
+                                <li>De renovatie en afsluiting van de Velsertunnel is voor het bedrijfsleven een belangrijke aanjager geweest om actie te nemen op het thema mobiliteit.</li>
+                                <li>Er is voldoende tijd geweest om extrinsieke motivatie (bereikbaarheidsprobleem, financiële vergoeding voor werknemers) om te buigen naar intrinsieke motivatie (vitaliteit, duurzame inzetbaarheid).</li>
+                                <li>Slagkracht door de korte lijnen met de IJmondgemeenten, de Provincie Noord-Holland en Rijkswaterstaat.</li>
+                                <li>Hands-on mentaliteit van werkgevers in de regio.</li>
+                            </ul>
+                        </div>
+                        <div class="page--intwo--item sixty_wide">
+                            <img src="/img/poppetje-succesfactoren.gif" class="fullwidth" />
+                        </div>
+
+                    </div>
+                    ',
+                'category_id' => 2,
+            ],
+            [
+                'title' => 'Aandachtspunten',
+                'description' => '',
+                'body' => '
+                    <ul>
+                        <li>De campagnefase van het programma was zeer sterk aanbod gestuurd door IJmond Bereikbaar. Dit maakte deelname enerzijds aantrekkelijk en laagdrempelig. Anderzijds kostte het daardoor in de verankeringsfase meer tijd om het initiatief aan de werkgevers over te dragen.</li>
+                        <li>De aandacht van ondernemers gaat logischerwijs vooral naar hun primaire bedrijfsvoering. De nasleep van de economische crisis heeft deze houding nog versterkt. De thema’s bereikbaarheid en luchtkwaliteit kregen daardoor minder prioriteit.</li>
+                        <li>Het overnemen van fietsregelingen duurt soms langer dan gewenst door bijvoorbeeld langlopende CAO-afspraken.</li>
+                        <li>De nieuwe regelgeving of subsidiemogelijkheden voor fietsstimulering, zoals bijv. het Nieuwe Fietsenplan zijn vaak onvoldoende bekend.</li>
+                        <li>Werkgevers benutten niet alle mogelijkheden en zouden de promotie van regelingen bij hun werknemers kunnen verbeteren.</li>
+
+
+                    </ul>
+                    ',
+                'category_id' => 2,
+            ],
+            [
+                'title' => 'Enquête werkgevers - winter 2016',
+                'description' => '',
+                'body' => '
                     <p><strong>Renovatie Velsertunnel in volle gang</strong></p>
                     <p>Het doel van de enquête was om inzicht te verkrijgen in wat de campagne ‘Goed op weg’ het bedrijfsleven in de IJmond heeft opgeleverd. Daarnaast waren we benieuwd welke thema’s op het gebied van mobiliteit en bereikbaarheid bij organisaties actueel zijn.  </p>
                     <p>Dit zijn enkele resultaten uit de enquête: </p>
@@ -307,67 +362,30 @@ class PagesTableSeeder extends Seeder
                             
                     <p>88% van de bedrijven wil aandacht blijven geven aan het motiveren en stimuleren van de fietsende werknemers, maar weet nog niet hoe. Sommige bedrijven hebben aangegeven te stoppen met het programma, omdat de Velsertunnel weer open is. Zij vinden bereikbaarheid dan geen issue meer. Een enkel bedrijf trekt de conclusie dat er te weinig animo is bij de werknemers om de auto te laten staan voor het woon/werkverkeer.</p>
 
-
                     ',
                 'category_id' => 2,
             ],
             [
-                'title' => 'Spelregels IJmond Bereikbaar',
+                'title' => 'Pilotfase: eind 2014 – 1 mei 2015',
                 'description' => '',
                 'body' => '
-                    <p>Om aan het fietsprogramma mee te doen heeft IJmond Bereikbaar een aantal spelregels opgesteld voor de werkgever. </p>
-                    <img src="/img/werkgevers-spelregels.gif" class="fullwidth" />
+                    <p>Met 10 bedrijven is eind 2014 gestart met fietsstimulering. 50 werknemers van deze bedrijven melden zich spontaan aan voor het fietsprogramma. Bestaande fietsers (ambassadeurs) zorgen ervoor dat ook niet-fietsers meedoen aan de pilot. Ook rijdt de eerste IJmond Bereikbaar shuttle.</p>
                     ',
-                'category_id' => 2,
+                'category_id' => 3,
             ],
             [
-                'title' => 'Succesfactoren',
-                'description' => '',
-                'body' => '
-                    <div class="page--intwo">
-                        <div class="page--intwo--item">
-                            <ul>
-                                <li>80% van de aanmeldingen gebeurde door mond-op-mond reclame. Opvolging en implementatie door de mobiliteitsmakelaar.</li>
-                                <li>Laagdrempelige toegang tot het programma. IJmond Bereikbaar heeft het bedrijfsleven op hoog niveau ontzorgd.</li>
-                                <li>De renovatie en afsluiting van de Velsertunnel is voor het bedrijfsleven een belangrijke aanjager geweest om actie te nemen op het thema mobiliteit.</li>
-                                <li>Er is voldoende tijd geweest om extrinsieke motivatie (bereikbaarheidsprobleem, financiële vergoeding voor werknemers) om te buigen naar intrinsieke motivatie (vitaliteit, duurzame inzetbaarheid).</li>
-                                <li>Slagkracht door de korte lijnen met de IJmondgemeenten, de Provincie Noord-Holland en Rijkswaterstaat.</li>
-                                <li>Hands-on mentaliteit van werkgevers in de regio.</li>
-                            </ul>
-                        </div>
-                        <div class="page--intwo--item sixty_wide">
-                            <img src="/img/poppetje-succesfactoren.gif" class="fullwidth" />
-                        </div>
-
-                    </div>
-                    ',
-                'category_id' => 2,
-            ],
-            [
-                'title' => 'Aandachtspunten',
-                'description' => '',
-                'body' => '
-                    <ul>
-                        <li>De campagnefase van het programma was zeer sterk aanbod gestuurd door IJmond Bereikbaar. Dit maakte deelname enerzijds aantrekkelijk en laagdrempelig. Anderzijds kostte het daardoor in de verankeringsfase meer tijd om het initiatief aan de werkgevers over te dragen.</li>
-                        <li>De aandacht van ondernemers gaat logischerwijs vooral naar hun primaire bedrijfsvoering. De nasleep van de economische crisis heeft deze houding nog versterkt. De thema’s bereikbaarheid en luchtkwaliteit kregen daardoor minder prioriteit.</li>
-                        <li>Het overnemen van fietsregelingen duurt soms langer dan gewenst door bijvoorbeeld langlopende CAO-afspraken.</li>
-                        <li>De nieuwe regelgeving of subsidiemogelijkheden voor fietsstimulering, zoals bijv. het Nieuwe Fietsenplan zijn vaak onvoldoende bekend.</li>
-                        <li>Werkgevers benutten niet alle mogelijkheden en zouden de promotie van regelingen bij hun werknemers kunnen verbeteren.</li>
-
-
-                    </ul>
-                    ',
-                'category_id' => 2,
-            ],
-            [
-                'title' => 'Fase 1: campagnefase',
+                'title' => 'Campagnefase: 1 mei 2015 – 1 april 2017',
                 'description' => '',
                 'body' => '
                     <p>Werknemers van bedrijven en instellingen uit de IJmond die een samenwerkingsovereenkomst hebben met IJmond Bereikbaar kunnen zich aanmelden voor het mobiliteitsprogramma. </p>
                     <h2>Nieuwe fietsers en ambassadeurs </h2>
-                    <img src="/img/mobiliteit_luchtkwaliteit_v2.svg" />
+                    <img src="/img/mobiliteit_luchtkwaliteit_v2.svg" class="sixty_wide"/>
+                    <p>Met de aankondiging in 2015 van de sluiting van de Velsertunnel komt het programma in een stroomversnelling. Werkgevers en hun werknemers zich spontaan aan voor het programma IJmond Bereikbaar. Tussen juni en september 2015 groeit het aantal werkgevers naar 30 en daarmee het aantal werknemers naar 500. </p>
                     <p17-graph></p17-graph>
-                    <p>Medewerkers melden zich massaal aan voor het fietsstimuleringsprogramma. De kilometervergoeding trekt veel mensen over de streep. Daarnaast is ook de sluiting van de Velsertunnel van 15 april 2016 tot 15 januari 2017 voor veel mensen aanleiding om van vervoersmiddel te veranderen. Slechts 2% is geïnteresseerd om over te stappen van de auto naar het openbaar vervoer. </p>
+                    <p>Medewerkers melden zich in de periode sept 2015-april 2016 massaal aan voor het fietsstimuleringsprogramma. De communicatie <a href="/category/7">van Rijkswaterstaat en IJmond Bereikbaar</a> over de sluiting van de Velsertunnel, de makkelijke aanmeldingsprocedure en de vergoeding voor fietskilometers zijn succesfactoren. Opmerkelijk is dat het aantal deelnemers ook blijft toenemen tijdens de afsluiting van de Velsertunnel. In deze periode is het aantal aanmeldingen in deze groep opgelopen tot 800. De ambitie was 500 aanmeldingen. Door deze snelle groei is een stop in het aantal ambassadeurs noodzakelijk. Nieuwe fietsers kunnen nog wel aanmelden.</p>
+
+                    <p>Het aantal overstappers naar openbaar vervoer blijft beperkt tot circa 50 deelnemers. Ondanks het gratis beschikbaar stellen van shuttles en OV-fiets slaat dit aanbod slechts bij een beperkt deel van de autoforensen aan.</p>
+
                     
                     <h2>Spelregels IJmond Bereikbaar – Goed op weg</h2>
                     <div class="row">
@@ -389,13 +407,10 @@ class PagesTableSeeder extends Seeder
                 'category_id' => 3,
             ],
             [
-                'title' => 'Fase 2: verankeringsfase',
+                'title' => 'Verankeringsfase',
                 'description' => '',
                 'body' => '
-                    <p>Medio januari 2017 gaat de Velsertunnel weer open. IJmond Bereikbaar betaalt nog tot 31 maart een kilometervergoeding aan haar fietsers en start daarnaast met een afwisselend loyaliteitsprogramma. Ook wordt in april 2017 de fietsapp van Ring-Ring geïntroduceerd. Uit enquêteresultaten blijkt dat in 6 tot 9 maanden extrinsieke motivatie omgevormd kan worden naar intrinsieke motivatie. Ook zonder kilometervergoeding blijft 95% van de deelnemers fietsen.</p>
-
-                    <h2>Snelfietsroute</h2>
-                    <img src="/img/trace fietsroute2.png" class="fullwidth" />
+                    <p>Medio januari 2017 gaat de Velsertunnel weer open. IJmond Bereikbaar betaalt nog tot 31 maart een kilometervergoeding aan haar fietsers en start daarnaast met een afwisselend loyaliteitsprogramma. Ook wordt in april 2017 de fietsapp van Ring-Ring geïntroduceerd. Uit enquêteresultaten blijkt dat in 6 tot 9 maanden extrinsieke motivatie omgevormd kan worden naar intrinsieke motivatie. Ook zonder kilometervergoeding blijft 95% van de deelnemers fietsen. Het aantal actieve fietsdeelnemers blijft in deze fase stabiel op 2600. </p>
 
                     <h2>Enquêteresultaten deelnemende werknemers zomer 2017</h2>
 

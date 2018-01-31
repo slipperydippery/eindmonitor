@@ -29,6 +29,14 @@
                             </span>
                         </div>
                     </div>
+                    <div class="overlay--block overlay--block__tunnel">
+                        <img src="/img/picto_tunnel.svg" alt="">
+                        <div class="overlay--block--hover">
+                            <span>
+                                Velsertunnel 9 maanden dicht voor renovatie. Succesvolle samenwerking met Rijkswaterstaat om verkeersoverlast te beperken.
+                            </span>
+                        </div>
+                    </div>
                     <div class="overlay--block overlay--block__trein">
                         <img src="/img/trein.svg" alt="">
                         <div class="overlay--block--hover">
@@ -50,14 +58,6 @@
                         <div class="overlay--block--hover">
                             <span>
                                 IJmond Bereikbaar shuttle als last-mile OV-oplossing van NS-station naar bedrijventerrein
-                            </span>
-                        </div>
-                    </div>
-                    <div class="overlay--block overlay--block__tunnel">
-                        <img src="/img/picto_tunnel.svg" alt="">
-                        <div class="overlay--block--hover">
-                            <span>
-                                Velsertunnel 9 maanden dicht voor renovatie. Succesvolle samenwerking met Rijkswaterstaat om verkeersoverlast te beperken.
                             </span>
                         </div>
                     </div>
