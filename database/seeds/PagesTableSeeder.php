@@ -138,7 +138,176 @@ class PagesTableSeeder extends Seeder
 
                     <img src="/img/werkgevers-aanpak.gif" class="fullwidth" />
 
-                    <p>Nieuwsgierig naar de resultaten van de kopgroep? <a href="/kopgroep">Klik hier voor de benchmark.</a> </p>
+                    <u>Pilotfase</u>
+                    <p>In de pilotfase is vanuit het nationaal samenwerkingsprogramma luchtkwaliteit met 10 bedrijven gestart. Deze bedrijven hebben actief fietsdeelnemers geworven onder hun werknemers en de eerste shuttlelijn uitgetest tussen Beverwijk CS en bedrijventerrein Wijkermeer. </p>
+
+                    <u>Campagnefase</u>
+                    <p>Met indirecte werving via de werkgeversnetwerken in de IJmond en een actieve campagne over de bereikbaarheid van de regio tijdens de renovatie van de Velsertunnel (<a href="/category/7#campagnerijkswaterstaat">zie link communicatie</a>) hebben ruim 150 werkgevers zich aangemeld als deelnemer aan het programma van IJmond Bereikbaar. Deelname was zeer laagdrempelig. Het bedrijfsleven werd volledig ontzorgd. Naast fietsstimulering zijn op drie routes IJmond Bereikbaar shuttles ingezet.</p>
+
+                    <u>Verankeringsfase</u>
+                    <p>Na 1 april 2017 zijn alle werkgevers gevraagd of zij bij de kopgroep of het peloton willen aansluiten. De kopgroep voert een actief fietsstimuleringsbeleid en wordt daarbij door IJmond Bereikbaar ondersteund. Inmiddels vormen 40 bedrijven de kopgroep. Met hen zijn voor 2017 afspraken gemaakt over de inzet van harde maatregelen (vergoeding werkgever) en zachte maatregelen (e-bike probeeractie, bedrijfschallenge op maat en meer). De stimulering voor het overstappen naar het openbaar vervoer en het aanbieden van de gratis shuttlediensten is in overleg met de werkgevers gestopt. </p>
+                      
+                    <p><a href="/kopgroep">Hier vindt u meer informatie over de resultaten van de kopgroep.</a></p>
+
+
+                    <p><strong>Enquête onder werkgevers (plaatje met een cijfer IJmond Bereikbaar cijfer 7,8/maakt Pip)</strong></p>
+
+                    <h2>Enquête werkgevers - winter 2016 </h2>
+                    <p><strong>Renovatie Velsertunnel in volle gang</strong></p>
+                    <p>Het doel van de enquête was om inzicht te verkrijgen in wat de campagne ‘Goed op weg’ het bedrijfsleven in de IJmond heeft opgeleverd. Daarnaast waren we benieuwd welke thema’s op het gebied van mobiliteit en bereikbaarheid bij organisaties actueel zijn.  </p>
+                    <p>Dit zijn enkele resultaten uit de enquête: </p>
+                     
+                    <p><strong>Wat heeft deelname aan IJmond Bereikbaar uw bedrijf tot nu toe opgeleverd?</strong></p>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    63%
+                                </td>
+                                <td>
+                                    Als werkgever ben ik meer bewust bezig hoe ik mijn werknemers kan stimuleren om minder gebruik te maken van de auto voor het woon/werkverkeer
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    56%
+                                </td>
+                                <td>
+                                    Als werkgever ben ik goed/beter geïnformeerd over de verkeersmaatregelen rondom de renovatie van de Velsertunnel
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    34%         
+                                </td>
+                                <td>
+                                    Als werkgever ben ik meer bewust bezig met hoe ik kan bijdragen aan de bereikbaarheid van de regio
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    56%     
+                                </td>
+                                <td>
+                                    Als werkgever heb ik op een makkelijke en prettige manier mijn werkgevers iets extra’s kunnen geven (km vergoeding, e-bike proberen)
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>      
+
+                    <p><strong>Welke onderwerpen zijn, gerelateerd aan bereikbaarheid en mobiliteit, actueel bij uw organisatie?</strong></p>
+
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    56%         
+                                </td>
+                                <td>
+                                    Vitaliteit/duurzame inzetbaarheid van werknemers 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    53%         
+                                </td>
+                                <td>
+                                    Bereikbaarheid van het bedrijf/bedrijventerrein 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25%         
+                                </td>
+                                <td>
+                                    Bereikbaarheid van de regio 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    22%         
+                                </td>
+                                <td>
+                                    Luchtkwaliteit van de regio 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    16%         
+                                </td>
+                                <td>
+                                    Het nieuwe werken (in relatie tot spitsmijden) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p><strong>Op welke thema’s zou  IJmond Bereikbaar voor u ook in 2017 van toegevoegde waarde zijn?</strong></p>
+
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    75%     
+                                </td>
+                                <td>
+                                    Voortzetting van het huidige programma inclusief fietsstimuleringscampagne
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    63%         
+                                </td>
+                                <td>
+                                    Samen met de gemeenten blijven zorgdragen voor goede infrastructuur op de fiets
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    34%     
+                                </td>
+                                <td>
+                                    Communicatieve ondersteuning fietsstimulering
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    31%         
+                                </td>
+                                <td>
+                                    Een platform blijven bieden voor de registratie van fietskilometers
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25%     
+                                </td>
+                                <td>
+                                    Aanspreekpunt/ondersteuning subsidiemogelijkheden op het gebied van spitsmijden
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    19%     
+                                </td>
+                                <td>
+                                    Kennisinstituut m.b.t. mobiliteit en bereikbaarheid (mobiliteitsvisie IJmond)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    9%      
+                                </td>
+                                <td>
+                                    Uitbreiding van het aantal thema’s met bijv. goederenvervoer en bereikbaarheid bedrijventerreinen
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                            
+                    <p>88% van de bedrijven wil aandacht blijven geven aan het motiveren en stimuleren van de fietsende werknemers, maar weet nog niet hoe. Sommige bedrijven hebben aangegeven te stoppen met het programma, omdat de Velsertunnel weer open is. Zij vinden bereikbaarheid dan geen issue meer. Een enkel bedrijf trekt de conclusie dat er te weinig animo is bij de werknemers om de auto te laten staan voor het woon/werkverkeer.</p>
+
+
                     ',
                 'category_id' => 2,
             ],
@@ -768,7 +937,7 @@ class PagesTableSeeder extends Seeder
                     <strong>LinkedIn: </strong>
                     <p>Voor zakelijk ingestoken posts over het programma van IJmond Bereikbaar gebruikt IJmond Bereikbaar de persoonlijke LinkedIn-pagina’s van met name de programmamanager en communicatieadviseur. Informatie wordt zo gericht binnen het eigen netwerk verspreid.</p>
 
-                    <h2>Communicatiecampagne samen met Rijkswaterstaat</h2>
+                    <h2 id="campagnerijkswaterstaat">Communicatiecampagne samen met Rijkswaterstaat</h2>
                     <strong>Reis bewust</strong>
                     <p>In de periode januari 2016 – februari 2017 zijn IJmond Bereikbaar en Rijkswaterstaat ook op communicatiegebied samen opgetrokken. De gezamenlijke boodschap: De sluiting van de Velsertunnel brengt verkeershinder met zich mee. Check daarom altijd je reistijd en route voor vertrek en pas je plannen daarop aan. En mijd de spits. Daar help je jezelf én anderen mee. </p>
                     <p>Berichtgeving over afsluitingen en omleidingen voorafgaand en tijdens de sluiting van de Velsertunnel vond zowel via online als offline communicatiekanalen plaats.</p>
