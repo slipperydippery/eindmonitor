@@ -42,6 +42,9 @@ class PagesTableSeeder extends Seeder
 
                         <h2>Resultaten ontwikkeling fietsdeelnemers</h2>
                         <p>De grafiek hieronder laat per fase de ontwikkeling van het aantal fietsdeelnemers van 2014 t/m 2017 zien.</p>
+
+                        <p16-graph></p16-graph>
+                        
                         <p>Toelichting op de grafiek:</p>
 
                         <strong>Pilotfase: eind 2014 – 1 mei 2015</strong>
@@ -52,8 +55,6 @@ class PagesTableSeeder extends Seeder
 
                         <strong>Verankeringsfase: 1 april – 31 december 2017</strong>
                         <p>Het aantal actieve fietsers blijft stabiel. De fietschallenge op maat bij Tata Steel levert in oktober 2017 nieuwe aanmeldingen op.</p>
-
-                        <p16-graph></p16-graph>
                     
                         <h2>Ambassadeurs</h2>
                         <p>IJmond Bereikbaar heeft ambassadeurs ingezet om het fietsprogramma te stimuleren.</p>
