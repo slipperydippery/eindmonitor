@@ -77,7 +77,7 @@
                     },{
                     label: '(brom-)fietsers met spitspont',
                     data: [0, 0, 4304, 4277, 5508, 4487, 4573 ],
-                    backgroundColor: this.blue_1,
+                    backgroundColor: this.green_dark,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,

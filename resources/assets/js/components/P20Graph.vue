@@ -54,7 +54,7 @@
                     },{
                     label: 'Resultaat',
                     data: [170],
-                    // backgroundColor: this.cyan_dark,
+                    backgroundColor: this.green,
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,

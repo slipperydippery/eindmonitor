@@ -53,7 +53,7 @@
             var data = {
                 labels: ["Q4 2015", "Q1 2016", "Q2 2016", "Q3 2016", "Q4 2016", "Q1 2017",],
                 datasets: [{
-                    label: '??? geld ???',
+                    label: 'Uitbetaling in Euro’s',
                     data: [ 57671.44, 120972.74, 143539.37, 146263.26, 210156.53, 135931.47  ],
                     backgroundColor: this.green,
                     // borderColor: this.color,
@@ -78,7 +78,7 @@
                 },
                 title: {
                     display: true,
-                    text: "ontwikkeling in gebruik van RingRing-app weergegeven in aantal gebruikers per maand "
+                    text: "Uitbetaling kilometervergoeding fietsritten per kwartaal in Euro’s "
                 },
 
                 plugins: {

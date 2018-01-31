@@ -78,7 +78,7 @@
                 },
                 title: {
                     display: true,
-                    text: "Hier moet een titel"
+                    text: "Aantal gereden fietskilometers per kwartaal"
                 },
 
                 plugins: {

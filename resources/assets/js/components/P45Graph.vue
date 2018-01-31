@@ -78,7 +78,7 @@
                 },
                 title: {
                     display: true,
-                    text: "Hier moet een titel"
+                    text: "Behaalde CO2 reductie per kwartaal"
                 },
 
                 plugins: {

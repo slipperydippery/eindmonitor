@@ -10,6 +10,7 @@
         </div>
         <generator></generator>
         <div class="container row">
+            <p>Beweeg met de muis over de kaart voor de resultaten</p>
             <div class="mapcontainer">
                 <img src="/img/kaart-animatie.gif" alt="" class="welcome--img">
                 <div class="mapoverlay">

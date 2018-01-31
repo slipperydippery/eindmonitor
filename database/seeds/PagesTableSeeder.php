@@ -39,8 +39,20 @@ class PagesTableSeeder extends Seeder
                         </ul>
 
                         <p>Lees meer over onze werkgeversaanpak en de acties die gedaan zijn om werknemers over de streep te trekken en vast te houden. </p>
+
                         <h2>Resultaten ontwikkeling fietsdeelnemers</h2>
-                        <p>De grafiek hieronder laat zien dat er een toename van het aantal fietsdeelnemers is geweest van oktober 2015 tot en met maart 2017. In die periode heeft IJmond Bereikbaar een fietsvergoeding gegeven aan fietsdeelnemers. In de periode van maart 2016 tot en met januari 2017 was de Velsertunnel gesloten vanwege renovatie. Dit kan ook bijgedragen hebben tot een toename van fietsdeelnemers. </p>
+                        <p>De grafiek hieronder laat per fase de ontwikkeling van het aantal fietsdeelnemers van 2014 t/m 2017 zien.</p>
+                        <p>Toelichting op de grafiek:</p>
+
+                        <strong>Pilotfase: eind 2014 – 1 mei 2015</strong>
+                        <p>Startgroep van circa 50 fietsers</p>
+
+                        <strong>Campagnefase: 1 mei 2015 – 1 april 2017</strong>
+                        <p>Meer werknemers sluiten zich aan en het aantal fietsers stijgt. Veel aanmeldingen tijdens de renovatie en bijbehorende afsluiting van de Velsertunnel. In september is de database geactualiseerd. Niet actieve fietsers zijn uitgeschreven.</p>
+
+                        <strong>Verankeringsfase: 1 april – 31 december 2017</strong>
+                        <p>Het aantal actieve fietsers blijft stabiel. De fietschallenge op maat bij Tata Steel levert in oktober 2017 nieuwe aanmeldingen op.</p>
+
                         <p16-graph></p16-graph>
                     
                         <h2>Ambassadeurs</h2>
@@ -56,7 +68,7 @@ class PagesTableSeeder extends Seeder
 
                     ',
                 'category_id' => 1,
-            ],
+             ],
             [
                 'title' => 'Spitsmijdingen',
                 'description' => '',
@@ -142,15 +154,12 @@ class PagesTableSeeder extends Seeder
                     <p>In de pilotfase is vanuit het nationaal samenwerkingsprogramma luchtkwaliteit met 10 bedrijven gestart. Deze bedrijven hebben actief fietsdeelnemers geworven onder hun werknemers en de eerste shuttlelijn uitgetest tussen Beverwijk CS en bedrijventerrein Wijkermeer. </p>
 
                     <strong>Campagnefase</strong>
-                    <p>Met indirecte werving via de werkgeversnetwerken in de IJmond en een actieve campagne over de bereikbaarheid van de regio tijdens de renovatie van de Velsertunnel (<a href="/category/7#campagnerijkswaterstaat">zie link communicatie</a>) hebben ruim 150 werkgevers zich aangemeld als deelnemer aan het programma van IJmond Bereikbaar. Deelname was zeer laagdrempelig. Het bedrijfsleven werd volledig ontzorgd. Naast fietsstimulering zijn op drie routes IJmond Bereikbaar shuttles ingezet.</p>
+                    <p>Met indirecte werving via de werkgeversnetwerken in de IJmond en een actieve campagne over de bereikbaarheid van de regio tijdens <a href="/category/7#campagnerijkswaterstaat">de renovatie van de Velsertunnel</a> hebben ruim 150 werkgevers zich aangemeld als deelnemer aan het programma van IJmond Bereikbaar. Deelname was zeer laagdrempelig. Het bedrijfsleven werd volledig ontzorgd. Naast fietsstimulering zijn op drie routes IJmond Bereikbaar shuttles ingezet.</p>
 
                     <strong>Verankeringsfase</strong>
                     <p>Na 1 april 2017 zijn alle werkgevers gevraagd of zij bij de kopgroep of het peloton willen aansluiten. De kopgroep voert een actief fietsstimuleringsbeleid en wordt daarbij door IJmond Bereikbaar ondersteund. Inmiddels vormen 40 bedrijven de kopgroep. Met hen zijn voor 2017 afspraken gemaakt over de inzet van harde maatregelen (vergoeding werkgever) en zachte maatregelen (e-bike probeeractie, bedrijfschallenge op maat en meer). De stimulering voor het overstappen naar het openbaar vervoer en het aanbieden van de gratis shuttlediensten is in overleg met de werkgevers gestopt. </p>
                       
                     <p><a href="/kopgroep">Hier vindt u meer informatie over de resultaten van de kopgroep.</a></p>
-
-
-                    <p><strong>Enquête onder werkgevers (plaatje met een cijfer IJmond Bereikbaar cijfer 7,8/maakt Pip)</strong></p>
 
 
                     ',
@@ -208,9 +217,16 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Enquête werkgevers - winter 2016',
                 'description' => '',
                 'body' => '
-                    <p><strong>Renovatie Velsertunnel in volle gang</strong></p>
-                    <p>Het doel van de enquête was om inzicht te verkrijgen in wat de campagne ‘Goed op weg’ het bedrijfsleven in de IJmond heeft opgeleverd. Daarnaast waren we benieuwd welke thema’s op het gebied van mobiliteit en bereikbaarheid bij organisaties actueel zijn.  </p>
-                    <p>Dit zijn enkele resultaten uit de enquête: </p>
+                    <div class="row">
+                        <div class="col-sm-10">
+                            <p><strong>Renovatie Velsertunnel in volle gang</strong></p>
+                            <p>Het doel van de enquête was om inzicht te verkrijgen in wat de campagne ‘Goed op weg’ het bedrijfsleven in de IJmond heeft opgeleverd. Daarnaast waren we benieuwd welke thema’s op het gebied van mobiliteit en bereikbaarheid bij organisaties actueel zijn.  </p>
+                            <p>Dit zijn enkele resultaten uit de enquête: </p>
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="/img/enquite-onder-werkgevers.gif" class="fullwidth" />
+                        </div>
+                    </div>
                      
                     <p><strong>Wat heeft deelname aan IJmond Bereikbaar uw bedrijf tot nu toe opgeleverd?</strong></p>
                     <table class="table">
@@ -481,8 +497,10 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Fiets en e-bike ',
                 'description' => '',
                 'body' => '
+                    <h2>Pilotfase: eind 2014 – 1 mei 2015</h2>
+                    <p>In de pilotfase wordt gepeild bij werknemers van 10 bedrijven of een financiële prikkel helpt om reisgedrag te veranderen. Het resultaat is een enthousiaste groep van 50 fietsers. </p>
+
                     <h2>Campagnefase: 1 mei 2015 - 1 april 2017</h2>
-                    <h2>Boodschap</h2>
                     <div class="row">
                         <div class="col-sm-9">
                             <p>Bij de start van de campagne ligt de nadruk op extrinsieke motivatie en bewustzijn creëren voor alternatieven voor de auto.</p>
