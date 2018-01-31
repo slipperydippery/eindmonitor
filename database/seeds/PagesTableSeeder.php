@@ -348,9 +348,12 @@ class PagesTableSeeder extends Seeder
                 'description' => '',
                 'body' => '
                     <ul>
-                        <li>Ondernemers zijn eerst en vooral bezig met hun primaire bedrijfsvoering. Bereikbaarheid en luchtkwaliteit heeft hun aandacht, maar voldoende tijd en begeleiding is van cruciaal belang.</li>
+                        <li>De campagnefase van het programma was zeer sterk aanbod gestuurd door IJmond Bereikbaar. Dit maakte deelname enerzijds aantrekkelijk en laagdrempelig. Anderzijds kostte het daardoor in de verankeringsfase meer tijd om het initiatief aan de werkgevers over te dragen.</li>
+                        <li>De aandacht van ondernemers gaat logischerwijs vooral naar hun primaire bedrijfsvoering. De nasleep van de economische crisis heeft deze houding nog versterkt. De thema’s bereikbaarheid en luchtkwaliteit kregen daardoor minder prioriteit.</li>
                         <li>Het overnemen van fietsregelingen duurt soms langer dan gewenst door bijvoorbeeld langlopende CAO-afspraken.</li>
                         <li>De nieuwe regelgeving of subsidiemogelijkheden voor fietsstimulering, zoals bijv. het Nieuwe Fietsenplan zijn vaak onvoldoende bekend.</li>
+                        <li>Werkgevers benutten niet alle mogelijkheden en zouden de promotie van regelingen bij hun werknemers kunnen verbeteren.</li>
+
 
                     </ul>
                     ',
