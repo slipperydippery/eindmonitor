@@ -44,7 +44,6 @@ class PagesTableSeeder extends Seeder
                         <p>De grafiek hieronder laat per fase de ontwikkeling van het aantal fietsdeelnemers van 2014 t/m 2017 zien.</p>
 
                         <p16-graph></p16-graph>
-                        
                         <p>Toelichting op de grafiek:</p>
 
                         <strong>Pilotfase: eind 2014 – 1 mei 2015</strong>
@@ -531,8 +530,8 @@ class PagesTableSeeder extends Seeder
                             </ul>
                         </div>
                         <div class="col-sm-3">
-                            <a href="/img/image001.JPG" >
-                                <img src="/img/image001.JPG" class="fullwidth" />
+                            <a href="/img/image001.jpg" >
+                                <img src="/img/image001.jpg" class="fullwidth" />
                             </a>
                         </div>
                     </div>
@@ -619,7 +618,7 @@ class PagesTableSeeder extends Seeder
 
                         </div>
                         <div class="col-sm-3">
-                            <img src="/img/IJB-shuttle.jpg" class="fullwidth" />
+                            <img src="/img/ijb-shuttle.jpg" class="fullwidth" />
                         </div>
                     </div>
                     <p>Slechts een enkele medewerker heeft de OV-fiets aangevraagd als last-mile oplossing. Alle gebruikers van de last-mile oplossing zijn tot en met 31 maart 2017 gefaciliteerd.</p>
@@ -726,10 +725,10 @@ class PagesTableSeeder extends Seeder
                             </ul>
                         </div>
                         <div class="col-sm-5">
-                            <img src="/img/REISGEDRAG - BELONING NIEUW-.svg" class="fullwidth" />
+                            <img src="/img/reisgedrag_beloning.svg" class="fullwidth" />
                         </div>
                     </div>
-                    <img src="/img/GRAFIEK BINDEN BOEIEN.svg" class="fullwidth" />
+                    <img src="/img/grafiek_binden_boeien.svg" class="fullwidth" />
 
 
                     ',
@@ -793,7 +792,7 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Succesfactoren',
                 'description' => '',
                 'body' => '
-                    <img src="/img/belonen en loyaliteit - succesfactoren v2.svg" class="fourty_wide" />
+                    <img src="/img/belonen_ succesfactoren.svg" class="fourty_wide" />
                     <ul>
                         <li>Starten met een harde financiële beloning zorgt voor volume bij het aantal deelnemers</li>
                         <li>Extra stimulans in periode dat het minder aantrekkelijk is om op de fiets naar het werk te gaan: verhoging van vergoeding naar € 0,15 in de wintermaanden.</li>
@@ -853,7 +852,7 @@ class PagesTableSeeder extends Seeder
                             <p>Hoort een werkgever tot de kopgroep van IJmond Bereikbaar, dan wordt een specifieke bedrijfsgroep aangemaakt. Zo zien medewerkers hoe ze presteren t.o.v. hun collega’s.</p>
                         </div>
                         <div class="col-sm-3">
-                            <img src="/img/Ring-Ring-screenshot.png" class="fullwidth" />
+                            <img src="/img/ring-ring-screenshot.png" class="fullwidth" />
                         </div>
                     </div>  
                      <br><br>
@@ -865,7 +864,7 @@ class PagesTableSeeder extends Seeder
                             <p>Iedere fietskilometer is een punt waard. Deze punten geven je korting bij aangesloten bedrijven en winkeliers. In de IJmond hebben 10 winkeliers een actie in de fietsapp geplaatst. </p>
                         </div>
                         <div class="col-sm-3">
-                            <img src="/img/Fietsapp_kortingsacties.png" class="fullwidth"/>
+                            <img src="/img/fietsapp_kortingsacties.png" class="fullwidth"/>
                         </div>
                     </div>
                      
@@ -876,10 +875,10 @@ class PagesTableSeeder extends Seeder
                     <br><br>
                     <div class="row">
                         <div class="col-sm-6">
-                            <img src="/img/Goede doel Vrienden van het RKZ_cheque.jpg" class="fullwidth" />
+                            <img src="/img/rkz_cheque.jpg" class="fullwidth" />
                         </div>
                         <div class="col-sm-6">
-                            <img src="/img/Goede doel KNRM juli 2017_cheque.jpg" class="fullwidth" />
+                            <img src="/img/knrm_cheque.jpg" class="fullwidth" />
                         </div>
                     </div>
 
