@@ -530,8 +530,8 @@ class PagesTableSeeder extends Seeder
                             </ul>
                         </div>
                         <div class="col-sm-3">
-                            <a href="/img/image001.jpg" >
-                                <img src="/img/image001.jpg" class="fullwidth" />
+                            <a href="/img/image01.jpg" >
+                                <img src="/img/image01.jpg" class="fullwidth" />
                             </a>
                         </div>
                     </div>
@@ -618,7 +618,7 @@ class PagesTableSeeder extends Seeder
 
                         </div>
                         <div class="col-sm-3">
-                            <img src="/img/ijb-shuttle.jpg" class="fullwidth" />
+                            <img src="/img/ijb_shuttle.jpg" class="fullwidth" />
                         </div>
                     </div>
                     <p>Slechts een enkele medewerker heeft de OV-fiets aangevraagd als last-mile oplossing. Alle gebruikers van de last-mile oplossing zijn tot en met 31 maart 2017 gefaciliteerd.</p>
@@ -837,7 +837,7 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Fietsapp Ring-Ring',
                 'description' => '',
                 'body' => '
-                    <img src="/img/ring-ringlogo.jpg" class="fourty_wide center" id="ringring"/>
+                    <img src="/img/ring-ring_logo.jpg" class="fourty_wide center" id="ringring"/>
                     <p>In mei 2017 heeft IJmond Bereikbaar als onderdeel van het loyaliteitsprogramma de fietsapp van Ring-Ring bij de werkgevers en werknemers geïntroduceerd. Ring-Ring timmert al een aantal jaar aan de weg. De app wordt door verschillende instanties op lokaal en regionaal niveau ingezet om fietsen te stimuleren.</p>
 
                     <strong>Informatie over fietsgedrag direct zichtbaar in de app</strong>
@@ -852,7 +852,7 @@ class PagesTableSeeder extends Seeder
                             <p>Hoort een werkgever tot de kopgroep van IJmond Bereikbaar, dan wordt een specifieke bedrijfsgroep aangemaakt. Zo zien medewerkers hoe ze presteren t.o.v. hun collega’s.</p>
                         </div>
                         <div class="col-sm-3">
-                            <img src="/img/ring-ring-screenshot.png" class="fullwidth" />
+                            <img src="/img/ring-ring_screenshot.png" class="fullwidth" />
                         </div>
                     </div>  
                      <br><br>
@@ -864,7 +864,7 @@ class PagesTableSeeder extends Seeder
                             <p>Iedere fietskilometer is een punt waard. Deze punten geven je korting bij aangesloten bedrijven en winkeliers. In de IJmond hebben 10 winkeliers een actie in de fietsapp geplaatst. </p>
                         </div>
                         <div class="col-sm-3">
-                            <img src="/img/fietsapp_kortingsacties.png" class="fullwidth"/>
+                            <img src="/img/fietsapp-kortingsacties.png" class="fullwidth"/>
                         </div>
                     </div>
                      
