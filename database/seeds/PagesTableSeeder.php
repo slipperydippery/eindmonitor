@@ -889,7 +889,7 @@ class PagesTableSeeder extends Seeder
                     </div>
                     <br>
 
-                    <img src="/img/image01.jpg" class="eighty_wide center" />
+                    <img src="/img/fietsroutes.jpg" class="eighty_wide center" />
                     <br>
                     <p><strong>Fietsbewegingen in de IJmond</strong></p>
                     <p>Door het gebruik van gps verzamelt de fietsapp gegevens over de fietsbewegingen die in de regio worden gemaakt. Deze informatie kan onder meer worden gebruikt om te analyseren welke routes het meest worden afgelegd. Wanneer er infrastructurele verbeteringen doorgevoerd worden, is dit een handig hulpmiddel om de prioriteit te bepalen.</p> 
