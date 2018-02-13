@@ -4,7 +4,7 @@
     <div class="content">
         <div class="container row">
             <div class="page-highlight col-sm-12">
-                <p>De regio IJmond is de thuisbasis van ruim 150.000 inwoners. We wonen, werken en recreëren in een compacte regio, gevormd door de gemeenten Velsen, Heemskerk en Beverwijk. Onze regio wordt gekenmerkt door de maakindustrie met Tata Steel als grootste werkgever. Toonaangevend zijn ook de havens, transportbedrijven en een grote diversiteit aan innovatieve MKB-bedrijven. In onze kustplaatsen zijn er volop kansen voor het toerisme. De regio IJmond is onderdeel van de Metropoolregio Amsterdam en we werken op diverse thema’s samen.</p>
+                <p>Bent u nieuwsgierig naar IJmond Bereikbaar, heeft u vragen naar aanleiding van deze monitor of denkt u samen met ons een positieve bijdrage te kunnen leveren aan een bereikbare, prettig leefbare en actieve IJmond? Neem dan contact met ons op. We gaan graag met u in gesprek.</p>
             </div>
         </div>
         <div class="container row">
@@ -22,7 +22,7 @@
  <br>
                 E-mail: info@ijmondbereikbaar.nl <br>
                 Telefoon: 0251-263863 <br>
-                Internet: www.ijmondbereikbaar.nl  <br>
+                Internet: <a href="https://ijmondbereikbaar.nl/">www.ijmondbereikbaar.nl</a>  <br>
                 
             </div>
             <div class="col-sm-8">

@@ -45,7 +45,7 @@
                 labels: ['Resultaat: 11%', 'Ambitie: 75%', ''],
                 datasets: [{
                     data: [11, 64, 25],
-                    backgroundColor: [this.green_dark, this.blue_dark, "rgba(0,0,0,0.0)"],
+                    backgroundColor: [this.green_dark, this.blue_dark, "rgba(0,0,0,0.2)"],
                     // borderColor: this.color,
                     // lineTension: .2,
                     // borderWidth: 1,
@@ -57,7 +57,7 @@
             var options =  {
                 title: {
                     display: true,
-                    text: "Spitsmijdingen per dag in de ochtendspits"
+                    text: "Gebruikers fietsapp Ring-Ring"
                 }
             };
             const chart = new Chart( this.$refs.canvas.getContext('2d'), { type: "doughnut", data: data, options: options });

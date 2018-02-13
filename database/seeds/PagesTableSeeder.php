@@ -32,13 +32,16 @@ class PagesTableSeeder extends Seeder
 
                         <p>De belangrijkste maatregelen die IJmond Bereikbaar heeft ingezet van 2015-2017 zijn:</p>
                         <ul>
-                            <li>De fietsvergoeding</li>
-                            <li>De fietsapp Ring-Ring</li>
-                            <li>Shuttlebus</li>
-                            <li>Stimuleren ov </li>
+                            <li>Kilometervergoeding voor gefietste woon/werkkilometers</li>
+                            <li>Loyaliteitsprogramma ‘Blijf op weg’ met maandelijkse challenges</li>
+                            <li>Fietsapp Ring-Ring met fietsinfo, korting bij lokale winkeliers en fietsen voor een goed doel</li>
+                            <li>E-bike probeeracties bij bedrijven</li>
+                            <li>Doorlichten abonnementen openbaar vervoer</li>
+                            <li>Last-mile oplossingen met shuttlebussen en OV-fiets</li>
+
                         </ul>
 
-                        <p>Lees meer over onze werkgeversaanpak en de acties die gedaan zijn om werknemers over de streep te trekken en vast te houden. </p>
+                        <p>Lees meer over onze <a href="/category/2">werkgeversaanpak</a> en de acties die gedaan zijn om <a href="/category/3">werknemers</a> over de streep te trekken en vast te houden. </p>
 
                         <h2>Resultaten ontwikkeling fietsdeelnemers</h2>
                         <p>De grafiek hieronder laat per fase de ontwikkeling van het aantal fietsdeelnemers van 2014 t/m 2017 zien.</p>
@@ -50,7 +53,7 @@ class PagesTableSeeder extends Seeder
                         <p>Startgroep van circa 50 fietsers</p>
 
                         <strong>Campagnefase: 1 mei 2015 – 1 april 2017</strong>
-                        <p>Meer werknemers sluiten zich aan en het aantal fietsers stijgt. Veel aanmeldingen tijdens de renovatie en bijbehorende afsluiting van de Velsertunnel. In september is de database geactualiseerd. Niet actieve fietsers zijn uitgeschreven.</p>
+                        <p> Meer werknemers sluiten zich aan en het aantal fietsers stijgt. Veel aanmeldingen tijdens de renovatie en bijbehorende afsluiting van de Velsertunnel. Het aantal ambassadeurs dat zich wil aanmelden overstijgt alle verwachtingen en wordt ‘on hold’ gezet. In september 2016 is de database opgeschoond. Niet-actieve fietsers zijn uitgeschreven. </p>
 
                         <strong>Verankeringsfase: 1 april – 31 december 2017</strong>
                         <p>Het aantal actieve fietsers blijft stabiel. De fietschallenge op maat bij Tata Steel levert in oktober 2017 nieuwe aanmeldingen op.</p>
@@ -79,7 +82,7 @@ class PagesTableSeeder extends Seeder
                                 <p22-graph></p22-graph>
                             </div>
                             <div class="page--intwo--item">
-                                <p>De doelstelling voor spitsmijdingen in de IJmond is voor 85% gehaald. Een groot aantal werknemers die in de spits naar hun werk reizen heeft de overstap van de auto naar de fiets gemaakt. In de IJmond werkt ten opzichte van andere regio’s echter een onevenredig groot aantal mensen in ploegendienst en/of parttime. Ook zij hebben de overstap van de auto naar de fiets gemaakt, maar tellen niet mee als spitsmijding zoals bedoeld door Beter Benutten.</p>
+                                <p>De doelstelling voor spitsmijdingen in de IJmond is voor 85% gehaald. Een groot aantal werknemers die in de spits naar hun werk reizen heeft de <a href="/category/4">overstap van de auto naar de fiets</a> gemaakt. In de IJmond werkt ten opzichte van andere regio’s echter een onevenredig groot aantal mensen in ploegendienst en/of parttime. Ook zij hebben de overstap van de auto naar de fiets gemaakt, maar tellen niet mee als spitsmijding zoals bedoeld door Beter Benutten.</p>
                             </div>
                         </div>
 
@@ -94,18 +97,12 @@ class PagesTableSeeder extends Seeder
 
                     <p>Dwars door de IJmond loopt het Noordzeekanaal. Veel fietsende werknemers maken dagelijks de overocht met de pont: het blauwe fietspad tussen Velsen-Noord en Velsen-Zuid. Met subsidie van onder andere Beter Benutten 2 en Rijkswaterstaat en met financiële middelen van de IJmondgemeenten is het gelukt om tijdens de ochtend- en avondspits een tweede pont te laten varen en zo de wachttijd van 20 minuten te halveren. Hiermee is een forse toename van het aantal fietsers die de overtocht maken gerealiseerd. Deze snelle, regelmatige en betrouwbare oversteek heeft ervoor gezorgd dat voor werknemers de fiets een volwaardig alternatief is voor de auto. </p>
 
-                    <div class="page--intwo">
-                        <div class="page--intwo--item">
-                            <p23-graph></p23-graph>
-                            <p class="chart--subtext">Van september 2015 t/m september 2016 is een extra spitspont ingezet.  In september 2016 is de Velsertunnel gesloten. Met spitspont houdt in dat er gedurende de spits iedere 10 minuten een afvaart is. Zonder spitspont is er iedere 20 minuten een afvaart. </p>
-                        </div>
-                        <div class="page--intwo--item">
-                            <p>Het hoogtepunt van het aantal (brom)fietsers dat gebruik maakt van de pont ligt uiteraard in september 2016: door de tweede pont in de spits iedere 10 minuten een afvaart én de Velsertunnel afgesloten door de renovatie. We zien dan een toename van 40%. Structureel zorgt de tweede spitspont voor 15% extra (brom)fietsers die gebruik maken van ‘het blauwe fietspad’.</p>
+                    <p23-graph></p23-graph>
+                    <p class="chart--subtext">Van september 2015 t/m september 2016 is een extra spitspont ingezet.  In september 2016 is de Velsertunnel gesloten. Met spitspont houdt in dat er gedurende de spits iedere 10 minuten een afvaart is. Zonder spitspont is er iedere 20 minuten een afvaart. </p>
 
-                            <p>Voor en na de afsluiting van de Velsertunnel hebben de IJmondgemeenten een aantal fietspaden verbeterd, om met name de bereikbaarheid van een aantal bedrijventerreinen te verbeteren. Tijdens de afsluiting van de Velsertunnel hebben gemeenten zo min mogelijk wegwerkzaamheden uitgevoerd, om zodoende geen hinder te veroorzaken. </p>
-                        </div>
-                    </div>
+                    <p>Het hoogtepunt van het aantal (brom)fietsers dat gebruik maakt van de pont ligt uiteraard in september 2016: door de tweede pont in de spits iedere 10 minuten een afvaart én de Velsertunnel afgesloten door de renovatie. We zien dan een toename van 40%. Structureel zorgt de tweede spitspont voor 15% extra (brom)fietsers die gebruik maken van ‘het blauwe fietspad’.</p>
 
+                    <p>Voor en na de afsluiting van de Velsertunnel hebben de IJmondgemeenten een aantal fietspaden verbeterd, om met name de bereikbaarheid van een aantal bedrijventerreinen te verbeteren. Tijdens de afsluiting van de Velsertunnel hebben gemeenten zo min mogelijk wegwerkzaamheden uitgevoerd, om zodoende geen hinder te veroorzaken. </p>
 
                         ',
                 'category_id' => 1,
@@ -154,7 +151,7 @@ class PagesTableSeeder extends Seeder
                     <p>In de pilotfase is vanuit het nationaal samenwerkingsprogramma luchtkwaliteit met 10 bedrijven gestart. Deze bedrijven hebben actief fietsdeelnemers geworven onder hun werknemers en de eerste shuttlelijn uitgetest tussen Beverwijk CS en bedrijventerrein Wijkermeer. </p>
 
                     <strong>Campagnefase</strong>
-                    <p>Met indirecte werving via de werkgeversnetwerken in de IJmond en een actieve campagne over de bereikbaarheid van de regio tijdens <a href="/category/7#campagnerijkswaterstaat">de renovatie van de Velsertunnel</a> hebben ruim 150 werkgevers zich aangemeld als deelnemer aan het programma van IJmond Bereikbaar. Deelname was zeer laagdrempelig. Het bedrijfsleven werd volledig ontzorgd. Naast fietsstimulering zijn op drie routes IJmond Bereikbaar shuttles ingezet.</p>
+                    <p>Met indirecte werving via de werkgeversnetwerken in de IJmond en een actieve campagne over de bereikbaarheid van de regio tijdens <a href="/category/7#campagnerijkswaterstaat">de renovatie van de Velsertunnel</a> hebben ruim 150 werkgevers zich aangemeld als deelnemer aan het programma van IJmond Bereikbaar. Deelname was zeer laagdrempelig. Het bedrijfsleven werd volledig ontzorgd. Naast <a href="/category/4">fietsstimulering zijn op drie routes IJmond Bereikbaar shuttles ingezet</a>.</p>
 
                     <strong>Verankeringsfase</strong>
                     <p>Na 1 april 2017 zijn alle werkgevers gevraagd of zij bij de kopgroep of het peloton willen aansluiten. De kopgroep voert een actief fietsstimuleringsbeleid en wordt daarbij door IJmond Bereikbaar ondersteund. Inmiddels vormen 40 bedrijven de kopgroep. Met hen zijn voor 2017 afspraken gemaakt over de inzet van harde maatregelen (vergoeding werkgever) en zachte maatregelen (e-bike probeeractie, bedrijfschallenge op maat en meer). De stimulering voor het overstappen naar het openbaar vervoer en het aanbieden van de gratis shuttlediensten is in overleg met de werkgevers gestopt. </p>
@@ -425,7 +422,7 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Verankeringsfase',
                 'description' => '',
                 'body' => '
-                    <p>Medio januari 2017 gaat de Velsertunnel weer open. IJmond Bereikbaar betaalt nog tot 31 maart een kilometervergoeding aan haar fietsers en start daarnaast met een afwisselend loyaliteitsprogramma. Ook wordt in april 2017 de fietsapp van Ring-Ring geïntroduceerd. Uit enquêteresultaten blijkt dat in 6 tot 9 maanden extrinsieke motivatie omgevormd kan worden naar intrinsieke motivatie. Ook zonder kilometervergoeding blijft 95% van de deelnemers fietsen. Het aantal actieve fietsdeelnemers blijft in deze fase stabiel op 2600. </p>
+                    <p>Medio januari 2017 gaat de Velsertunnel weer open. IJmond Bereikbaar betaalt nog tot 31 maart een kilometervergoeding aan haar fietsers en start daarnaast met een afwisselend <a href="/category/5">loyaliteitsprogramma</a>. Ook wordt in april 2017 de <a href="/category/6/page/26">fietsapp van Ring-Ring</a> geïntroduceerd. Uit enquêteresultaten blijkt dat in 6 tot 9 maanden extrinsieke motivatie omgevormd kan worden naar intrinsieke motivatie. Ook zonder kilometervergoeding blijft 95% van de deelnemers fietsen. Het aantal actieve fietsdeelnemers blijft in deze fase stabiel op 2600. </p>
 
                     <h2>Enquêteresultaten deelnemende werknemers zomer 2017</h2>
 
@@ -501,6 +498,9 @@ class PagesTableSeeder extends Seeder
 
                     <h2>Campagnefase: 1 mei 2015 - 1 april 2017</h2>
                     <div class="row">
+                        <div class="col-sm-3">
+                            <img src="/img/reisgedrag_affichelisette.jpg" class="fullwidth"  />
+                        </div>
                         <div class="col-sm-9">
                             <p>Bij de start van de campagne ligt de nadruk op extrinsieke motivatie en bewustzijn creëren voor alternatieven voor de auto.</p>
                             <strong>Op de fiets naar je werk… Dat is besparen én verdienen.</strong>
@@ -511,14 +511,16 @@ class PagesTableSeeder extends Seeder
                                 <li>Fietskilometervergoeding van IJmond Bereikbaar</li>
                             </ul>
                         </div>
-                        <div class="col-sm-3">
-                            <img src="/img/reisgedrag_affichelisette.jpg" class="fullwidth"  />
-                        </div>
                     </div>
 
                     <br>
 
                     <div class="row">
+                        <div class="col-sm-3">
+                            <a href="/img/reisgedrag_fietstijden.jpg" >
+                                <img src="/img/reisgedrag_fietstijden.jpg" class="fullwidth" />
+                            </a>
+                        </div>
                         <div class="col-sm-9">
                             <strong>File of fietsen? </strong>
                             <ul>
@@ -529,20 +531,28 @@ class PagesTableSeeder extends Seeder
                                 <li>Dat is besparen én verdienen’  Gratis abonnement op de pechhulpservice van FietsNed.</li>
                             </ul>
                         </div>
+                    </div>
+
+                    <div class="row">
                         <div class="col-sm-3">
-                            <a href="/img/image01.jpg" >
-                                <img src="/img/image01.jpg" class="fullwidth" />
-                            </a>
+                            <img src="/img/reisgedrag_frisfietsen.jpg" class="fullwidth " />
+                        </div>
+                        <div class="col-sm-9">
+                            <strong>Ook in 2017 fris op je werk? Natuurlijk op de fiets </strong>
+                            <ul>
+                                <li>Het is goed voor je. Fietsen maakt fysiek fit en geeft ruimte in je hoofd.</li>
+                                <li>Het is goed voor het milieu. Jij vermindert de uitstoot van CO2 door te fietsen én een betere doorstroming van het overige verkeer doet daar een schepje bovenop. </li>
+                            </ul>
                         </div>
                     </div>
 
                     <strong>Introductie E-bike</strong>
                     <div class="row">
-                        <div class="col-sm-9">
-                            <p>Om de actieradius van fietsers te vergroten, wordt de fietsstimuleringscampagne uitgebreid met de e-bike. De e-bike is, algemeen genomen, een geschikt alternatief voor de auto voor woon/werkafstanden tot 20 km. IJmond Bereikbaar biedt een probeer-actie aan via geïnteresseerde werkgevers. Alle medewerkers mogen de e-bike gratis uitproberen voor zowel woon/werkverkeer, als privégebruik. Hierna volgt een aanbod voor lease of koop van een nieuwe of gebruikte e-bike. We werken hiervoor samen met sQoot, die een divers aanbod heeft en de werkgevers ontzorgt.</p>
-                        </div>
                         <div class="col-sm-3">
                             <img src="/img/Probeer een ebike_beeld.jpg" class="fullwidth" />
+                        </div>
+                        <div class="col-sm-9">
+                            <p>Om de actieradius van fietsers te vergroten, wordt de fietsstimuleringscampagne uitgebreid met de e-bike. De e-bike is, algemeen genomen, een geschikt alternatief voor de auto voor woon/werkafstanden tot 20 km. IJmond Bereikbaar biedt een probeer-actie aan via geïnteresseerde werkgevers. Alle medewerkers mogen de e-bike gratis uitproberen voor zowel woon/werkverkeer, als privégebruik. Hierna volgt een aanbod voor lease of koop van een nieuwe of gebruikte e-bike. We werken hiervoor samen met sQoot, die een divers aanbod heeft en de werkgevers ontzorgt.</p>
                         </div>
                     </div>
                     <p>18 bedrijven uit de kopgroep hebben gebruik gemaakt van de e-bike probeeractie van IJmond Bereikbaar. Tata Steel en Etos namen op dit thema zelf initiatief en boden hun medewerkers een e-bike-probeeractie aan via een andere leverancier. Werkgevers dragen zowel met harde als zachte maatregelen bij aan het stimuleren van de fiets als vervoersmiddel voor het woon/werkverkeer. Lees meer in de benchmark.</p>
@@ -553,24 +563,12 @@ class PagesTableSeeder extends Seeder
                     <strong>Resultaat</strong>
                     <p>In de campagnefase groeit het aantal deelnemers snel : 800 ambassadeurs en 1800 nieuwe fietsers. Uit de fietsritregistraties (interne link maken) blijkt dat begin 2017 het reisgedrag van werknemers structureel is veranderd.  Het aantal autokilometers van de deelnemers ligt gemiddeld maandelijks 400.000 km lager dan bij de start van het programma.</p>
                     <p>Uit de enquêteresultaten blijkt dat, naast het financiële argument, gezondheid een belangrijke motivator is om te fietsen. In de loop van de tijd verschuift de campagneboodschap dan ook naar de intrinsieke motivatie.</p>     
-                    <div class="row">
-                        <div class="col-sm-9">
-                            <p>Blijft u fietsen na 31 maart 2017 als de campagne en daarmee ook de kilometervergoeding stopt? 96% zegt ja! Redenen om te blijven fietsen: gezondheid/conditie – goed voor het milieu – bereikbaarheid (sneller dan met de auto)</p>
-                            <p>Motieven : gezondheid 82%, milieu 50% , km-vergoeding 46%</p>
-                            <p>Ook in 2017 fris op je werk? Natuurlijk op de fiets </p>
-                            <ul>
-                                <li>Het is goed voor je. Fietsen maakt fysiek fit en geeft ruimte in je hoofd.</li>
-                                <li>Het is goed voor het milieu. Jij vermindert de uitstoot van CO2 door te fietsen én een betere doorstroming van het overige verkeer doet daar een schepje bovenop. </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-3">
-                            <img src="/img/reisgedrag_frisfietsen.jpg" class="fullwidth " />
-                        </div>
-                    </div>
+                    <p>Blijft u fietsen na 31 maart 2017 als de campagne en daarmee ook de kilometervergoeding stopt? 96% zegt ja! Redenen om te blijven fietsen: gezondheid/conditie – goed voor het milieu – bereikbaarheid (sneller dan met de auto)</p>
+                    <p>Motieven : gezondheid 82%, milieu 50% , km-vergoeding 46%</p>
 
 
                     <h2>Verankeringsfase: 1 april 2017 - 31 december 2017</h2>
-                    <p>De verankeringsfase wordt gebruikt om de overstap te maken van harde naar zachte vormen van belonen.  De focus ligt nog steeds op fietsstimulering en e-bike gebruik.  Door de inzet van de fietsapp Ring-Ring specifieke fietschallenges en een spaarpuntensysteem wordt de basis gelegd om het ontwikkelde fietsgedrag vast te houden.</p>
+                    <p>De verankeringsfase wordt gebruikt om de overstap te maken van harde naar zachte vormen van belonen.  De focus ligt nog steeds op fietsstimulering en e-bike gebruik.  Door de inzet van de <a href="/category/6/page/26">fietsapp Ring-Ring</a>, specifieke <a href="/category/5/page/21">fietschallenges</a> en een spaarpuntensysteem wordt de basis gelegd om het ontwikkelde fietsgedrag vast te houden.</p>
 
                     <strong>Resultaat</strong>
                     <p>Het aantal IJmond Bereikbaar fietsers en fietskilometers groeit gestaag. Om goed zicht te houden op het aantal actieve fietsers wordt het deelnemersbestand ieder kwartaal opgeschoond. Deelnemers die drie maanden geen kilometers registreren worden op non-actief gezet en tellen niet meer mee voor de aantallen fietsers in de community. Dit houdt de resultaten transparant en actueel. In hoeverre de inzet van de maandelijkse challenges en de fietsapp bijdragen aan het vasthouden van het fietsgedrag is vooralsnog niet eenduidig vast te stellen.</p>
@@ -604,9 +602,11 @@ class PagesTableSeeder extends Seeder
                     <p>Om het gebruik van het openbaar vervoer van het woon-werkverkeer te stimuleren heeft IJmond Bereikbaar een shuttle ingezet vanaf station Beverwijk naar bedrijventerrein Wijkermeer. Bij bewezen succes kan het aantal shuttles worden uitgebreid naar vijf stuks. De kosten van dit shuttlevervoer worden volledig betaald door IJmond Bereikbaar. Bedrijven en hun werknemers lijken in eerste instantie enthousiast over deze last-mile oplossing. Echter door de ingewikkelde aanmeld- en registratieprocedure wordt minimaal gebruik gemaakt van deze service.</p>
 
                     <h2>Campagnefase: 1 mei 2015 - 1 april 2017</h2>
-                            <p>IJmond Bereikbaar heeft op 2 manieren het gebruik van het openbaar vervoer gestimuleerd. </p>
-                            <p>Advies op maat over aanbieders van OV-mobiliteitskaarten voor werknemers die in z’n geheel overstappen van auto naar het OV. De reiskosten zijn voor rekening van de werkgever.</p>
-                            <p>De IJmond Bereikbaar Shuttle en OV-fiets: een last-mile oplossing voor werknemers die al met het openbaar vervoer reizen, maar waar de ‘last mile’ van NS- of busstation naar het bedrijf te wensen over laat. Juist door de last-mile te faciliteren, wordt het totale OV-gebruik versterkt.</p>
+                    <p>IJmond Bereikbaar heeft op 2 manieren het gebruik van het openbaar vervoer gestimuleerd. </p>
+                    <ul>
+                        <li>Advies op maat over aanbieders van OV-mobiliteitskaarten voor werknemers die in z’n geheel overstappen van auto naar het OV. De reiskosten zijn voor rekening van de werkgever.</li>
+                        <li>De IJmond Bereikbaar Shuttle en OV-fiets: een last-mile oplossing voor werknemers die al met het openbaar vervoer reizen, maar waar de ‘last mile’ van NS- of busstation naar het bedrijf te wensen over laat. Juist door de last-mile te faciliteren, wordt het totale OV-gebruik versterkt.</li>
+                    </ul>
 
                     <h2>Ambitie</h2>
                     <p>De ambitie van IJmond Bereikbaar was om 250 autoforensen structureel de overstap te laten maken naar het openbaar vervoer door de last-mile naar verschillende bedrijventerreinen te faciliteren. Dit door de inzet van 3-5 shuttles in de IJmond en dagelijks circa 50 gebruikers van de OV-fiets. </p>
@@ -717,11 +717,11 @@ class PagesTableSeeder extends Seeder
                         <div class="col-sm-7">
                             <h2>Beloningssysteem fietsstimulering</h2>
                             <ul>
-                                <li>Geen onderscheid meer tussen ambassadeurs en nieuwe fietsers. Alle deelnemers zijn vanaf fase 2 actieve fietsers.</li>
+                                <li>Geen onderscheid meer tussen ambassadeurs en nieuwe fietsers. Alle deelnemers zijn vanaf de verankeringsfase actieve fietsers.</li>
                                 <li>Financiële vergoeding en gratis pechhulpservice per 1 april 2017 stopgezet</li>
                                 <li>Intensivering loyaliteitsprogramma</li>
                                 <li>Per 1 mei 2017 introductie <a href="/category/6/page/24">fietsapp Ring-Ring</a>. </li>
-                                <li>In tweede helft 2017 introductie van maatwerk bedrijfschallenges. Tata Steel heeft met goed resultaat de eerste bedrijfschallenge voor haar rekening genomen</li>
+                                <li>In tweede helft 2017 introductie van maatwerk bedrijfschallenges. Tata Steel heeft met goed resultaat de <a href="/category/5/page/22">eerste bedrijfschallenge</a> voor haar rekening genomen</li>
                             </ul>
                         </div>
                         <div class="col-sm-5">
@@ -796,13 +796,13 @@ class PagesTableSeeder extends Seeder
                     <ul>
                         <li>Starten met een harde financiële beloning zorgt voor volume bij het aantal deelnemers</li>
                         <li>Extra stimulans in periode dat het minder aantrekkelijk is om op de fiets naar het werk te gaan: verhoging van vergoeding naar € 0,15 in de wintermaanden.</li>
-                        <li>Beloning gebaseerd op service (pechhulp FietsNed) geeft gevoel van ‘ontzorgen’</li>
-                        <li>Tweede pont in de spits heeft drempel om over te stappen voor veel nieuwe fietsers verlaagd</li>
-                        <li>Directe aanleiding om gedrag te willen veranderen: verkeersproblemen door sluiting Velsertunnel</li>
+                        <li>Beloning gebaseerd op service (pechhulp FietsNed) geeft gevoel van ‘ontzorgen’.</li>
+                        <li>Tweede pont in de spits heeft drempel om over te stappen voor veel nieuwe fietsers verlaagd.</li>
+                        <li>Directe aanleiding om gedrag te willen veranderen: verkeersproblemen door sluiting Velsertunnel.</li>
                         <li>Geleidelijke overgang van extrinsieke naar intrinsieke motivatie begeleiden middels challenges en communicatieboodschappen.</li>
                         <li>Uit de ritregistraties en enquêtes blijkt dat na 6-12 maanden harde beloning niet meer nodig is. De intrinsieke motivatie zorgt voor een blijvende gedragsverandering.</li>
                         <li>Reguliere challenges zijn een aantrekkelijk en direct communicatiemoment met de fietscommunity en de werkgevers. Deelnemers waarderen het dat zij op deze manier gestimuleerd worden. </li>
-                        <li>Challenges op maat zorgen voor nieuw draagvlak en nieuwe fietsers</li>
+                        <li>Challenges op maat zorgen voor nieuw draagvlak en nieuwe fietsers.</li>
                         <li>Challenges op maat kunnen snel en tegen relatief weinig kosten in praktijk worden gebracht.</li>
 
                     </ul>
@@ -825,7 +825,7 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Online fietsritregistratieformulier',
                 'description' => '',
                 'body' => '
-                    <p>Van 1 mei 2015 t/m 31 maart 2017 heeft IJmond Bereikbaar een vergoeding voor gefietste woon/werkkilometers verstrekt aan de deelnemers van het fietsstimuleringsprogramma. Om in aanmerking te komen voor deze vergoeding waren zij verplicht om hun fietsritten maandelijks te registreren. </p>
+                    <p>Van 1 mei 2015 tot en met 31 maart 2017 heeft IJmond Bereikbaar een vergoeding voor gefietste woon/werkkilometers verstrekt aan de deelnemers van het fietsstimuleringsprogramma. Om in aanmerking te komen voor deze vergoeding waren zij verplicht om hun fietsritten maandelijks te registreren. </p>
 
                     <img src="/img/fietsregistratie-zo-werkt-het.gif" class="fullwidth" />
 
@@ -837,8 +837,14 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Fietsapp Ring-Ring',
                 'description' => '',
                 'body' => '
-                    <img src="/img/ring-ring_logo.jpg" class="fourty_wide center" id="ringring"/>
-                    <p>In mei 2017 heeft IJmond Bereikbaar als onderdeel van het loyaliteitsprogramma de fietsapp van Ring-Ring bij de werkgevers en werknemers geïntroduceerd. Ring-Ring timmert al een aantal jaar aan de weg. De app wordt door verschillende instanties op lokaal en regionaal niveau ingezet om fietsen te stimuleren.</p>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="/img/ring-ring_logo.jpg" class="fullwidth" id="ringring"/>
+                        </div>
+                        <div class="col-sm-9">
+                            <p>In mei 2017 heeft IJmond Bereikbaar als onderdeel van het loyaliteitsprogramma de fietsapp van Ring-Ring bij de werkgevers en werknemers geïntroduceerd. Ring-Ring timmert al een aantal jaar aan de weg. De app wordt door verschillende instanties op lokaal en regionaal niveau ingezet om fietsen te stimuleren.</p>
+                        </div>
+                    </div>
 
                     <strong>Informatie over fietsgedrag direct zichtbaar in de app</strong>
                     <div class="row">
@@ -849,7 +855,7 @@ class PagesTableSeeder extends Seeder
                                 <li>Hoeveel CO2 uitstoot je bespaart</li>
                                 <li>Hoe je presteert t.o.v. de andere fietsers van IJmond Bereikbaar</li>
                             </ul>
-                            <p>Hoort een werkgever tot de kopgroep van IJmond Bereikbaar, dan wordt een specifieke bedrijfsgroep aangemaakt. Zo zien medewerkers hoe ze presteren t.o.v. hun collega’s.</p>
+                            <p>Hoort een werkgever tot de kopgroep van IJmond Bereikbaar, dan wordt een specifieke bedrijfsgroep aangemaakt. Zo zien medewerkers hoe ze presteren t.o.v. hun collega’s. Eind december 2017 waren maar liefst 106.481 fietsritten en daarmee 592.220 fietskilometers met de app geregistreerd. Onze fietsers verbrandden 14577000 kilocalorieën en bespaarden 89 ton aan CO2.</p>
                         </div>
                         <div class="col-sm-3">
                             <img src="/img/ring-ring_screenshot.png" class="fullwidth" />
@@ -872,7 +878,7 @@ class PagesTableSeeder extends Seeder
                     <p>IJmond Bereikbaar koppelt fietskilometers aan een goed doel dat een relatie heeft met de regio. Zodra de fietskilometers door de gebruikers van de app bij elkaar zijn gefietst, doneert IJmond Bereikbaar namens hen € 1.000 aan het goede doel.</p>
 
                     <p>IJmond Bereikbaar heeft cheques uitgereikt aan de Dierenambulance Kennemerland, de KNRM in IJmuiden en de Stichting Vrienden van het Rode Kruis Ziekenhuis. </p>
-                    <br><br>
+                    <br>
                     <div class="row">
                         <div class="col-sm-6">
                             <img src="/img/rkz_cheque.jpg" class="fullwidth" />
@@ -881,8 +887,12 @@ class PagesTableSeeder extends Seeder
                             <img src="/img/knrm_cheque.jpg" class="fullwidth" />
                         </div>
                     </div>
+                    <br>
 
-                    <br> <br> 
+                    <img src="/img/image01.jpg" class="eighty_wide center" />
+                    <br>
+                    <p><strong>Fietsbewegingen in de IJmond</strong></p>
+                    <p>Door het gebruik van gps verzamelt de fietsapp gegevens over de fietsbewegingen die in de regio worden gemaakt. Deze informatie kan onder meer worden gebruikt om te analyseren welke routes het meest worden afgelegd. Wanneer er infrastructurele verbeteringen doorgevoerd worden, is dit een handig hulpmiddel om de prioriteit te bepalen.</p> 
                     
                     <p><strong>Gebruikers fietsapp Ring-Ring</strong></p>
                     <p>Ambitie van IJmond Bereikbaar: eind 2017 zijn 75% van de fietsers actief gebruiker van de app. Het resultaat is blijven steken op slechts 11%.</p>  
@@ -916,16 +926,22 @@ class PagesTableSeeder extends Seeder
                 'title' => 'Aandachtspunten',
                 'description' => '',
                 'body' => '
-                    <img src="/img/fietsritregistratie_aandachtspunten.svg" class="center"/>
-                    <ul>
-                        <li>Introductie van een fietsapp werkt beter in combinatie met een harde beloning. </li>
-                        <li>Fietsers hebben hoge verwachtingen van de technische kwaliteit van een fietsapp. Ze zijn vaak al gewend aan grote spelers op de markt zoals Strava en meten daar het niveau van andere apps aan af.</li>
-                        <li>Waar privacy-gevoeligheid bij de online ritregistratie nauwelijks een rol speelt voor de deelnemers, is dit bij het al dan niet willen aanmelden voor de app wel een punt. </li>
-                        <li>600 Deelnemers hebben de fietsapp gedownload. Slechts de helft gebruikt de app actief. Het is belangrijk om de juiste snaar te raken en de toegevoegde waarde van de app duidelijk te maken Onderdeel van de app is het puntenspaarsysteem voor korting bij lokale winkeliers.</li>
-                        <li>Het is arbeidsintensief om voldoende aanbod te creëren in de app. Een gevarieerd aanbod van kortingsacties van lokale winkeliers maakt het gebruik van de app aantrekkelijker.</li>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <ul>
+                                <li>Introductie van een fietsapp werkt beter in combinatie met een harde beloning. </li>
+                                <li>Fietsers hebben hoge verwachtingen van de technische kwaliteit van een fietsapp. Ze zijn vaak al gewend aan grote spelers op de markt zoals Strava en meten daar het niveau van andere apps aan af.</li>
+                                <li>Waar privacy-gevoeligheid bij de online ritregistratie nauwelijks een rol speelt voor de deelnemers, is dit bij het al dan niet willen aanmelden voor de app wel een punt. </li>
+                                <li>600 Deelnemers hebben de fietsapp gedownload. Slechts de helft gebruikt de app actief. Het is belangrijk om de juiste snaar te raken en de toegevoegde waarde van de app duidelijk te maken Onderdeel van de app is het puntenspaarsysteem voor korting bij lokale winkeliers.</li>
+                                <li>Het is arbeidsintensief om voldoende aanbod te creëren in de app. Een gevarieerd aanbod van kortingsacties van lokale winkeliers maakt het gebruik van de app aantrekkelijker.</li>
 
 
-                    </ul>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="/img/fietsritregistratie_aandachtspunten.svg" class="center"/>
+                        </div>
+                    </div>
                     ',
                 'category_id' => 6,
             ],
@@ -1000,7 +1016,7 @@ class PagesTableSeeder extends Seeder
                     <strong>Facebook</strong>
                     <p>De Facebookpagina van IJmond Bereikbaar telt meer dan 600 volgers. IJmond Bereikbaar gebruikt de pagina voor informatieve en ludieke posts over activiteiten van IJmond Bereikbaar of vervoersgerelateerde onderwerpen in het algemeen. Ook afwijkingen in de dienstregeling van de pont worden zo snel mogelijk via Facebook bekend gemaakt. Het is een bewuste keuze geweest om alleen gebruik te maken van organisch (niet-betaald) gegenereerd bereik.</p>
 
-                    <strong>LinkedIn: </strong>
+                    <strong>LinkedIn </strong>
                     <p>Voor zakelijk ingestoken posts over het programma van IJmond Bereikbaar gebruikt IJmond Bereikbaar de persoonlijke LinkedIn-pagina’s van met name de programmamanager en communicatieadviseur. Informatie wordt zo gericht binnen het eigen netwerk verspreid.</p>
 
                     <h2 id="campagnerijkswaterstaat">Communicatiecampagne samen met Rijkswaterstaat</h2>

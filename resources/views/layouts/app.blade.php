@@ -37,7 +37,7 @@
                             <a href="/samenwerking">Samenwerking</a>
                         </li>
                         <li>
-                            <a href="/fasering">Fasering</a>
+                            <a href="/gedragsverandering">Gedragsverandering </a>
                         </li>
                         <li>
                             <a href="/kopgroep">Zo werkt de kopgroep</a>
