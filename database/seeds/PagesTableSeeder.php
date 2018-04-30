@@ -530,6 +530,7 @@ class PagesTableSeeder extends Seeder
                                 <li>Daarop zijn de kortste fietsroutes in de IJmond te zien</li>
                                 <li>Dat is besparen én verdienen’  Gratis abonnement op de pechhulpservice van FietsNed.</li>
                             </ul>
+                            <p>Klik op de afbeelding om de fietsroutekaart te vergroten.</p>
                         </div>
                     </div>
 
@@ -546,12 +547,12 @@ class PagesTableSeeder extends Seeder
                         </div>
                     </div>
 
-                    <strong>Introductie E-bike</strong>
                     <div class="row">
                         <div class="col-sm-3">
                             <img src="/img/Probeer een ebike_beeld.jpg" class="fullwidth" />
                         </div>
                         <div class="col-sm-9">
+                            <strong>Introductie E-bike</strong>
                             <p>Om de actieradius van fietsers te vergroten, wordt de fietsstimuleringscampagne uitgebreid met de e-bike. De e-bike is, algemeen genomen, een geschikt alternatief voor de auto voor woon/werkafstanden tot 20 km. IJmond Bereikbaar biedt een probeer-actie aan via geïnteresseerde werkgevers. Alle medewerkers mogen de e-bike gratis uitproberen voor zowel woon/werkverkeer, als privégebruik. Hierna volgt een aanbod voor lease of koop van een nieuwe of gebruikte e-bike. We werken hiervoor samen met sQoot, die een divers aanbod heeft en de werkgevers ontzorgt.</p>
                         </div>
                     </div>
