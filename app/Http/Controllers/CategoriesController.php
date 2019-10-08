@@ -47,7 +47,7 @@ class CategoriesController extends Controller
     public function show(Category $category)
     {
         $category = Category::with('pages')->findOrFail($category->id);
-        return view('pages.show', compact('category', 'page'));
+        return view('pages.show', compact('category'));
     }
 
     /**
